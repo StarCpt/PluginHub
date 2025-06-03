@@ -9,7 +9,7 @@ on:
   
 jobs:
   build:
-    if: github.repository == 'sepluginloader/PluginHub'
+    if: github.repository == 'StarCpt/PluginHub'
     runs-on: ubuntu-latest
 
     steps:
@@ -18,12 +18,12 @@ jobs:
       with:
         path: PluginHub
         fetch-depth: 0
-    - name: Checkout Website
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.MANAGE_WEBSITE_TOKEN }}
-        repository: sepluginloader/sepluginloader.github.io
-        path: sepluginloader.github.io
+    #- name: Checkout Website
+    #  uses: actions/checkout@v4
+    #  with:
+    #    token: ${{ secrets.MANAGE_WEBSITE_TOKEN }}
+    #    repository: sepluginloader/sepluginloader.github.io
+    #    path: sepluginloader.github.io
     - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
@@ -42,9 +42,9 @@ jobs:
         message: 'Plugin list updated'
         add: 'plugins.sha1'
         cwd: './PluginHub/'
-    - name: Push Archive to Website
-      uses: EndBug/add-and-commit@v9
-      with:
-        message: 'Plugin list updated'
-        add: 'plugins.json'
-        cwd: './sepluginloader.github.io/'
+    #- name: Push Archive to Website
+    #  uses: EndBug/add-and-commit@v9
+    #  with:
+    #    message: 'Plugin list updated'
+    #    add: 'plugins.json'
+    #    cwd: './sepluginloader.github.io/'
