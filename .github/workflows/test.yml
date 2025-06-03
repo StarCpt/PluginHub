@@ -8,7 +8,7 @@ on:
   
 jobs:
   xml-check:
-    if: github.repository == 'sepluginloader/PluginHub'
+    if: github.repository == 'StarCpt/PluginHub'
     runs-on: ubuntu-latest
 
     steps:
