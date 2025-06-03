@@ -9,3 +9,4 @@ If you wish to make a plugin for Plugin Loader, there are a few steps.
 3. Add your xml file to the `Plugins` folder in the repository.
    An example xml file can be found [here](https://github.com/austinvaness/PluginHub/blob/main/sample-github)
 4. Submit a pull request and the approval team will approve or deny the request.
+
