@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- Place your github repository name here. One repository can only store one plugin. -->
+  <Id>StarCpt/Prism.SMAA</Id>
+  
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>Subpixel Morphological Anti-aliasing (SMAA)</FriendlyName>
+  
+  <!-- The author name that you want to appear in the list. -->
+  <Author>StarCpt</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Adds SMAA as an anti-aliasing option in graphics options.</Tooltip>
+
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description></Description>
+  
+  <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
+  <Commit>a2c2883ae2fe2468221ed03d1ffa5463f02f489c</Commit>
+  
+  <!-- Optional list of directories to take the cs files from. Use this if your repository has more than one project in it. (It is not needed for Tool Switcher) -->
+  <SourceDirectories>
+    <Directory>Prism.SMAA</Directory>
+    <Directory>Prism.Maths</Directory>
+    <Directory>Prism.Common</Directory>
+  </SourceDirectories>
+  
+  <!-- To specify asset files to be copied onto disk, use the AssetFolder tag. -->
+  <AssetFolder>Prism.SMAA/Assets/</AssetFolder>
+</PluginData>
