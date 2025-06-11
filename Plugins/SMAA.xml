@@ -16,7 +16,7 @@
   <Description></Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>a2c2883ae2fe2468221ed03d1ffa5463f02f489c</Commit>
+  <Commit>67de434108cb4cdbe6f1fe0ec3dc8909ef8f4496</Commit>
   
   <!-- Optional list of directories to take the cs files from. Use this if your repository has more than one project in it. (It is not needed for Tool Switcher) -->
   <SourceDirectories>
