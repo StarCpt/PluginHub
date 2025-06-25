@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>WesternGamer/HideVersionString</Id>
-    
   <FriendlyName>Hide Version String</FriendlyName>
   <Author>WesternGamer</Author>
   <Tooltip>Makes the Main Menu cleaner by hiding the the version string.</Tooltip>
-  <Commit>b5c3e22449146ed3ade04f6d026f581a8348e525</Commit>
+  <Commit>f27d70b655bbd3fc2c379bd6e7042fd054e1e33c</Commit>
 </PluginData>
