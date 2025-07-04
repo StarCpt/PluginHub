@@ -4,7 +4,7 @@
   <FriendlyName>BreathControl</FriendlyName>
   <Author>Ferren</Author>
   <Commit>82806f895fcb1d0b8c523171f4db56020f698e3a</Commit>  
-  <Tooltip>Breath Control Plugin</Tooltip>
-  <Description>Disables or adjusts the sound of heavy breathing by the engineer.
+  <Tooltip>Disable or adjust the engineer's heavy breathing sounds.</Tooltip>
+  <Description>Disables or adjusts the sound of heavy breathing by the engineer while in realistic mode.
   </Description>
 </PluginData>
