@@ -20,7 +20,7 @@
   works on any server.</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>fd072227545722ad85bab6835b7f181bc43b496f</Commit>
+  <Commit>1cdab7fd2a59d6cbb03bb7dfdf1e80bb68a5ef74</Commit>
   
 
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.
