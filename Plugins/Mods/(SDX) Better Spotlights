@@ -5,5 +5,5 @@
 <Author>Uneasyarcher</Author>
 <Tooltip>Better Spotlight Controls.</Tooltip>
 <Description>Fixes a bug with Better Spotlights. Allows you to extend the range of any base game light</Description>
-<Commit><commit>
+<Commit>9394013985f2af01292783c3c0dfd3170b40b719<commit>
 </PluginData>
