@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-<Id>Uneasyarcher/(SDX) Better Spotlights</Id>
-<FriendlyName>(SDX) Better Spotlights</FriendlyName>
-<Author>Uneasyarcher</Author>
-<Tooltip>Better Spotlight Controls.</Tooltip>
-<Description>Fixes a bug with Better Spotlights. Allows you to extend the range of any base game light</Description>
-<Commit>9394013985f2af01292783c3c0dfd3170b40b719<commit>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+<Id>3529040597</Id>
+   
+  <FriendlyName>(SDX) Better Spotlights</FriendlyName>
+  <Author>Uneasyarcher</Author>
+  <Tooltip>Fixes a bug with Better Spotlights. Allows you to extend the range of any base game light</Tooltip>
+  <DependencyIds>
+  </DependencyIds>
 </PluginData>
