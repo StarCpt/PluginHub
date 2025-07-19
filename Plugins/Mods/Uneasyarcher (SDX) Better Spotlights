@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>Uneasyarcher/(SDX) </Id>
+  <FriendlyName>(SDX) Better Spotlights</FriendlyName>
+  <Author>Uneasyarcher</Author>
+  <Tooltip>Better Spotlight Controls.</Tooltip>
+  <Description>Fixes a bug with Better Spotlights. Allows you to extend the range of any base game light</Description>
+  <Commit></Commit>
+</PluginData>
