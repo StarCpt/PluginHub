@@ -4,12 +4,6 @@
    
   <FriendlyName>Multigrid Projector</FriendlyName>
   <Author>Viktor</Author>
-  <Commit>7f3479bb04f6134f440414c2bd3a713b87a906dc</Commit>
-  <SourceDirectories>
-    <Directory>MultigridProjector</Directory>
-    <Directory>MultigridProjectorApi</Directory>
-    <Directory>MultigridProjectorClient</Directory>
-  </SourceDirectories>
   <Tooltip>Allows loading blueprints of multiple sub-grids into projectors and welding them.</Tooltip>
   <Description>This plugin allows to load blueprints of multiple sub-grids into projectors and welding the blocks. Head/base blocks are added automatically as needed to connect subgrids.
 
@@ -25,10 +19,22 @@ https://www.paypal.com/paypalme/vferenczi/
 Thank you!
   </Description>
 
+  <SourceDirectories>
+    <Directory>MultigridProjector</Directory>
+    <Directory>MultigridProjectorApi</Directory>
+    <Directory>MultigridProjectorClient</Directory>
+  </SourceDirectories>
+
+  <Commit>48b19a97164422df21bb35eea959911ceebbfddb</Commit>
+
   <AlternateVersions>
     <Version>
-      <Name>For SE 1.205.026</Name>
+      <Name>MGP 0.8.1 for SE 1.205.032</Name>
       <Commit>8ea45826a5bb2b57dcd05aff4d80905db8052ae1</Commit>
+    </Version>
+    <Version>
+      <Name>MGP 0.8.0 for SE 1.205.026</Name>
+      <Commit>7f3479bb04f6134f440414c2bd3a713b87a906dc</Commit>
     </Version>
     <Version>
       <Name>For SE 1.204.018</Name>
