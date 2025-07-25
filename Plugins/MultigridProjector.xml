@@ -25,7 +25,7 @@ Thank you!
     <Directory>MultigridProjectorClient</Directory>
   </SourceDirectories>
 
-  <Commit>48b19a97164422df21bb35eea959911ceebbfddb</Commit>
+  <Commit>2a13bae643f8c21c661342a4726a4007a5d42171</Commit>
 
   <AlternateVersions>
     <Version>
