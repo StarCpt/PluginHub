@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3534694889</Id>
+  <FriendlyName>Extended Ore Detectors Test</FriendlyName>
+  <Author>Uneasyarcher</Author>
+  <Tooltip>Extended Ore Detectors Test</Tooltip>
+  <Description>Extended Ore Detectors </Description>
+  <Hidden>false</Hidden>
+</PluginData>
