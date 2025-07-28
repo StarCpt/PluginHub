@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>shihan42/se-gps2clipboard</Id>
+    <FriendlyName>Gps2Clipboard</FriendlyName>
+    <Author>shihan42</Author>
+    <Tooltip>Automatically copies a newly created GPS coordinate to the clipboard</Tooltip>
+    <Description>Gps2Clipboard is a client-side plugin for Space Engineers.
+
+It automatically copies the GPS string into the system's clipboard after using `/gps` in the chat.
+    </Description>
+
+    <Commit>3e545d623758792b7f96dcdfe07b5a50d62a9344</Commit>
+
+    <SourceDirectories>
+      <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+</PluginData>
