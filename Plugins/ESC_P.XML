@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- Place your github repository name here. One repository can only store one plugin. This one is from https://github.com/austinvaness/ToolSwitcherPlugin -->
+  <Id>StrongBroArina2/SE_EasyServerConnectP</Id>
+  
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>Easy Server Connect</FriendlyName>
+  
+  <!-- The author name that you want to appear in the list. -->
+  <Author>DogBoy</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>QOL Adds a customisable window with shortcuts to the server IP connection</Tooltip>
+
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>chesburgar with extra pickles</Description>
+  
+  <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
+  <Commit>0115567d571a82e826f68eda1164d70d6e0e9e1f</Commit>
+ 
+</PluginData>
