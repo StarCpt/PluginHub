@@ -16,34 +16,6 @@
   <Description>Adjusts the server filters for the Join Game screen to allow all servers in a Nexus cluster to appear, allowing you to easily direct connect to a specific sector. This also shows them in the History tab, and allows you add them to your Favorite servers.</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>f649342f605b7629d6088ddff610e7f6c29f5c9c</Commit>
+  <Commit>8e9fa5c42f0a857a06032ca3ff3d173c817f68ac</Commit>
   
-  <!-- Optional list of directories to take the cs files from. Use this if your repository has more than one project in it. (It is not needed for Tool Switcher)
-  <SourceDirectories>
-    <Directory>Folder/Directory1</Directory>
-    <Directory>Directory 2</Directory>
-  </SourceDirectories> -->
-  
-  <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins only appear when they are enabled or searched for in the search box.
-  <Hidden>true</Hidden> -->
-
-  <!-- Optional list of alternate versions of the plugin
-  <AlternateVersions>
-    <Version>
-      <Name>Version Name</Name>
-      <Commit>Commit ID</Commit>
-    </Version>
-  </AlternateVersions> -->
-
-  <!-- To specify a required NuGet package, use either a list of PackageReference tags OR a Config tag.
-  <NuGetReferences>
-    <PackageReference Include="OVRSharp" Version="1.2.0" />
-  </NuGetReferences>
-
-  <NuGetReferences>
-    <Config>Project/packages.config</Config>
-  </NuGetReferences> -->
-
-  <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.
-  <AssetFolder>Project/Assets/</AssetFolder> -->
 </PluginData>
