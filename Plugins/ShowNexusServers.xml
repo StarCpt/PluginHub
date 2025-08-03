@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- Place your github repository name here. One repository can only store one plugin. This one is from https://github.com/austinvaness/ToolSwitcherPlugin -->
+  <Id>Allen-Wrench/ServerFilterPlugin</Id>
+  
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>Show Nexus Servers</FriendlyName>
+  
+  <!-- The author name that you want to appear in the list. -->
+  <Author>dude</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Join Game screen will show all sectors of a Nexus cluster.</Tooltip>
+
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>Adjusts the server filters for the Join Game screen to allow all servers in a Nexus cluster to appear, allowing you to easily direct connect to a specific sector. This also shows them in the History tab, and allows you add them to your Favorite servers.</Description>
+  
+  <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
+  <Commit>8e9fa5c42f0a857a06032ca3ff3d173c817f68ac</Commit>
+  
+</PluginData>
