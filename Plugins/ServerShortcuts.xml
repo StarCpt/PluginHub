@@ -16,5 +16,5 @@
   <Description>Adds a fast way to join servers. The "Quick Join" button brings up the server shortcut menu.</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>498881f5f07c7c2daa106b48e8d409e35ef5a181</Commit>
+  <Commit>f32dd065c3d5c576565208fde67f6d20eec1ab47</Commit>
 </PluginData>
