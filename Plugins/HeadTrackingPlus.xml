@@ -16,7 +16,7 @@
   <Description>Updated version of Corben's SEHeadTracking Plugin</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main IM NOT SURE OF THIS -->
-  <Commit>dd84fc351d4ffe9ca7fd85a4c2749ed3eafd6cbf</Commit>
+  <Commit>af149367c6c362292ec3eb78e348805cb1ee3e30</Commit>
   
   <!-- Optional list of directories to take the cs files from. Use this if your repository has more than one project in it. (It is not needed for Tool Switcher)
   <SourceDirectories>
