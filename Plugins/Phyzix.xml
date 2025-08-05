@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>rosudrag/se-phyzix</Id>
+  <GroupId>rosudrag/se-phyzix</GroupId>
+  <FriendlyName>Phyzix - Entity Streaming Optimizer</FriendlyName>
+  <Author>rosudrag</Author>
+  <Commit>42a4e83dc1ac6d3f84dacdb43a6b6083ce19533e</Commit>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Tooltip>Eliminates freezing when loading entities (asteroids, grids, etc.)</Tooltip>
+  <Description>Phyzix - Space Engineers Entity Streaming Optimizer
+
+⚠️ EARLY RELEASE - Please report any issues!
+
+Phyzix eliminates the massive freezes that occur when Space Engineers loads many entities at once, particularly asteroids on heavily modded servers.
+
+KEY FEATURES:
+• Spreads entity loading across multiple frames (no more 5-10 second freezes!)
+• Prioritizes important entities (spawn points, nearby objects)
+• Defers physics creation for better performance
+• Fully configurable batch sizes and timing
+• Self-healing system for stuck entities
+
+PERFECT FOR:
+• Servers with dynamic asteroid spawning
+• Heavy MES (Modular Encounters Systems) usage
+• Any server where you experience freezing when new areas load
+
+The plugin works by intercepting entity loading requests and processing them gradually instead of all at once. This maintains smooth 60+ FPS even during heavy streaming.
+
+Default settings work great for most users, but everything is configurable through the Plugin Loader UI.
+
+Report bugs: https://github.com/rosudrag/se-phyzix/issues
+
+This is an early release - your feedback helps make it better for everyone!</Description>
+</PluginData>
