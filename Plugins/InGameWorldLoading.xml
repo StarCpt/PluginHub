@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>WesternGamer/InGameWorldLoading</Id>
-   
   <FriendlyName>In Game World Loading</FriendlyName>
   <Author>WesternGamer</Author>
-  <Tooltip>Adds the ability to load, join, or start a new world from ingame.</Tooltip>
-  <Commit>148d52d2d9b43a7f800c97328d9fcbd8927dc1df</Commit>
+  <Tooltip>Adds the ability to load, join, or start a new world while playing in a active session.</Tooltip>
+  <Commit>bf3bbd73770f375004e8b59eb39268b555e184e8</Commit>
 </PluginData>
