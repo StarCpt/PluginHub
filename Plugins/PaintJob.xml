@@ -3,27 +3,28 @@
   <Id>rosudrag/se-paintjob</Id>
   <FriendlyName>Paint Jobs</FriendlyName>
   <Author>rosudrag</Author>
-  <Tooltip>Instantly paint your ships with multiple styles - military camo, stealth, industrial &amp; more!</Tooltip>
+  <Tooltip>Professional paint designer with GUI - 7 styles, 30+ variants including military, racing, pirate, alien &amp; more!</Tooltip>
   <Description>
-Transform your grids with professional paint jobs in seconds!
+Transform your grids with professional paint jobs through an intuitive GUI interface!
 
 FEATURES:
-• Multiple paint styles: Classic, Military, Stealth, Asteroid Camo, Industrial, Deep Space
-• Smart coloring: Different colors for functional vs armor blocks
-• Navigation lights: Automatic port (red) &amp; starboard (green) light coloring
-• Unique variations: Each ship gets its own color variation based on ID
-• Works with Build Colors mod for custom palettes
+• User-friendly GUI: No complex commands needed - just point and paint!
+• 7 unique paint styles with 30+ total variants
+• Advanced painting system with gradient effects and pattern generation
+• Smart ship analysis for intelligent color placement
+• Navigation lights: Automatic port (red) &amp; starboard (green) lighting
+• Unique variations: Each grid gets unique colors based on its ID
+• Range-based selection: Paint grids within 500m that you own
+
+HOW TO USE:
+1. Type /paint to open the Paint Designer GUI
+2. Select your grid from the dropdown (must be within 500m and owned by you)
+3. Choose a paint style and variant
+4. Click Apply to transform your grid instantly!
 
 COMMANDS:
-/paint help - Show all commands
-/paint run - Apply default paint job
-/paint run military - Green-grey camouflage
-/paint run military stealth - Ultra-dark stealth coating
-/paint run military asteroid - Orange-brown asteroid camo
-/paint run military industrial - Yellow-grey with hazard stripes
-/paint run military deep_space - Dark blue-purple for space
-
-Simply point at any grid and type the command to instantly transform its appearance!
+/paint - Open the Paint Designer GUI
+/paint help - Show help information
   </Description>
-  <Commit>cf4e70b7b60b4018402cee7d0cb3bb90cd65945b</Commit>
+  <Commit>df26ca34d02e94e7c9bc3ce51d12659031167605</Commit>
 </PluginData>
