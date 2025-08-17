@@ -13,8 +13,8 @@
   <Tooltip>Allows transferring between Nexus-enabled servers seamlessly</Tooltip>
 
   <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-  <Description>This plugin allows seamless transfers between Nexus enabled servers. Some mods or plugins may not play nice with switching between servers. Be cautious when using!</Description>
+  <Description>This plugin allows seamless transfers between Nexus-enabled servers. Some mods or plugins may not play nicely with switching between servers. Be cautious when using!</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>601aba5976c966dff19fccd97eeb8f8dd6649809</Commit>
+  <Commit>b103c39447bbc5b67e43a056cdeedefc5fc7509d</Commit>
 </PluginData>
