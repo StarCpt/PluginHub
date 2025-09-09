@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>viktor-ferenczi/multigrid-projector</Id>
+  <Id>viktor-ferenczi/se-multigrid-projector</Id>
    
   <FriendlyName>Multigrid Projector</FriendlyName>
   <Author>Viktor</Author>
@@ -25,21 +25,6 @@ Thank you!
     <Directory>MultigridProjectorClient</Directory>
   </SourceDirectories>
 
-  <Commit>2a13bae643f8c21c661342a4726a4007a5d42171</Commit>
-
-  <AlternateVersions>
-    <Version>
-      <Name>MGP 0.8.1 for SE 1.205.032</Name>
-      <Commit>8ea45826a5bb2b57dcd05aff4d80905db8052ae1</Commit>
-    </Version>
-    <Version>
-      <Name>MGP 0.8.0 for SE 1.205.026</Name>
-      <Commit>7f3479bb04f6134f440414c2bd3a713b87a906dc</Commit>
-    </Version>
-    <Version>
-      <Name>For SE 1.204.018</Name>
-      <Commit>7dcdb4c0aacfb9506e68f99bc9fece2999359682</Commit>
-    </Version>
-  </AlternateVersions>
+  <Commit>c1cb52e42f65be0956d86ad27913b74d4df1fe67</Commit>
 
 </PluginData>
