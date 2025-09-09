@@ -9,5 +9,5 @@
 FOV is automatically adjusted to enclose the target. Scale and position can both be configured, as well as an optional minimum distance to cease drawing the camera.
   
 To use, simply select a target using either targeting methods.</Description>
-  <Commit>2676d9b6b36dffe33478fb200b82ca2322f28fc2</Commit>
+  <Commit>b5d489da4fa3b27f44233fefbd70cc3511db0519</Commit>
 </PluginData>
