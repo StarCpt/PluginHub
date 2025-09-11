@@ -10,10 +10,10 @@
   <Author>StarCpt</Author>
   
   <!-- Optional tag that adds a tooltip to the plugin in-game. -->
-  <Tooltip>Jump drive countdown with a progress bar.</Tooltip>
+  <Tooltip>Better jump countdown with a progress bar.</Tooltip>
 
   <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-  <Description>Jump drive countdown with a progress bar.</Description>
+  <Description>Better jump countdown with a progress bar.</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
   <Commit>c6ca3cc5e006c7cdc5a7ad34d1c5a5ff006bc5ba</Commit>
