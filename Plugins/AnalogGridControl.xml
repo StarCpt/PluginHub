@@ -4,9 +4,11 @@
    
   <FriendlyName>Analog Grid Control</FriendlyName>
   <Author>Ananace</Author>
-  <Tooltip>Allows for true analog control of grids in Space Engineers</Tooltip>
+  <Tooltip>Allows for true analog control of both ships and rovers, with sticks and wheels.</Tooltip>
   <Description>
     Device lists and bind management are available under Plugin settings.
+
+    The plugin needs to be installed on any server as well in order to fully support rovers.
   </Description>
-  <Commit>0e289fba259365ee05da2434dacdc797e4f0c953</Commit>
+  <Commit>6dad1db7660e12d942853aa7e54afebcdf3e05b7</Commit>
 </PluginData>
