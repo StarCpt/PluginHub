@@ -11,8 +11,8 @@
   It also displays the status of all of your jump drives along the top of the window, and tells you what percentage they are charged if not full. You can click on those buttons to turn the jump drive on or off.
   Right clicking on any button will turn all of your jump drives on (as long as they are not broken).
   Removes the field of view changes from the jump effect animation.
-  *NEW* Added support for the custom turret controller.
+  Supports the custom turret controller.
   </Description>
-  <Commit>02df854e0a969db444258d71259db2fec8c9b2c5</Commit>
+  <Commit>04cce0b3459d003f9dc6e8cdf07e2d265795ce0f</Commit>
   <Hidden>false</Hidden>
 </PluginData>
