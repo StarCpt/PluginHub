@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- Place your github repository name here. One repository can only store one plugin. -->
+  <Id>StarCpt/SE-BetterJumpCountdown</Id>
+  
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>Better Jump Countdown</FriendlyName>
+  
+  <!-- The author name that you want to appear in the list. -->
+  <Author>StarCpt</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Jump drive countdown with a progress bar.</Tooltip>
+
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>Jump drive countdown with a progress bar.</Description>
+  
+  <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
+  <Commit>c6ca3cc5e006c7cdc5a7ad34d1c5a5ff006bc5ba</Commit>
+</PluginData>
