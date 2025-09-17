@@ -4,7 +4,6 @@
    
   <FriendlyName>Ore Pickup</FriendlyName>
   <Author>Viktor</Author>
-  <Commit>67857248f3a89d44587b79f0d91762ab1a9bed9b</Commit>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
@@ -39,4 +38,7 @@
 
     Thank you!
   </Description>
+
+  <Commit>3ac0f28ee2b6f8bb6af15b5da9db3074056b1339</Commit>
+
 </PluginData>
