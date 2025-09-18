@@ -4,11 +4,11 @@
   <FriendlyName>Better Terminal</FriendlyName>
   <Author>Viktor</Author>
   <Tooltip>Terminal UI improvements: Group renaming, block filter, show default block names.</Tooltip>
-  <Description>Terminal UI improvements 
+  <Description>Terminal UI improvements
 - Group renaming
 - Block filter
 - Show default block names
-  
+
 Please see the full documentation on GitHub:
 https://github.com/viktor-ferenczi/se-better-terminal
 
@@ -18,13 +18,21 @@ Please consider supporting my work:
 
 Bug reporting channel: #bug-reports
 SE Mods Discord https://discord.gg/PYPFPGf3Ca
-    
+
 Enjoy!
 </Description>
-  
-  <Commit>fcdd8e464d46bdd9dc2f8b19e0ac90d2f7a74593</Commit>
-  
+
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
+
+  <Commit>fcdd8e464d46bdd9dc2f8b19e0ac90d2f7a74593</Commit>
+
+  <AlternateVersions>
+    <Version>
+      <Name>1.2.0 Preview</Name>
+      <Commit>531db96ee7bb2e9ef65972a21b2550ea42dee08f</Commit>
+    </Version>
+  </AlternateVersions>
+
 </PluginData>
