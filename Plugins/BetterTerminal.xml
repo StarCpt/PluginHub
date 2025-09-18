@@ -26,13 +26,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>fcdd8e464d46bdd9dc2f8b19e0ac90d2f7a74593</Commit>
-
-  <AlternateVersions>
-    <Version>
-      <Name>1.2.0 Preview</Name>
-      <Commit>531db96ee7bb2e9ef65972a21b2550ea42dee08f</Commit>
-    </Version>
-  </AlternateVersions>
+  <Commit>d242f9aa5a190d4c2b2deb2caa4559efabbfaa35</Commit>
 
 </PluginData>
