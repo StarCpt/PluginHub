@@ -14,7 +14,9 @@
 
   <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
   <Description>This plugin allows you to move all the HudLcd items into a separate window that you can do whatever with.
-      To Activate the screen, use the command "/ssd open" and you can close it whenever. </Description>
+      To Activate the screen, use the command "/ssd open" and you can close it whenever. 
+      Please send the logs of any crashes caused by this plugin to me on Discord. Username: Brillcrafter
+  </Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
   <Commit>ef6a552353b40bd159bace9b596ac5a72cbec0bd</Commit>
