@@ -19,7 +19,7 @@
   </Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>ef6a552353b40bd159bace9b596ac5a72cbec0bd</Commit>
+  <Commit>256fe98bbc946266d701aaede5b63c4fbc4cbcd1</Commit>
   
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.-->
   <AssetFolder>SecondScreenDisplay/resources/</AssetFolder> -->
