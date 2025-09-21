@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <!-- Place your github repository name here. One repository can only store one plugin. This one is from https://github.com/austinvaness/ToolSwitcherPlugin -->
+  <!-- Place your github repository name here. One repository can only store one plugin.-->
   <Id>Brillcrafter/Second-Screen-Display</Id>
   
   <!-- The name of your plugin that will appear in the list. -->
@@ -19,8 +19,8 @@
   </Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>256fe98bbc946266d701aaede5b63c4fbc4cbcd1</Commit>
+  <Commit>8efa61ebad7e6cf5f122331272451275c6e3dd4b</Commit>
   
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.-->
-  <AssetFolder>SecondScreenDisplay/resources/</AssetFolder> -->
+  <AssetFolder>SecondScreenDisplay/resources/</AssetFolder>
 </PluginData>
