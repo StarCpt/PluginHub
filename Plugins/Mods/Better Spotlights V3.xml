@@ -2,7 +2,7 @@
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
 <Id>3529040597</Id>
    
-  <FriendlyName>Better Spotlights V2 (SDX compatible)</FriendlyName>
+  <FriendlyName>Better Spotlights V3</FriendlyName>
   <Author>Uneasyarcher</Author>
    <Tooltip> Fixes Issues with Compatibility with Draconis Expance. Also Now Includes All light blocks from the latest DLC's and base game lights. Also now has Balanced Distances Between Large Grid And small Grid Light Blocks.
    </Tooltip>
