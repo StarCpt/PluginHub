@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>Allen-Wrench/ArmorReplacerPlugin</Id>
+  
+  <FriendlyName>Armor Replacer</FriendlyName>
+  
+  <Author>dude</Author>
+  
+  <Tooltip>Swap between armor types with ease.</Tooltip>
+
+  <Description>
+    Type '/replacearmor' while looking at or controlling a ship to open the selection UI. Select the type of armor you want to convert to, and click ok, this will save a new blueprint of the ship converted into the selected type of armor.
+    
+    Works in creative and survival, with small grids and large grids, and should detect modded armor types of the vanilla shapes.
+  </Description>
+
+  <Commit>b87dd4792cd3631ca459152d0b1ae48d04509482</Commit>
+
+</PluginData>
