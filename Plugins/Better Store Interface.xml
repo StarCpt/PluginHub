@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>OverloadOV/BetterShopInterface</Id>
+  
+  <FriendlyName>Better Store Block Interface(Development)</FriendlyName>
+  
+  <Author>OverloadOV</Author>
+
+  <Tooltip>A Plugin that aims to make Bulk Trading easier and more User friendly.</Tooltip>
+
+  <Description>Non Functional yet! Overwrites the Store Block Interface and creates a custom Interface</Description>
+ 
+  <Commit>71f18d3468c0778b7ff29ddb4c492b6d56c88285</Commit>
+  
+  <Hidden>true</Hidden>
+
+</PluginData>
