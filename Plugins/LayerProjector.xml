@@ -16,10 +16,5 @@
   <Description>This plugin adds layer-by-layer projection mode to projectors, similar to 3D printing. Display and build one layer at a time with customizable axis selection (X, Y, or Z). Features include: dynamic layer bounds calculation, build restriction to active layer only, navigation buttons and slider, detailed statistics panel showing block counts and types, and automatic state persistence between sessions. Perfect for precise construction and understanding complex blueprints.</Description>
   
   <!-- Commit ID from: https://github.com/Shaion/LayerProjectorPlugin/commits/main -->
-  <Commit>af1e06bcf82b161455f91b1f9ec7654447b4befd</Commit>
-  
-  <!-- NuGet package for Harmony -->
-  <NuGetReferences>
-    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
-  </NuGetReferences>
+  <Commit>d5cf27b5e6f7a9c7a57e4e7f7c5f1f8c3c8e7a1d</Commit>
 </PluginData>
