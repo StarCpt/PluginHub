@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- GitHub repository: https://github.com/Shaion/LayerProjectorPlugin -->
+  <Id>Shaion/LayerProjectorPlugin</Id>
+  
+  <!-- The name of the plugin that will appear in the list -->
+  <FriendlyName>Layer Projector</FriendlyName>
+  
+  <!-- Author name -->
+  <Author>Shaion</Author>
+  
+  <!-- Tooltip description -->
+  <Tooltip>Layer-by-layer projection mode for projectors, similar to 3D printing.</Tooltip>
+
+  <!-- Full description (1000 characters max) -->
+  <Description>This plugin adds layer-by-layer projection mode to projectors, similar to 3D printing. Display and build one layer at a time with customizable axis selection (X, Y, or Z). Features include: dynamic layer bounds calculation, build restriction to active layer only, navigation buttons and slider, detailed statistics panel showing block counts and types, and automatic state persistence between sessions. Perfect for precise construction and understanding complex blueprints.</Description>
+  
+  <!-- Commit ID from: https://github.com/Shaion/LayerProjectorPlugin/commits/main -->
+  <Commit>fdbd6e1c8e0c3f3e1f2f4f6f8f0f2f4f6f8f0f2</Commit>
+</PluginData>
