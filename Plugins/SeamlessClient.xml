@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <!-- Place your github repository name here. One repository can only store one plugin. This one is from https://github.com/austinvaness/ToolSwitcherPlugin -->
-  <Id>Casimir255/SeamlessClient</Id>
+  <Id>SE-Nexus/SeamlessClient</Id>
   
   <!-- The name of your plugin that will appear in the list. -->
   <FriendlyName>Nexus Seamless Switcher</FriendlyName>
@@ -16,5 +16,5 @@
   <Description>This plugin allows seamless transfers between Nexus-enabled servers. Some mods or plugins may not play nicely with switching between servers. Be cautious when using!</Description>
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
-  <Commit>f77a1750993fbb71cce651fc8e9c9f9a0d6adeb3</Commit>
+  <Commit>825319bec19b3ba1cc6565c703326344445daa3a</Commit>
 </PluginData>
