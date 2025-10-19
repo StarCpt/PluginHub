@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <!-- Place the steam id of your workshop item here. -->
+  <Id>3589662632</Id>
+
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>[SEENG] VAlathor</FriendlyName>
+
+  <!-- The author name that you want to appear in the list. -->
+  <Author>dogboy</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Ship Sounds for SEENG 1.0</Tooltip>
+  
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description> Ship Sounds for SEENG 1.0 </Description>
+</PluginData>
