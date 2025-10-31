@@ -25,4 +25,7 @@ Commands:
 /gettypeid - Gets the typeID of the block you're looking at.
 /getskinid - Gets the subtype ID of the skin of the block you're looking at.
 </Description>
+  <DependencyIds>
+    <Id>1965654081</Id>
+  </DependencyIds>
 </PluginData>
