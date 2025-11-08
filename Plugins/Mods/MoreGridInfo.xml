@@ -12,11 +12,19 @@ Acceleration values take into account and dynamically update with gravity, liste
 More information coming soon™
 
 Commands:
-/togglehud &lt;hud&gt;, toggles the desired HUD on and off. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'
+/togglehud &lt;hud | a, r&gt;, toggles the desired HUD on and off. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'
 
-/setpos &lt;hud&gt; &lt;x pos&gt; &lt;y pos&gt;, sets desired HUD position to the specified HUD coordinates. X and Y should range from -1 to 1 each, with (0, 0) being the center and (1,1) being top right. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'
+/setpos &lt;hud | a, r&gt; &lt;x pos&gt; &lt;y pos&gt;, sets desired HUD position to the specified HUD coordinates. X and Y should range from -1 to 1 each, with (0, 0) being the center and (1,1) being top right. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'
 
-/setsize &lt;hud&gt; &lt;size&gt;, sets desired HUD text size. Should be larger than zero. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'</Description>
+/setsize &lt;hud | a, r&gt; &lt;size&gt;, sets desired HUD text size. Should be larger than zero. Valid HUDs: 'a'/'sa'/'accel', 'r'/'rot'
+
+/showarmor &lt;armor type = none | none, light, heavy&gt; - Displays all light/heavy armor on the grid being looked at. Grid must be friendly.
+- Default limit of 250 blocks shown at once, modifyable in the user config.
+
+/getsubtypeid - Gets the subtypeID of the block you're looking at.
+/gettypeid - Gets the typeID of the block you're looking at.
+/getskinid - Gets the subtype ID of the skin of the block you're looking at.
+</Description>
   <DependencyIds>
     <Id>1965654081</Id>
   </DependencyIds>
