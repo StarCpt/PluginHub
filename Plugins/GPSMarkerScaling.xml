@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>WesternGamer/ProperGPSMarkerScaling</Id>
-   
+  <Id>WesternSpace/ProperGPSMarkerScaling</Id>
   <FriendlyName>GPS Marker Scaling</FriendlyName>
-  <Author>WesternGamer</Author>
+  <Author>WesternSpace</Author>
   <Tooltip>Allows GPS Icon Scale to be changed.</Tooltip>
   <Description>Allows GPS Icon Scale to be changed with Alt + Shift + Scrollwheel.</Description>
-  <Commit>c2e2e6041e52e18b637563175bb571df0f6c4523</Commit>
+  <Commit>ca63f616f1b5c960e69f7213c9dfbb7bc8f8d1a7</Commit>
 </PluginData>
