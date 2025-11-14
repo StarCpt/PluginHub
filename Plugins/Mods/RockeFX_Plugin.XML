@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <!-- Place the steam id of your workshop item here. -->
+  <Id>3601651390</Id>
+
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>RocketFX</FriendlyName>
+
+  <!-- The author name that you want to appear in the list. -->
+  <Author>dogboy + Klime</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Visual effects (smoke/fire) for thrusters, HydrogenPlusV3 compatible</Tooltip>
+  
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>
+- All controls are done through the Terminal and Toolbar. Experiment with different settings to find a good effect for your grid
+
+- Thruster must be enabled and outputting atleast 20% of its maximum thrust to generate effects
+
+- Settings are saved in blueprints</Description>
+</PluginData>
