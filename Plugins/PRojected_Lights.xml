@@ -11,11 +11,10 @@ You can change their texture and make individual lights cast shadows. There are 
 There is a performance cost to these lights. Keen originally limited them to 32 with at most 4 of them casting shadows. The shadow limit is still 4, but there can be any number of spotlights now.
 
 There can be glitches in particular when turning the plugin modifications off for many lights in a group operation.</Description>
-  <Commit>a164829a09f4984cac64a15cc296b24f3ddc923b</Commit>
+  <Commit>f0a62a7b6fe06074943bbe0088d26517e4d1f2ea</Commit>
   <SourceDirectories>
     <Directory>Source</Directory>
     <Directory>Properties</Directory>
   </SourceDirectories>
 
 </PluginData>
-
