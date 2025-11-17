@@ -2,10 +2,10 @@ name: Plugin List Updater
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
-    paths: 
-    - 'Plugins/**'
+  #push:
+  #  branches: [ main ]
+  #  paths: 
+  #  - 'Plugins/**'
   
 jobs:
   build:
