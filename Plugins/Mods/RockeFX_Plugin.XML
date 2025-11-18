@@ -4,7 +4,7 @@
   <Id>3601651390</Id>
 
   <!-- The name of your plugin that will appear in the list. -->
-  <FriendlyName>Thruster FX "RocketFX"</FriendlyName>
+  <FriendlyName>RocketFX</FriendlyName>
 
   <!-- The author name that you want to appear in the list. -->
   <Author>dogboy + Klime</Author>
@@ -21,3 +21,4 @@
 - Settings are saved in blueprints</Description>
 
 </PluginData>
+
