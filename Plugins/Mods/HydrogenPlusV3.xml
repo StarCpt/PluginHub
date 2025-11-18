@@ -1,24 +1,21 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
   <!-- Place the steam id of your workshop item here. -->
-  <Id>3601651390</Id>
+  <Id>2905820756</Id>
 
   <!-- The name of your plugin that will appear in the list. -->
-  <FriendlyName>RocketFX</FriendlyName>
+  <FriendlyName>HydrogenPlusV3</FriendlyName>
 
   <!-- The author name that you want to appear in the list. -->
-  <Author>dogboy + Klime</Author>
+  <Author>Hailfire + dogboy</Author>
   
   <!-- Optional tag that adds a tooltip to the plugin in-game. -->
-  <Tooltip>Visual effects (smoke/fire) for thrusters, HydrogenPlusV3 compatible</Tooltip>
+  <Tooltip>New visual effects for thrusters(customizable), RocketFX compatible</Tooltip>
   
   <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
   <Description>
-- All controls are done through the Terminal and Toolbar. Experiment with different settings to find a good effect for your grid
-
-- Thruster must be enabled and outputting atleast 20% of its maximum thrust to generate effects
-
-- Settings are saved in blueprints</Description>
+Tired of yellow thruster flames? Blue ion thrusters don't look good with your neon red spaceship? We get it.
+ That's why we made this mod for you! Now with this mod you can not only change the color of the thruster,
+ but also its effects without any problems, with just one mouse click - expand your possibilities with Hydrogen Plus today!</Description>
 
 </PluginData>
-
