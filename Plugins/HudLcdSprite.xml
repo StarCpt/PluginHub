@@ -4,14 +4,15 @@
   <Id>StarCpt/SE-HudLcdSprite</Id>
   <FriendlyName>HudLcd 3 with sprites</FriendlyName>
   <Author>StarCpt</Author>
-  <Tooltip>Now with 100% more sprites.</Tooltip>
+  <Tooltip>Now with 100% more sprites and cameralcd.</Tooltip>
   <Description>Spiritual successor to HudLcd.
 Features:
 - Same config format as the original mod
 - Sprite support! Screens in script mode will draw the displayed script on hud
+- CameraLCD Remastered compatibility
 - Better performance (3-4x in tests)
 - Multi-screen block support. Any blocks with lcd screens are supported</Description>
 
-  <Commit>f97df9efa9295aca2746e5e5f164f0f9376710ac</Commit>
+  <Commit>9351f6e58eff45c8d242224d2b62a9b08ad53604</Commit>
 
 </PluginData>
