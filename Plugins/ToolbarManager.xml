@@ -24,21 +24,6 @@ Thank you!
     <Directory>ToolbarManager</Directory>
   </SourceDirectories>
 
-  <Commit>4e7ec888465bfe9d443deae3a72a4d34eeccb786</Commit>
-
-  <AlternateVersions>
-    <Version>
-      <Name>1.6.1</Name>
-      <Commit>9f3d1240ac23747a4760756e9fb007ec59a88fbf</Commit>
-    </Version>
-    <Version>
-      <Name>1.6.0</Name>
-      <Commit>2bd44c0e7c9cf7ff2b5a5f3120e21163caf8c83d</Commit>
-    </Version>
-    <Version>
-      <Name>1.5.6</Name>
-      <Commit>7b00601b99a3bab040bf1265a183f06196243022</Commit>
-    </Version>
-  </AlternateVersions>
+  <Commit>4a542ca71c610bbeb675fd33b7f21d8602906a98</Commit>
 
 </PluginData>
