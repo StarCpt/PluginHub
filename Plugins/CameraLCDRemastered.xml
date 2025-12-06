@@ -7,7 +7,7 @@
   <Description>A plugin that allows a camera to be displayed on an LCD screen.
 This is a reworked version of the original plugin that fixes several issues and improves performance.
 
-To use, set the LCD to Script mode and then select Camera Display in the list. You must also put the name of the camera in the LCD or cockpit Custom Data. To specify a specific screen, use [Index]:[CameraName] example: 1:Camera. The index starts at 0, so the second display in the list is index 1.
+To use, set the LCD to Apps mode and then select Camera Display in the list. You must also put the name of the camera in the block Custom Data. To specify a specific screen, use [Index]:[CameraName] example: 1:Camera. The index starts at 0, so the second display in the list is index 1.
   </Description>
-  <Commit>54a0e1bfde828392e3c977c745b656df39a1a7fe</Commit>
+  <Commit>5afe5473bbbca52669d05ad553f0073c194bd730</Commit>
 </PluginData>
