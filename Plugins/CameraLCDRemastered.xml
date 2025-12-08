@@ -5,9 +5,10 @@
   <Author>StarCpt</Author>
   <Tooltip>A plugin that allows a camera to be displayed on an LCD screen.</Tooltip>
   <Description>A plugin that allows a camera to be displayed on an LCD screen.
+
 This is a reworked version of the original plugin that fixes several issues and improves performance.
 
 To use, set the LCD to Apps mode and then select Camera Display in the list. You must also put the name of the camera in the block Custom Data. To specify a specific screen, use [Index]:[CameraName] example: 1:Camera. The index starts at 0, so the second display in the list is index 1.
   </Description>
-  <Commit>5afe5473bbbca52669d05ad553f0073c194bd730</Commit>
+  <Commit>ae33b855076c690cb0364b730a524dff86f14d3c</Commit>
 </PluginData>
