@@ -6,7 +6,7 @@
   <FriendlyName>Screen Space Global Illumination (SSGI)</FriendlyName>
   <Tooltip>Adds single-bounce screen space diffuse global illumination.</Tooltip>
 
-  <Commit>138fcc351d8fa84193358b2bd27183588f154ae2</Commit>
+  <Commit>f35838acb43801c066a614e354b0ac55774d4339</Commit>
 
   <Description>Adds single-bounce screen space diffuse global illumination.
 
