@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>StarCpt/Prism.SSGI</Id>
+  <Author>StarCpt</Author>
+  <FriendlyName>Screen Space Global Illumination (SSGI)</FriendlyName>
+  <Tooltip>Adds single-bounce screen space diffuse global illumination.</Tooltip>
+
+  <Commit>7067715ad66c2edae4ce3a0de7baa135bc487026</Commit>
+
+  <Description>Adds single-bounce screen space diffuse global illumination.
+
+This is a gpu-heavy plugin, and you will experience a significant drop in fps when it is enabled. Various parameters can be changed in the plugin settings, including quality presets and GI intensity.
+
+Sampling is based on the SSILVB algorithm with a modified SVGF denoiser for denoising.</Description>
+
+  <SourceDirectories>
+    <Directory>Prism.Render</Directory>
+    <Directory>Prism.Maths</Directory>
+    <Directory>Prism.Common</Directory>
+  </SourceDirectories>
+
+  <NuGetReferences>
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
+  </NuGetReferences>
+
+  <AssetFolder>Prism.Render/Shaders/</AssetFolder>
+
+</PluginData>
