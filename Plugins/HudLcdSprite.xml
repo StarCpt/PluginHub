@@ -13,6 +13,6 @@ Features:
 - Better performance (3-4x in tests)
 - Multi-screen block support. Any blocks with lcd screens are supported</Description>
 
-  <Commit>b543e4d7ad3e02a44cc70d7e3d2b4b5cee118c02</Commit>
+  <Commit>0efbcdb0dc0c08e827ee2d26853708ac48177111</Commit>
 
 </PluginData>
