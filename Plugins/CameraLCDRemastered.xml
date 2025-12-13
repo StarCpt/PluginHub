@@ -12,6 +12,6 @@ This is a rewritten version of the original plugin that fixes several issues and
 To use, set the LCD screen to Apps mode and then select Camera Display in the list. You must also put the name of the camera in the block Custom Data. To specify a specific screen, use [Index]:[CameraName] example: 1:Camera. The index starts at 0, so the second display in the list is index 1.
 </Description>
 
-  <Commit>ff31869852bfc8e29fe929a81559b53575086aa1</Commit>
+  <Commit>91931059690b3b46fba58f65424015f48fc6338f</Commit>
 
 </PluginData>
