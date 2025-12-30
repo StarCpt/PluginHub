@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3630777356</Id>
+  <FriendlyName>Useful Suit Warnings by Wellington6012</FriendlyName>
+  <Author>Wellington6012</Author>
+  <Tooltip>Less inventory full, more quality-of-life suit warnings that actually make sense.</Tooltip>
+  <Description>Useful Suit Warnings improves Space Engineers’ suit audio alerts by making them clearer, smarter, and less annoying — without changing core gameplay balance.</Description>
+  <Hidden>false</Hidden>
+</PluginData>
