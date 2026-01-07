@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>se-dotnet-compat</Id>
+    <GroupId>se-dotnet-compat</GroupId>
+    <RepoId>viktor-ferenczi/se-dotnet-compat</RepoId>
+
+    <FriendlyName>DotNetCompat</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Compatibility with .NET 8.0</Tooltip>
+    <Description>Support plugin for Pulsar to run the game on .NET 8.0.
+        
+Do NOT add this plugin manually, it won't work.
+It is added by Pulsar automatically on demand.
+</Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+	<NuGetReferences>
+		<PackageReference Include="System.Management" Version="4.5.0" />
+	</NuGetReferences>	
+
+    <Runtimes>NETCoreApp</Runtimes>
+
+    <Hidden>true</Hidden>
+    
+    <Commit>beafa305d7f7d844b3fe7f9784885659e79940fe</Commit>
+
+</PluginData>
