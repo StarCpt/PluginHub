@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
+    <!-- NEVER change the Id, because it is hardcoded into the Interim (.NET Core) version of Pulsar! -->
     <Id>se-dotnet-compat</Id>
     <GroupId>se-dotnet-compat</GroupId>
     <RepoId>viktor-ferenczi/se-dotnet-compat</RepoId>
@@ -27,6 +28,6 @@ It is added by Pulsar automatically on demand.
 
     <Hidden>true</Hidden>
     
-    <Commit>3624609ab8a5868d36bb9dccc2643fbd736df82f</Commit>
+    <Commit>b2d75a8cbe85d9ae68bc03d847161335b9cbe284</Commit>
 
 </PluginData>
