@@ -23,4 +23,7 @@
   
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.-->
   <AssetFolder>SecondScreenDisplay/resources/</AssetFolder>
+
+  <Runtimes>NETFramework</Runtimes>
+  
 </PluginData>
