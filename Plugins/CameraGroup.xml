@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>viktor-ferenczi/se-camera-group</Id>
-   
+  <RepoId>viktor-ferenczi/se-camera-group</RepoId>
+
   <FriendlyName>Camera Group</FriendlyName>
   <Author>Viktor</Author>
-  <SourceDirectories>
-    <Directory>ClientPlugin</Directory>
-  </SourceDirectories>
+
   <Tooltip>Allows cycling over groups of cameras, searchlights and turrets</Tooltip>
   <Description>Allows cycling over groups of cameras, searchlights, turrets and turret controllers using a single toolbar button.
 
@@ -32,6 +31,10 @@ https://www.paypal.com/paypalme/vferenczi/
 
   </Description>
 
-  <Commit>cd9b43beae825fa84a1b9afdc7589359f8568050</Commit>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+
+  <Commit>2f9b90ccb570e80f8158205853de5cc440f47f4d</Commit>
 
 </PluginData>
