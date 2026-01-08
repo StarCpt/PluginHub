@@ -7,7 +7,7 @@
   <Tooltip>Improves Render Performance</Tooltip>
   <Description>Rewrites parts of the rendering engine to improve render performance.</Description>
 
-  <Commit>62c2f90bfe37ebaff7bc7796b3a6c766efaa58ba</Commit>
+  <Commit>68297c72931710cbc2c7f80ded641d0ca6a36d42</Commit>
 
   <SourceDirectories>
     <Directory>Prism.RenderPerf</Directory>
