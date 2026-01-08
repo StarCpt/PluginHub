@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>viktor-ferenczi/se-better-terminal</Id>
+  <RepoId>viktor-ferenczi/se-better-terminal</RepoId>
+
   <FriendlyName>Better Terminal</FriendlyName>
   <Author>Viktor</Author>
+
   <Tooltip>Terminal UI improvements: Group renaming, block filter, show default block names.</Tooltip>
   <Description>Terminal UI improvements
 - Group renaming
@@ -26,8 +29,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>f8aae2779414703d65617bf4cfb27977773e1d8e</Commit>
-
-  <Runtimes>NETFramework</Runtimes>
+  <Commit>17dc18a098be3cf377c839b15ebe2f3fc8ab2408</Commit>
 
 </PluginData>
