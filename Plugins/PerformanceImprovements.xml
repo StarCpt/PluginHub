@@ -1,14 +1,11 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>viktor-ferenczi/se-performance-improvements</Id>
-   
+  <RepoId>viktor-ferenczi/se-performance-improvements</RepoId>
+
   <FriendlyName>Performance Improvements</FriendlyName>
   <Author>Viktor</Author>
 
-  <SourceDirectories>
-    <Directory>Shared</Directory>
-    <Directory>ClientPlugin</Directory>
-  </SourceDirectories>
   <Tooltip>Various performance improvements to let the game run smoother.</Tooltip>
   <Description>Please see the GitHub page for the features, technical details and the Keen bug tickets to vote on. This plugin is available for Torch and Dedicated Server as well.
 
@@ -24,6 +21,11 @@ https://www.paypal.com/paypalme/vferenczi/
 Thank you!
   </Description>
 
-  <Commit>defd1619968f58cd95869e5ed82e1ed71555f3d6</Commit>
+  <SourceDirectories>
+    <Directory>Shared</Directory>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+
+  <Commit>5e3e0fcd0c08f7e6c331ade7acd3f038b84d2433</Commit>
 
 </PluginData>
