@@ -9,8 +9,8 @@
     <FriendlyName>DotNetCompat</FriendlyName>
     <Author>Viktor</Author>
 
-    <Tooltip>Compatibility with .NET 8.0</Tooltip>
-    <Description>Support plugin for Pulsar to run the game on .NET 8.0.
+    <Tooltip>Compatibility with .NET 10.0</Tooltip>
+    <Description>Support plugin for Pulsar to run the game on .NET 10.0.
         
 Do NOT add this plugin manually, it won't work.
 It is added by Pulsar automatically on demand.
@@ -28,6 +28,6 @@ It is added by Pulsar automatically on demand.
 
     <Hidden>true</Hidden>
     
-    <Commit>b2d75a8cbe85d9ae68bc03d847161335b9cbe284</Commit>
+    <Commit>4debbddec05e4e11705c6b37dfb3e969d5eae00e</Commit>
 
 </PluginData>
