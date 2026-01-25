@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>InfernoSuperNova/SE-TargetCamera</Id>
+  <Id>Shayl123/SE-TargetCamera</Id>
   <FriendlyName>Target Camera</FriendlyName>
   <Author>DeltaWing</Author>
   <Tooltip>Draws an on screen display of your current target.</Tooltip>
@@ -9,5 +9,5 @@
 FOV is automatically adjusted to enclose the target. Scale and position can both be configured, as well as an optional minimum distance to cease drawing the camera.
   
 To use, simply select a target using either targeting methods.</Description>
-  <Commit>3ad311754761bc0101728e51608a8c32d9e7ad3f</Commit>
+  <Commit>20455abe95059f1589ef340bd76b7ec8afcf39f3</Commit>
 </PluginData>
