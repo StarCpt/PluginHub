@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>StarCpt/Pulsar.ImGui</Id>
+  <Author>StarCpt</Author>
+  <FriendlyName>ImGui Dependency Plugin</FriendlyName>
+  <Tooltip>Dependency for enabling ImGui usage in plugins</Tooltip>
+
+  <Commit>5d7f74fb36a55f570c17401cc48db279d43b787e</Commit>
+
+  <Description>Dependency for enabling ImGui usage in plugins.
+Check the readme at https://github.com/StarCpt/Pulsar.ImGui</Description>
+
+  <NuGetReferences>
+    <PackageReference Include="Hexa.NET.ImGui" Version="2.2.9" />
+    <PackageReference Include="Hexa.NET.ImGui.Backends" Version="1.0.18" />
+  </NuGetReferences>
+
+  <Hidden>true</Hidden>
+
+</PluginData>
