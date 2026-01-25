@@ -1,16 +1,30 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
   <Id>viktor-ferenczi/se-paint-replacer</Id>
+  <RepoId>viktor-ferenczi/se-paint-replacer</RepoId>
+
   <FriendlyName>Paint Replacer</FriendlyName>
   <Author>Viktor</Author>
+
   <Tooltip>Replace paint on your ship or station</Tooltip>
   <Description>Activate the paint replacement mode by holding down the Alt key while aiming at a block.
 
 Alt+MMB: Replace on the aimed subgrid
 Ctrl+Alt+MMB: Replace on all subgrids
 Ctrl+Shift+Alt+MMB: Replace on all connected ships
-    
+
 Demo video: https://youtu.be/8r47laAgTI8
+
+Please note, that the MMB conflicts with the "dump inventory"
+shortcut, which is frequently used in survival mode. Because
+of this the plugin is disabled by default in survival mode.
+Enable it in the configuration dialog only as long as needed.
+
+To access the plugin's configuration press `Ctrl-Alt-/` while
+in-game and not in the GUI. Select **Paint Replacer** from
+the list of plugin shown in the popup dialog. Any changes to
+the configuration are applied immediately.
 
 For more information please see the plugin's GitHub page:
 https://github.com/viktor-ferenczi/se-paint-replacer
@@ -19,18 +33,13 @@ Please consider supporting my work:
 - Patreon: https://www.patreon.com/semods
 - PayPal: https://www.paypal.com/paypalme/vferenczi/
 
-Bug reporting channel: #bug-reports
-SE Mods Discord https://discord.gg/PYPFPGf3Ca
-
 Enjoy!
 </Description>
-  
-  <Commit>8a433e16590d3aa356b7539249b29cb7c213985e</Commit>
-  
+
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
-  
-  <Hidden>false</Hidden>
+
+  <Commit>9ff7896c17b65cc3557b12f30e11f7f8a2c01614</Commit>
 
 </PluginData>
