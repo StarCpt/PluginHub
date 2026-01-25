@@ -16,6 +16,8 @@ Check the readme at https://github.com/StarCpt/Pulsar.ImGui</Description>
     <PackageReference Include="Hexa.NET.ImGui.Backends" Version="1.0.18" />
   </NuGetReferences>
 
+  <Runtimes>NETFramework</Runtimes>
+
   <Hidden>true</Hidden>
 
 </PluginData>
