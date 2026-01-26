@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>StarCpt/SE-TargetView</Id>
+  <Author>StarCpt</Author>
+  <FriendlyName>Target View</FriendlyName>
+  <Tooltip>Shows a zoomed in view of the locked target in a picture-in-picture window.</Tooltip>
+
+  <Commit>46a8f851ee92e3c83a5d9629bc92c38edb6b8907</Commit>
+
+  <Description>Shows a zoomed in view of the locked target in a configurable picture-in-picture window.</Description>
+
+</PluginData>
