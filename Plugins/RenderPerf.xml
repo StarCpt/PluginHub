@@ -7,17 +7,13 @@
   <Tooltip>Improves Render Performance</Tooltip>
   <Description>Rewrites parts of the rendering engine to improve render performance.</Description>
 
-  <Commit>2be1e3fa2176b97117670c23a8f49363d84ec40b</Commit>
+  <Commit>6a2d2b099ebf76f42bdff7cd04c37c5be6c6ab46</Commit>
 
   <SourceDirectories>
     <Directory>Prism.RenderPerf</Directory>
     <Directory>Prism.Maths</Directory>
     <Directory>Prism.Common</Directory>
   </SourceDirectories>
-
-  <NuGetReferences>
-    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
-  </NuGetReferences>
 
   <AssetFolder>Prism.RenderPerf/Shaders</AssetFolder>
 
