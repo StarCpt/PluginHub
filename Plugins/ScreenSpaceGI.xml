@@ -6,7 +6,7 @@
   <FriendlyName>Screen Space Global Illumination (SSGI)</FriendlyName>
   <Tooltip>Adds single-bounce screen space diffuse global illumination.</Tooltip>
 
-  <Commit>5e175eef7d15955105554be9dad3157aac6319af</Commit>
+  <Commit>cf0705c753145fda410706a175f729810d4f22aa</Commit>
 
   <Description>Adds single-bounce screen space diffuse global illumination.
 
@@ -21,7 +21,6 @@ Sampling is based on the SSILVB algorithm with a modified SVGF denoiser for deno
   </SourceDirectories>
 
   <NuGetReferences>
-    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
     <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
   </NuGetReferences>
 

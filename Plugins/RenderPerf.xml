@@ -7,7 +7,7 @@
   <Tooltip>Improves Render Performance</Tooltip>
   <Description>Rewrites parts of the rendering engine to improve render performance.</Description>
 
-  <Commit>a4b4f0a3935ba246e7cde76bbe5d548f6511f903</Commit>
+  <Commit>2be1e3fa2176b97117670c23a8f49363d84ec40b</Commit>
 
   <SourceDirectories>
     <Directory>Prism.RenderPerf</Directory>
@@ -16,7 +16,6 @@
   </SourceDirectories>
 
   <NuGetReferences>
-    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
     <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
   </NuGetReferences>
 
