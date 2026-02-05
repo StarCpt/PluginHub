@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>6e951c9a-0214-4389-b134-cd686d456150</Id>
+    <RepoId>viktor-ferenczi/se-simple-log</RepoId>
+    <GroupId>viktor-ferenczi/se-simple-log</GroupId>
+
+    <FriendlyName>Simple Log</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Removes the timestamp from the log file names</Tooltip>
+    <Description>Removes the timestamp from the log file names. 
+The game will use only two log files and overwrite them:
+
+%AppData%\SpaceEngineers.log
+%AppData%\VRageRender-DirectX11.log
+
+As a nice sideeffect, you don't have to clean the log files anymore.
+        
+This is mostly useful for developers who have to restart and game 
+frequently and reload the log file after each error.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>8aa1971475331538af98d118b08fde8cd3d31cfb</Commit>
+
+</PluginData>
