@@ -11,7 +11,7 @@
     <Description>
         AutoJump
         
-        DISCLAIMER: This plugin hasn't been extensively tested (for now), I advice that you verify that it works for your use case before blindly trusting it.
+        DISCLAIMER: This plugin hasn't been extensively tested (for now), I advise that you verify that it works for your use case before blindly trusting it.
         
         This client side plugin adds a toolbar action that can toggle a jump drive to jump automatically when charged. This can be useful when traveling long distances.
         
