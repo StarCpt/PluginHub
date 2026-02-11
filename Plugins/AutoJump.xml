@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>MalzSmith/AutoJump</Id>
+    <GroupId>MalzSmith/AutoJump</GroupId>
+
+    <FriendlyName>AutoJump</FriendlyName>
+    <Author>MalzSmith</Author>
+
+    <Tooltip>This client side plugin adds a toolbar action that can toggle a jump drive to jump automatically when charged. This can be useful when traveling long distances.</Tooltip>
+    <Description>
+        AutoJump
+        
+        DISCLAIMER: This plugin hasn't been extensively tested (for now), I advice that you verify that it works for your use case before blindly trusting it.
+        
+        This client side plugin adds a toolbar action that can toggle a jump drive to jump automatically when charged. This can be useful when traveling long distances.
+        
+        To use the plugin, simply add the new "AutoJump" action to your hotbar. Select a GPS target on your jump drive (or don't, I'm not your dad) and enable the "AutoJump" toggle. The ship should keep initiating jumps automatically until it reaches the target (or forever if you are blind jumping).
+        
+        
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>aaf2171</Commit>
+
+</PluginData>
