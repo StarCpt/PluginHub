@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>Bushfiend/InteriorTurretLoader</Id>
+  
+  <FriendlyName>Interior Turret Loader</FriendlyName>
+  
+  <Author>Bushy</Author>
+  
+  <Tooltip>Interior Turret terminal controls</Tooltip>
+
+  <Description>This plugin adds terminal controls to Interior Turrets so you can reload one or multiple turrets directly from the terminal. Ammo magazines must be in your player inventory or in a cargo inventory on the same grid as the turrets.</Description>
+  
+  <Commit>95222e871d386844525dbd7e1d6565e0b25f1dc8</Commit>
+  
+</PluginData>
