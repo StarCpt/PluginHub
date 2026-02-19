@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>StarCpt/SE-NaturalNameSort</Id>
+  <FriendlyName>Natural Block Name Sort</FriendlyName>
+  <Author>StarCpt</Author>
+  <Tooltip>Sort block names by natural sort order.</Tooltip>
+
+  <Description>Sort block names by natural sort order.
+Default Sort: 1, 11, 12, 2, 8, 9
+Natural Sort: 1, 2, 8, 9, 11, 12</Description>
+
+  <Commit>33243e36abfdfeef771cf6c32e0b57dcc8811fc2</Commit>
+</PluginData>
