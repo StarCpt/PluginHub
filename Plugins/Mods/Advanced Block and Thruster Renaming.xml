@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3630278266</Id>
+  <FriendlyName>Advanced Block and Thruster Renaming</FriendlyName>
+  <Author>mamba</Author>
+  <Tooltip>An advanced renaming utility for Space Engineers.</Tooltip>
+  <Description>This mod enhances block renaming in Space Engineers by adding advanced controls to thrusters and other blocks, allowing you to rename multiple blocks at once with ease. .</Description>
+  <Hidden>false</Hidden>
+</PluginData>
