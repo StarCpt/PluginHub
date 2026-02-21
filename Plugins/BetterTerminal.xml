@@ -11,6 +11,8 @@
 - Group renaming
 - Block filter
 - Show default block names
+- Block context menus
+- Other QoL improvements
 
 Please see the full documentation on GitHub:
 https://github.com/viktor-ferenczi/se-better-terminal
@@ -29,6 +31,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>17dc18a098be3cf377c839b15ebe2f3fc8ab2408</Commit>
+  <Commit>10185a52c84ec29126b834026640af6454227c7b</Commit>
 
 </PluginData>
