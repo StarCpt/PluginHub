@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3684068401</Id>
+  <FriendlyName>Auto Disassemble</FriendlyName>
+  <Author>Casper</Author>
+  <Tooltip>Automatically disassembles components stored in cargo.</Tooltip>
+  <Description>Intended for the Meridian:Frontiers server. /disassemble. https://discord.gg/ECSttHRT</Description>
+</PluginData>
