@@ -23,7 +23,7 @@ There is an issue in the Wooting SDK that affects the arrow keys. When testing w
 There is also an issue with wheels and analog controls. The brakes and throttle are treated as digital (on/off), affecting the Wooting and other controllers alike. I have made another plugin, Analog Wheel Control (SEAnalogWheels), that addresses this issue until Keen fixes it.</Description>
 
   <!-- The commit id. -->
-  <Commit>6b2f821a04be0355dd708705e3441256696470aa</Commit>
+  <Commit>3fd0b66acc962cf0053c24c174619c64c5840dd9</Commit>
 
   <!-- To specify a required NuGet package, use either a list of PackageReference tags OR a Config tag. -->
   <NuGetReferences>
