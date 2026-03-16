@@ -23,5 +23,5 @@ Requires creative mode or creative tools enabled.
         <Directory>.</Directory>
     </SourceDirectories>
 
-    <Commit>f852582716754d0195d61de602db64905b460d9c</Commit>
+    <Commit>ab8d80a8171752e816aed95c235abacd0214d1c7</Commit>
 </PluginData>
