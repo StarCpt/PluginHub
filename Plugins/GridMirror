@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>maxpowa/GridMirror</Id>
+    <GroupId>maxpowa/GridMirror</GroupId>
+
+    <FriendlyName>Grid Mirror</FriendlyName>
+    <Author>maxpowa</Author>
+
+    <Tooltip>Mirror grids along an axis and paste from clipboard</Tooltip>
+
+    <Description>Mirrors a grid along the X, Y, or Z axis and copies the result to your clipboard for pasting.
+
+Usage:
+  /mirror [X|Y|Z] — Mirror the grid you are looking at.
+  /mirror help — Show help in chat.
+
+Requires creative mode or creative tools enabled.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>.</Directory>
+    </SourceDirectories>
+
+    <Commit>f852582716754d0195d61de602db64905b460d9c</Commit>
+</PluginData>
