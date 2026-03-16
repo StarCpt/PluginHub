@@ -8,15 +8,16 @@
     <FriendlyName>Grid Mirror</FriendlyName>
     <Author>maxpowa</Author>
 
-    <Tooltip>Mirror grids along an axis and paste from clipboard</Tooltip>
+    <Tooltip>Mirror clipboard grids along an axis via configurable hotkeys</Tooltip>
 
-    <Description>Mirrors a grid along the X, Y, or Z axis and copies the result to your clipboard for pasting.
+    <Description>Mirrors the grid on your clipboard along the X, Y, or Z axis using configurable hotkeys.
 
 Usage:
-  /mirror [X|Y|Z] — Mirror the grid you are looking at.
-  /mirror help — Show help in chat.
+  1. Copy a grid (Ctrl+C).
+  2. "Paste" (Ctrl+V) the grid to enable paste mode and show the ghost preview.
+  3. Press the configured hotkey to mirror along the desired axis. (Default: Ctrl+Shift+X to mirror along the X axis.)
 
-Requires creative mode or creative tools enabled.
+Configure hotkeys in the plugin settings dialog.
     </Description>
 
     <SourceDirectories>
