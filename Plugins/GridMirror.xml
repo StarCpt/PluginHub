@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>maxpowa/GridMirror</Id>
+    <GroupId>maxpowa/GridMirror</GroupId>
+
+    <FriendlyName>Grid Mirror</FriendlyName>
+    <Author>maxpowa</Author>
+
+    <Tooltip>Mirror clipboard grids along an axis via configurable hotkeys</Tooltip>
+
+    <Description>Mirrors the grid on your clipboard along the X, Y, or Z axis using configurable hotkeys.
+
+Usage:
+  1. Copy a grid (Ctrl+C).
+  2. "Paste" (Ctrl+V) the grid to enable paste mode and show the ghost preview.
+  3. Press the configured hotkey to mirror along the desired axis. (Default: Ctrl+Shift+X to mirror along the X axis.)
+
+Configure hotkeys in the plugin settings dialog.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>.</Directory>
+    </SourceDirectories>
+
+    <Commit>2d48f52fbcbcc091db530c36121e6f96e45c6feb</Commit>
+</PluginData>
