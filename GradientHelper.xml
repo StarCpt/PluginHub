@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>maxpowa/GradientHelper</Id>
+    <GroupId>maxpowa/GradientHelper</GroupId>
+
+    <FriendlyName>Gradient Helper</FriendlyName>
+    <Author>maxpowa</Author>
+
+    <Tooltip>Paint color gradients across blocks on a grid</Tooltip>
+
+    <Description>Create color gradients across blocks on a grid. Supports linear and radial modes with four interpolation options (RGB, HSV, Lab, Perceptual).
+
+Usage:
+  1. Pre-paint two blocks with the desired start and end colors.
+  2. Press Ctrl+G for linear gradient mode (or Ctrl+R for radial).
+  3. Paint action on the first block to pick the START position and color.
+  4. Paint action on a second block to pick the END position and color.
+  5. Paint any blocks on the grid to apply gradient-interpolated colors.
+  6. Newly placed blocks are also auto-colored to match the gradient.
+  7. Press the hotkey again to exit gradient mode.
+
+Hotkeys: Ctrl+G (linear), Ctrl+R (radial), Ctrl+T (cycle interpolation), Ctrl+K (toggle apply skin).
+Configure hotkeys and settings in the plugin settings dialog.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>.</Directory>
+    </SourceDirectories>
+
+    <Commit>3dab008849f39b2c3b8321af2ffedf161b699af3</Commit>
+
+</PluginData>
