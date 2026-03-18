@@ -20,9 +20,5 @@ Usage:
 Configure hotkeys in the plugin settings dialog.
     </Description>
 
-    <SourceDirectories>
-        <Directory>.</Directory>
-    </SourceDirectories>
-
     <Commit>1e12bb95a3eee1bbbc7c5955ed1a534eac9373bf</Commit>
 </PluginData>
