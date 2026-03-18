@@ -29,6 +29,6 @@ Configure hotkeys and settings in the plugin settings dialog.
         <Directory>.</Directory>
     </SourceDirectories>
 
-    <Commit>ee913391801accb35270e046a41f598de967ed72</Commit>
+    <Commit>5ea396f782337b968cf1b7d9710af6859d65f157</Commit>
 
 </PluginData>
