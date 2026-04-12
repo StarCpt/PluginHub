@@ -29,4 +29,11 @@ Thank you!
 
   <Commit>ccac632fa731ba08e0898cb547680d5049e9d1a6</Commit>
 
+  <AlternateVersions>
+    <Version>
+      <Name>MGP 0.9.0 pre-1: c3dea9</Name>
+      <Commit>046242c7698d2edac2872df0463805fa59191118</Commit>
+    </Version>
+  </AlternateVersions>
+
 </PluginData>
