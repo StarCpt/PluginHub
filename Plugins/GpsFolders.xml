@@ -13,7 +13,8 @@ Other Features:
 - Show/Hide folders on hud
 - Double click on a folder to only browse its gpses
 - Button to copy all gpses to clipboard
+- Distance in gps tooltip
   
 Visit the github page for more information.</Description>
-  <Commit>cad596c582ba3d62ac6fb513c9ef187a59e558ae</Commit>
+  <Commit>ac8e5fb5c011a66d008d60a42f239f1427c09865</Commit>
 </PluginData>
