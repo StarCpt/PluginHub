@@ -22,12 +22,13 @@ It is added by Pulsar automatically on demand.
 
 	<NuGetReferences>
 		<PackageReference Include="System.Management" Version="4.5.0" />
-	</NuGetReferences>	
+		<PackageReference Include="System.Formats.Nrbf" Version="10.0.1" />
+	</NuGetReferences>
 
     <Runtimes>NETCoreApp</Runtimes>
 
     <Hidden>true</Hidden>
     
-    <Commit>d307024521dc2f2a76b8715a1463f3b4a86c6bf2</Commit>
+    <Commit>32b9b965eac728b743e2ff16cc33b4e616746ddb</Commit>
 
 </PluginData>
