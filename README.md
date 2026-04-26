@@ -2,6 +2,8 @@
  
 A list of plugins that are used by [Pulsar](https://github.com/SpaceGT/Pulsar).
 
+This repo contains plugins for Space Engineers 1, see [this repository](https://github.com/StarCpt/PluginHub-SE2) for the SE2 PluginHub.
+
 ## Developers
 
 Temporary [Plugin Developer's Guide](https://discord.com/channels/1378756728107040829/1446496490372726895) 
