@@ -28,6 +28,6 @@ analyzing or storing the logs.
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>eb7d816b7be9e0d6ff59043a0052ef64e54ee8f7</Commit>
+    <Commit>7addfc5069a73c655310b0dbd1ade217de2e2d9b</Commit>
 
 </PluginData>
