@@ -27,13 +27,6 @@ Thank you!
     <Directory>MultigridProjectorClient</Directory>
   </SourceDirectories>
 
-  <Commit>ccac632fa731ba08e0898cb547680d5049e9d1a6</Commit>
-
-  <AlternateVersions>
-    <Version>
-      <Name>MGP 0.9.0 pre-1: c3dea9</Name>
-      <Commit>046242c7698d2edac2872df0463805fa59191118</Commit>
-    </Version>
-  </AlternateVersions>
+  <Commit>c5e6b2f0f95d00ea40297f8b8c05976e113aa836</Commit>
 
 </PluginData>

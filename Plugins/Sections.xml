@@ -23,12 +23,10 @@ SE Mods Discord https://discord.gg/PYPFPGf3Ca
 Enjoy!
 </Description>
   
-  <Commit>6620b689be6eab392dab59fa20e3ab833ed74b09</Commit>
-  
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Hidden>false</Hidden>
+  <Commit>8e46290d8b1167b4b3b10f7e5b1c729feed9f2f9</Commit>
 
 </PluginData>
