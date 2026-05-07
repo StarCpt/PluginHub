@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>657962B9-EF6A-4052-A62B-2BDCBF3D0C64</Id>
+    <RepoId>OwendB1/AutoDock</RepoId>
+    <FriendlyName>AutoDock</FriendlyName>
+    <Author>OwendB</Author>
+    <Tooltip>Automatic docking feature inspired by SE2</Tooltip>
+    <Description>Brings a Space Engineers 2 inspired automatic docking workflow to Space Engineers 1.
+
+Press the activation key once to scan for nearby compatible connector pairs on the ship you currently control and preview them with an in-world overlay.
+
+Cycle through available connectors and target pairs, adjust the desired lock rotation in 45 degree steps, then press the activation key again to let AutoDock align, approach, and connect automatically. Supports ships with multiple connectors and cancels cleanly if you take manual control.
+
+Hotkeys, connector search radius, and advanced docking behavior can be configured in the plugin settings.</Description>
+    <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>a1fb46dc08ef7aa3432b5b883429f33b40cdc83c</Commit>
+</PluginData>
