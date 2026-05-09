@@ -3,9 +3,9 @@
   <Id>StarCpt/UnlimitedWithdrawalAmount</Id>
   <FriendlyName>Unlimited Deposit And Withdrawal Amounts</FriendlyName>
   <Author>StarCpt</Author>
-  <Tooltip>CAPPED to Int.MaxValue!! Otherwise it causes an overflow!
-Unlimited deposit and withdrawal amounts for ATMs and Store Blocks</Tooltip>
-  <Description>CAPPED to Int.MaxValue!! Otherwise it causes an overflow!
-Unlimited deposit and withdrawal amount for ATMs and Store Blocks</Description>
-  <Commit>0aba85948257739de9375fe84e3d8bfe034e4583</Commit>
+  <Tooltip>Unlimited* deposit and withdrawal amounts for ATMs and Store Blocks</Tooltip>
+  <Description>Unlimited* deposit and withdrawal amount for ATMs and Store Blocks
+
+*CAPPED to ~2.14 billion, otherwise it causes an overflow!</Description>
+  <Commit>5a33f455d9e42bce37e643dd469bbc824a1ec8f8</Commit>
 </PluginData>
