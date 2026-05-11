@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>se-linux-compat</Id>
+    <GroupId>se-linux-compat</GroupId>
+    <RepoId>viktor-ferenczi/se-linux-compat</RepoId>
+
+    <FriendlyName>LinuxCompat</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Linux compatibility</Tooltip>
+    <Description>This is applied right after the `se-dotnet-compat` 
+plugin by the Linux version of Pulsar.</Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+	<NuGetReferences>
+		<PackageReference Include="FFmpeg.AutoGen" Version="7.1.1" />
+        <PackageReference Include="Silk.NET.OpenAL" Version="2.23.0" />
+	</NuGetReferences>
+
+    <Runtimes>NETCoreApp</Runtimes>
+
+    <AssetFolder>Assets/</AssetFolder>
+
+    <Hidden>true</Hidden>
+    
+    <Commit>1e2a0d8d4a8f54f3d81b8624fdbe9d15d0d9a665</Commit>
+
+</PluginData>
