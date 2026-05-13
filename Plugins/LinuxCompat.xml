@@ -17,7 +17,7 @@ plugin by the Linux version of Pulsar.</Description>
     </SourceDirectories>
 
 	<NuGetReferences>
-		<PackageReference Include="FFmpeg.AutoGen" Version="7.1.1" />
+		<PackageReference Include="FFmpeg.AutoGen" Version="8.1.0" />
         <PackageReference Include="Silk.NET.OpenAL" Version="2.23.0" />
 	</NuGetReferences>
 
@@ -25,6 +25,6 @@ plugin by the Linux version of Pulsar.</Description>
 
     <Hidden>true</Hidden>
 
-    <Commit>06ab283edca431002a23a030309070924bdb5538</Commit>
+    <Commit>18e7873a18b3068b7d66d275991b4caef5816af7</Commit>
 
 </PluginData>
