@@ -9,7 +9,7 @@
     <Author>Viktor</Author>
 
     <Tooltip>Linux compatibility</Tooltip>
-    <Description>This is applied right after the `se-dotnet-compat` 
+    <Description>This is applied right after the `se-dotnet-compat`
 plugin by the Linux version of Pulsar.</Description>
 
     <SourceDirectories>
@@ -23,10 +23,8 @@ plugin by the Linux version of Pulsar.</Description>
 
     <Runtimes>NETCoreApp</Runtimes>
 
-    <AssetFolder>Assets/</AssetFolder>
-
     <Hidden>true</Hidden>
-    
-    <Commit>d7aafccae658cbb8577bf0d46f4cad4d2628d203</Commit>
+
+    <Commit>06ab283edca431002a23a030309070924bdb5538</Commit>
 
 </PluginData>
