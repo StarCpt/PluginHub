@@ -25,6 +25,6 @@ Hotkeys: Ctrl+G (linear), Ctrl+R (radial), Ctrl+T (cycle interpolation), Ctrl+K 
 Configure hotkeys and settings in the plugin settings dialog.
     </Description>
 
-    <Commit>4535501d293f21c693125ed28bae167be1b63f89</Commit>
+    <Commit>424ac8bc4fcdef937389533eae39694cb5293b00</Commit>
 
 </PluginData>
