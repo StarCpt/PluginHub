@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>FerrenF/BreathControl</Id>
+  <RepoId>StarCpt/BreathControl</RepoId>
   <FriendlyName>BreathControl</FriendlyName>
   <Author>Ferren</Author>
-  <Commit>82806f895fcb1d0b8c523171f4db56020f698e3a</Commit>  
+  <Commit>609ddde26f18dcbdb7db0a997fc4c81426fa632b</Commit>  
   <Tooltip>Disable or adjust the engineer's heavy breathing sounds.</Tooltip>
   <Description>Disables or adjusts the sound of heavy breathing by the engineer while in realistic mode.
   </Description>
