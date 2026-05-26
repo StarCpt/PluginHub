@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>FerrenF/BreathControl</Id>
-  <RepoId>StarCpt/BreathControl</RepoId>
+  <RepoId>WesternSpace/BreathControl</RepoId>
   <FriendlyName>BreathControl</FriendlyName>
   <Author>Ferren</Author>
   <Commit>609ddde26f18dcbdb7db0a997fc4c81426fa632b</Commit>  
