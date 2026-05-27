@@ -12,10 +12,12 @@ An LLM like Claude can connect over HTTP and execute C# code directly in the run
 
 Features:
 - REPL-style execution: write function bodies, not boilerplate
+- Latest C# syntax support (powered by Roslyn 4.12)
+- All assemblies loaded by the game are available as references, including the full .NET Framework, game APIs, and plugin libraries
 - Multi-frame coroutines via yield return null
 - Parallel script execution
 - Console.WriteLine() output piped back to the LLM
-- Roslyn compilation with corrected error line numbers
+- Corrected error line numbers that map back to your input
 - Configurable port and optional secret key authentication
 - Multiplayer safety: requires Admin or Owner promote level to execute code
 
@@ -27,6 +29,10 @@ Note: Sandbox.ModAPI.Ingame and VRage.Game.ModAPI.Ingame are NOT included in the
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>15255744ecf216aab009daa49c1929ff0fbb8be2</Commit>
+    <NuGetReferences>
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0" />
+    </NuGetReferences>
+
+    <Commit>88764c276d82b2aa893be29599d23e7890b95e85</Commit>
 
 </PluginData>
