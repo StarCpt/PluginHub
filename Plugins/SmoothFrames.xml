@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 	<Id>WhiteFang34/SmoothFrames</Id>
-	<FriendlyName>Smooth Frames</FriendlyName>
+	<FriendlyName>Smooth Frames - Max FPS</FriendlyName>
 	<Author>WhiteFang</Author>
 	<Tooltip>Smooth motion at any refresh rate.</Tooltip>
-	<Description>Space Engineers updates its sim at 60 Hz, so motion looks like 60 FPS even on a 144 Hz or 240 Hz monitor — each render frame is a copy of the last sim tick. Smooth Frames interpolates the camera and nearby entities between sim ticks, so each render frame shows a distinct moment of motion. The engine's 120 FPS cap is also lifted, for users above that.
+	<Description>Space Engineers updates its sim at 60 Hz, so motion looks like 60 FPS even on a 144 Hz, 240 Hz, or 360 Hz monitor — each render frame is a copy of the last sim tick. Smooth Frames interpolates the camera and nearby entities between sim ticks, so each render frame shows a distinct moment of motion. The engine's 120 FPS cap is also lifted, for users above that.
 
 Toggle with Ctrl+F11. Configure the frame-rate cap in the plugin's settings cog (default: your monitor's refresh).</Description>
 	<SourceDirectories>
 		<Directory>Plugin</Directory>
 	</SourceDirectories>
-	<Commit>34f0cbd53d5c723d9d16eac1fdaecdb5176dfa3f</Commit>
+	<Commit>34f4871fe1320cf7d3992e633ed6d6e7a2d43563</Commit>
 </PluginData>
