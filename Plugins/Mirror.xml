@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>589B0A8A-DB20-4CE3-8D6A-6B6E5FF03F04</Id>
+    
+    <RepoId>Voxar/SE-Mirror-Plugin</RepoId>
+    <Commit>156783f6dc02dced29d1dc52ecc489df4624d546</Commit>
+
+    <Author>Voxar</Author>
+    <FriendlyName>Mirror Mod Renderer</FriendlyName>
+    <Tooltip>Render plugin for the Adjustable LCD Mirror and Camera Views mod</Tooltip>
+    <Description>Renders Mirror and Camera views for the "Adjustable LCD Mirror and Camera Views" mod.
+
+The so far required mod manages the LCD apps, configurations, toolbar actions, properties and MP sync.
+https://steamcommunity.com/sharedfiles/filedetails/?id=3733546359
+
+Mod source at https://github.com/voxar/SE-Mirror-Mod
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+</PluginData>
