@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>ED17552B-4A6B-474C-99B9-13FB67F5CF19</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>lolifamily/RenderQueueFix</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Render Queue Fix</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>lolifamily</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Install ONLY if your game crashes with IndexOutOfRangeException inside MyConcurrentTwoLevelQueue.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Fixes one specific renderer crash by raising a hardcoded queue ceiling.
+
+===== INSTALL ONLY IF =====
+your game crashes to desktop AND the SpaceEngineers log contains BOTH of:
+  1) the exception System.IndexOutOfRangeException
+  2) a stack frame mentioning MyConcurrentTwoLevelQueue.Enqueue or MyUpdateFrame.Enqueue
+
+Common triggers:
+  - very large or densely built worlds
+  - long sessions in busy scenes (many lights, particles, decals, LCDs)
+  - mass-spawn / stress tests / heavy combat with lots of effects
+
+===== WHAT IT DOES =====
+VRage.Render hardcodes a per-frame render-message ceiling of 1024 x 1024 ~= 1.05M. Exceeding it throws inside the renderer and kills the game. This plugin rewrites the ceiling to 4096 x 1024 ~= 4.19M at load time via Mono.Cecil. Memory cost: ~24 KB. No API change, no gameplay change.
+    </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>8a8bc21a7837b5cde85a424b4ae09c09d1be8bc1</Commit>
+</PluginData>
