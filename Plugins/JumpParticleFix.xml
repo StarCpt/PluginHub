@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>Pas2704/JumpParticleFix</Id>
+  <FriendlyName>Jump Particle Fix</FriendlyName>
+  <Author>Pas2704</Author>
+  <Tooltip>Fix for jump particle visibility</Tooltip>
+  <Description>Increases the max distance of the jump particle to sync/view distance</Description>
+  <Commit>8ef73a70d9b80833cc08660ee58f0cef4857ec2b</Commit>
+</PluginData>
