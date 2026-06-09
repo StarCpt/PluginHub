@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <!-- The ID of your plugin, never change this -->
+    <Id>65ECACE0-FF8F-4166-962E-495E7A93CF78</Id>
+    
+    <!-- GitHub repository ID -->
+    <RepoId>lolifamily/HdrRender</RepoId>
+    
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>HDR Render</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>lolifamily</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Full HDR pipeline: fp16 scRGB swapchain, BT.2390 tonemapping, R16 lighting buffer, emissive boost</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Replaces SE's SDR tonemapping pipeline with a true HDR path.
+Swapchain is upgraded to flip model R16G16B16A16_Float with scRGB color space.
+Lighting buffer, bloom chain, and custom textures (LCDs, text panels) are upgraded from R11G11B10 / R8G8B8A8 to R16G16B16A16 for full-precision HDR accumulation.
+BT.2390-based tonemapping preserves highlight detail beyond SDR white, with configurable peak / paper-white / source peak / black lift.
+Emissive billboards (thrusters, lasers, muzzle flashes) and GPU particles (exhaust, sparks) are boosted by a configurable factor; diffuse content is untouched.
+UI is composited at user-set paper-white brightness.
+Screenshots are captured as OpenEXR (HDR) and tonemapped PNG (SDR) in parallel.
+Optional G-Sync/FreeSync tearing support and low-latency mode (1-frame GPU queue).
+Auto-disables itself if it crashes during init, with a flag in the config to re-enable.
+Requires Windows HDR enabled and a supported display; can be force-enabled on SDR displays.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- To specify asset files to be copied onto disk, use the AssetFolder tag. -->
+    <AssetFolder>ClientPlugin/Assets/</AssetFolder>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>9e110b4c46cc22fb44d8b380bfe850bced189d44</Commit>
+</PluginData>
