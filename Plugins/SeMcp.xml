@@ -33,6 +33,6 @@ Note: Sandbox.ModAPI.Ingame and VRage.Game.ModAPI.Ingame are NOT included in the
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0" />
     </NuGetReferences>
 
-    <Commit>d10e2043f7f2b6b593feed17487f3e11616f12d5</Commit>
+    <Commit>d983f879b97577f5ad49e16dcbd5917b79fceea1</Commit>
 
 </PluginData>
