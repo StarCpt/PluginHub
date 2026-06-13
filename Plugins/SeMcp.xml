@@ -6,24 +6,21 @@
     <FriendlyName>SeMcp</FriendlyName>
     <Author>lolifamily</Author>
     <Tooltip>MCP server for LLM-driven code execution inside Space Engineers</Tooltip>
-    <Description>Turns your Space Engineers game into an MCP (Model Context Protocol) server.
+    <Description>*** WARNING — REMOTE CODE EXECUTION ***
+The bearer token = root password. Any client with it can run arbitrary C# on your machine (file I/O, processes, native [DllImport]). Never share or screenshot it; never port-forward the listener. Binds 127.0.0.1 only; multiplayer adds an Admin/Owner check, but single player needs only the token.
 
-An LLM like Claude can connect over HTTP and execute C# code directly in the running game engine with full .NET and game API access.
+Turns your Space Engineers game into an MCP (Model Context Protocol) server. An LLM like Claude can connect over HTTP and execute C# directly in the running game engine with full .NET and game API access.
 
 Features:
-- REPL-style execution: write function bodies, not boilerplate
-- Latest C# syntax support (powered by Roslyn 4.12)
-- All assemblies loaded by the game are available as references, including the full .NET Framework, game APIs, and plugin libraries
-- Multi-frame coroutines via yield return null
-- Parallel script execution
-- Console.WriteLine() output piped back to the LLM
-- Corrected error line numbers that map back to your input
-- Configurable port and optional secret key authentication
-- Multiplayer safety: requires Admin or Owner promote level to execute code
+- REPL-style: no boilerplate, Roslyn 4.12, [DllImport] supported
+- All loaded assemblies referenced (.NET + game + plugins)
+- Multi-frame coroutines + parallel script execution
+- Console.WriteLine() piped back to the LLM
+- Per-field errors with corrected line numbers
+- Configurable port, auto-generated bearer token
+- Multiplayer: Admin/Owner only
 
-Transport: MCP Streamable HTTP (not SSE). Configure your MCP client to POST JSON-RPC to http://localhost:9876/
-
-Note: Sandbox.ModAPI.Ingame and VRage.Game.ModAPI.Ingame are NOT included in the default usings. You have full ModAPI access — use Sandbox.ModAPI and VRage.Game.ModAPI instead. Add Ingame usings manually only if needed.</Description>
+Transport: MCP Streamable HTTP (not SSE). POST JSON-RPC to http://localhost:9876/</Description>
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
@@ -33,6 +30,6 @@ Note: Sandbox.ModAPI.Ingame and VRage.Game.ModAPI.Ingame are NOT included in the
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0" />
     </NuGetReferences>
 
-    <Commit>d983f879b97577f5ad49e16dcbd5917b79fceea1</Commit>
+    <Commit>a2ec26ad79d0115f324d69e542bcda6a472a310f</Commit>
 
 </PluginData>
