@@ -36,5 +36,5 @@ Requires Windows HDR enabled and a supported display; can be force-enabled on SD
     <AssetFolder>ClientPlugin/Assets/</AssetFolder>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>9e110b4c46cc22fb44d8b380bfe850bced189d44</Commit>
+    <Commit>b7aa3e9626c6bd213059b788cf43e0c91931a56d</Commit>
 </PluginData>
