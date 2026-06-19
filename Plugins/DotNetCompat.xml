@@ -4,7 +4,7 @@
     <!-- NEVER change the Id, because it is hardcoded into the Interim (.NET Core) version of Pulsar! -->
     <Id>se-dotnet-compat</Id>
     <GroupId>se-dotnet-compat</GroupId>
-    <RepoId>viktor-ferenczi/se-dotnet-compat</RepoId>
+    <RepoId>CometWorks/dotnet-compat</RepoId>
 
     <FriendlyName>DotNetCompat</FriendlyName>
     <Author>Viktor</Author>

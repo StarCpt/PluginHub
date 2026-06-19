@@ -3,7 +3,7 @@
 
     <Id>se-linux-compat</Id>
     <GroupId>se-linux-compat</GroupId>
-    <RepoId>viktor-ferenczi/se-linux-compat</RepoId>
+    <RepoId>CometWorks/linux-compat</RepoId>
 
     <FriendlyName>LinuxCompat</FriendlyName>
     <Author>Viktor</Author>
