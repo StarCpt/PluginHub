@@ -1,13 +1,23 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>viktor-ferenczi/se-multigrid-projector</Id>
-  <RepoId>viktor-ferenczi/se-multigrid-projector</RepoId>
 
-  <FriendlyName>Multigrid Projector</FriendlyName>
-  <Author>Viktor</Author>
+    <!-- The ID of your plugin, never change this -->
+    <Id>viktor-ferenczi/se-multigrid-projector</Id>
 
-  <Tooltip>Allows loading blueprints of multiple sub-grids into projectors and welding them.</Tooltip>
-  <Description>This plugin allows to load blueprints of multiple sub-grids into projectors and welding the blocks. Head/base blocks are added automatically as needed to connect subgrids.
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se-multigrid-projector</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Multigrid Projector</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Viktor</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Allows loading blueprints of multiple sub-grids into projectors and building them.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>This plugin allows to load blueprints of multiple sub-grids into projectors and welding the blocks. Head/base blocks are added automatically as needed to connect subgrids.
 
 For support join the SE Mods Discord:
 https://discord.gg/PYPFPGf3Ca
@@ -19,14 +29,16 @@ One time support via PayPal:
 https://www.paypal.com/paypalme/vferenczi/
 
 Thank you!
-  </Description>
+    </Description>
 
-  <SourceDirectories>
-    <Directory>MultigridProjector</Directory>
-    <Directory>MultigridProjectorApi</Directory>
-    <Directory>MultigridProjectorClient</Directory>
-  </SourceDirectories>
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+        <Directory>MultigridProjectorApi</Directory>
+    </SourceDirectories>
 
-  <Commit>d42d63612429c9e98809a60d27fab813e7f467ac</Commit>
+    <!-- The current plugin version's commit hash -->
+    <Commit>42c35e75b930f317a6d85d66e313fc80ea92cd86</Commit>
 
 </PluginData>
