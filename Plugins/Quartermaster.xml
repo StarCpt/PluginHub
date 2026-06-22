@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>arsnekfcn/Quartermaster</Id>
+  <FriendlyName>Quartermaster</FriendlyName>
+  <Author>arsnek</Author>
+
+  <Tooltip>Passive fleet-logistics collector — push your faction's inventory/production/ship telemetry to a backend you run.</Tooltip>
+
+  <Description>Passive fleet-logistics collector for Space Engineers.
+
+Scans the grids you and your faction own in streaming range — inventories (ore/ingot/component/ammo), production (refineries/assemblers, active vs idle), ship class, health, hydrogen/battery, reactor fuel, ammo, weapons, and position — and pushes the data to a backend you run (HTTPS POST and/or a local file).
+
+Bring-your-own-backend: the plugin only extracts and ships the data; the documented JSON contract lets you build any server/dashboard. There is no author backend — data goes only to the endpoint you configure.
+
+In-game config menu (Ctrl+Shift+Home): destination URL, online/offline sinks, sync rate, link status. Manual sync with a HUD confirmation; optional chat-on-sync. Optional in-game Steam sign-in binds a per-member token to your verified SteamID, stored DPAPI-encrypted and never shown in a URL.
+
+MIT licensed. Source: https://github.com/arsnekfcn/Quartermaster</Description>
+
+  <Commit>27e2d13e8f7aabfe85c2c3d94772a3ab6e76decc</Commit>
+
+  <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
+  <Runtimes>NETFramework</Runtimes>
+
+  <!-- Pulsar compiles from source and resolves third-party deps from NuGet (our csproj's vendored/embedded
+       Newtonsoft is for the local/manual build only). Pinned to the version we developed against. -->
+  <NuGetReferences>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </NuGetReferences>
+
+</PluginData>
