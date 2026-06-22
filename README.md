@@ -18,5 +18,5 @@ If you wish to make a plugin for Pulsar, there are a few steps:
 3. Add your XML plugin descriptor file to the `Plugins` folder in this repository. Example file: [SamplePlugin.xml](SamplePlugin.xml)
 4. Submit a pull request. The approval team will approve or deny it.
 
-For registering a client side mod use this example file [SamplePlugin.xml](SamplePlugin.xml),
+For registering a client side mod use this example file [SampleMod.xml](SampleMod.xml),
 then register it with a PR into `Plugins/Mods`. The same approval process applies.
