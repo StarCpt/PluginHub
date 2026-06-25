@@ -15,14 +15,14 @@ Features: shared ship library browsing; check-out locks; publish/update as PRs w
 
 MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
 
-  <Commit>76a499ad0f402278b3bf58e0f0c760bc9b64a463</Commit>
+  <Commit>988923faa1e7cc765858c8a8de9ebbfbd5fca348</Commit>
 
   <!-- Windows / .NET Framework only: uses DPAPI (token encryption) and System.Drawing (thumbnail
-       normalization), and vendors net48 builds of Octokit / LibGit2Sharp. -->
+       normalization). -->
   <Runtimes>NETFramework</Runtimes>
 
-  <!-- Pulsar compiles from source and resolves third-party deps from NuGet (our csproj's vendored/
-       embedded copies are for the local/manual build only). Pinned to the versions we developed against. -->
+  <!-- Pulsar compiles from source and resolves third-party deps from NuGet (the csproj additionally
+       embeds them for the local/manual single-file build only). Pinned to the versions we developed against. -->
   <NuGetReferences>
     <PackageReference Include="Octokit" Version="13.0.1" />
     <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
