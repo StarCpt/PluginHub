@@ -15,7 +15,7 @@ Features: shared ship library browsing; check-out locks; publish/update as PRs w
 
 MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
 
-  <Commit>988923faa1e7cc765858c8a8de9ebbfbd5fca348</Commit>
+  <Commit>15281022773917f6bd8831f55715e8667138a8c3</Commit>
 
   <!-- Windows / .NET Framework only: uses DPAPI (token encryption) and System.Drawing (thumbnail
        normalization). -->
