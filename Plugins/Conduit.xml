@@ -26,11 +26,8 @@ MIT licensed. Source: https://github.com/arsnekfcn/Conduit</Description>
   <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
   <Runtimes>NETFramework</Runtimes>
 
-  <!-- Pulsar compiles from source and resolves third-party deps from NuGet. (The local/manual deploy.sh build
-       ships Newtonsoft.Json.dll as a separate file beside the plugin, no embedding.) Pinned to the version
-       we developed against. -->
-  <NuGetReferences>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </NuGetReferences>
+  <!-- No <NuGetReferences>: Pulsar already provides Newtonsoft.Json in its own libraries, so the from-source
+       build resolves it without us declaring it (declaring it would add a second copy and risk a conflict).
+       The local/manual deploy.sh build still resolves Newtonsoft via the csproj PackageReference. -->
 
 </PluginData>
