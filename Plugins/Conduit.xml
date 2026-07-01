@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>arsnekfcn/Conduit</Id>
+  <FriendlyName>Conduit</FriendlyName>
+  <Author>arsnek</Author>
+
+  <Tooltip>A generic pipe: forwards tagged [CDT:...] data from block Custom Data (only on grids you can vanilla-access) to a backend you run (or a local file). It never senses anything itself and sends no positions.</Tooltip>
+
+  <Description>A generic, format-agnostic data pipe for Space Engineers.
+
+Conduit reads any block whose Custom Data begins with the marker [CDT:...] (a tagged packet), wraps each packet in a small standard envelope, and ships it to a backend you run (HTTPS POST) and/or a local file. It never interprets the payload and never senses anything itself.
+
+The access guardrail is mechanical: it reads Custom Data only on grids you can vanilla-access right now: your own or shared-faction grids that you are controlling (in a seat), that have their terminal open, or that are within range of a live broadcasting antenna while your own antenna is online. Merely standing next to a grid does not count. Each block is then checked share-aware. So it can only ever forward data a vanilla script, mod, or player could have written on a grid whose terminal you could open yourself. No grid positions are ever sent.
+
+Bring-your-own-backend: the plugin only extracts and ships; the documented JSON contract lets you build any server/dashboard. There is no author backend; data goes only to the endpoint you configure (or a local file).
+
+In-game config menu (Ctrl+Shift+Home): destination URL; auth mode (none / bearer / OAuth2 client-credentials) and its fields; online/offline sinks; sync rate; live link status; and Wipe auth. No config-file editing for any auth mode. Manual sync with a HUD confirmation; optional chat-on-sync. Optional in-game Steam sign-in binds a per-member token to your verified SteamID, stored DPAPI-encrypted and never shown in a URL.
+
+A separate, optional companion Programmable Block script (vanilla) is one example of something that writes [CDT:...] packets; the plugin reads any source.
+
+MIT licensed. Source: https://github.com/arsnekfcn/Conduit</Description>
+
+  <Commit>a72892bb8fa6bc8c9ad13e32ff19d186311c21a2</Commit>
+
+  <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
+  <Runtimes>NETFramework</Runtimes>
+
+</PluginData>
