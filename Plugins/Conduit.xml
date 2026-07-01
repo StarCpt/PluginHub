@@ -11,7 +11,7 @@
 
 Conduit reads any block whose Custom Data begins with the marker [CDT:...] (a tagged packet), wraps each packet in a small standard envelope, and ships it to a backend you run (HTTPS POST) and/or a local file. It never interprets the payload and never senses anything itself.
 
-The access guardrail is mechanical: it reads Custom Data only on grids you can vanilla-access right now: your own or shared-faction grids that you are controlling, standing at on foot, or within range of a broadcasting antenna (checked per block, share-aware). So it can only ever forward data a vanilla script, mod, or player could have written on a grid whose terminal you could open yourself. No grid positions are ever sent.
+The access guardrail is mechanical: it reads Custom Data only on grids you can vanilla-access right now: your own or shared-faction grids that you are controlling (in a seat), that have their terminal open, or that are within range of a live broadcasting antenna while your own antenna is online. Merely standing next to a grid does not count. Each block is then checked share-aware. So it can only ever forward data a vanilla script, mod, or player could have written on a grid whose terminal you could open yourself. No grid positions are ever sent.
 
 Bring-your-own-backend: the plugin only extracts and ships; the documented JSON contract lets you build any server/dashboard. There is no author backend; data goes only to the endpoint you configure (or a local file).
 
@@ -21,13 +21,9 @@ A separate, optional companion Programmable Block script (vanilla) is one exampl
 
 MIT licensed. Source: https://github.com/arsnekfcn/Conduit</Description>
 
-  <Commit>d925ab35eaf5840b8d715ed41f8aa49a9a8839a8</Commit>
+  <Commit>a72892bb8fa6bc8c9ad13e32ff19d186311c21a2</Commit>
 
   <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
   <Runtimes>NETFramework</Runtimes>
-
-  <!-- No <NuGetReferences>: Pulsar already provides Newtonsoft.Json in its own libraries, so the from-source
-       build resolves it without us declaring it (declaring it would add a second copy and risk a conflict).
-       The local/manual deploy.sh build still resolves Newtonsoft via the csproj PackageReference. -->
 
 </PluginData>
