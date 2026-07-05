@@ -21,8 +21,11 @@ MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
        normalization). -->
   <Runtimes>NETFramework</Runtimes>
 
-  <!-- Pulsar compiles from source and resolves third-party deps from NuGet (the csproj additionally
-       embeds them for the local/manual single-file build only). Pinned to the versions we developed against. -->
+  <!-- Logo crest etc. Pulsar exposes this repo folder and calls Plugin.LoadAssets(path) with it. -->
+  <AssetFolder>assets</AssetFolder>
+
+  <!-- Pulsar compiles from source and restores these from NuGet (the local/manual build ships them as
+       separate files alongside the DLL). Pinned to the versions we developed against. -->
   <NuGetReferences>
     <PackageReference Include="Octokit" Version="13.0.1" />
     <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
