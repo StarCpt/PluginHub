@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>arsnekfcn/Shipyard</Id>
+  <FriendlyName>Shipyard</FriendlyName>
+  <Author>arsnek</Author>
+
+  <Tooltip>In-game, GitHub-backed blueprint version control.</Tooltip>
+
+  <Description>In-game blueprint version control for Space Engineers, backed by GitHub.
+
+Sign in with GitHub from inside the game, then publish, check out, review, and diff ships as pull requests — no website needed. Shipyard can even create a private repo for you. Or work fully offline with a local git repo (no account or network).
+
+Features: shared ship library browsing; check-out locks; publish/update as PRs with in-game review, approve, and merge; visual wireframe diffs of what changed between versions; one-click Steam Workshop publishing; per-user GitHub token stored locally. Blueprints are scrubbed of owner/SteamID/GPS on commit.
+
+MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
+
+  <Commit>1d2b9a1337d621adaec18a99f412285ffe1651cb</Commit>
+
+  <!-- Windows / .NET Framework only: uses DPAPI (token encryption) and System.Drawing (thumbnail
+       normalization). -->
+  <Runtimes>NETFramework</Runtimes>
+
+  <!-- Logo crest etc. Pulsar exposes this repo folder and calls Plugin.LoadAssets(path) with it. -->
+  <AssetFolder>assets</AssetFolder>
+
+  <!-- Pulsar compiles from source and restores these from NuGet (the local/manual build ships them as
+       separate files alongside the DLL). Pinned to the versions we developed against. -->
+  <NuGetReferences>
+    <PackageReference Include="Octokit" Version="13.0.1" />
+    <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
+  </NuGetReferences>
+
+</PluginData>
