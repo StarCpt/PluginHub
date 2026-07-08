@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>direct-transport</Id>
+    <GroupId>direct-transport</GroupId>
+    <RepoId>CometWorks/direct-transport</RepoId>
+
+    <FriendlyName>Direct Transport</FriendlyName>
+    <Author>CometWorks</Author>
+
+    <Tooltip>Non-Steam direct UDP multiplayer transport (client)</Tooltip>
+    <Description>Lets a Space Engineers client join a dedicated server over raw UDP
+        without Steam, for headless multi-client test setups (functional and load
+        testing). Activated by the SE_DIRECT_CONNECT environment variable, which
+        Pulsar sets from its --connect option when running with --client-id.
+        Requires the matching DirectTransport (Server) plugin on the server.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+
+    <NuGetReferences>
+        <PackageReference Include="LiteNetLib" Version="1.3.1" />
+    </NuGetReferences>
+
+    <Runtimes>NETCoreApp</Runtimes>
+    <Platforms>Linux</Platforms>
+
+    <Hidden>true</Hidden>
+
+    <Commit>b7c6aa994ec8fa92987aebb86a72a3b7f0375477</Commit>
+
+</PluginData>
