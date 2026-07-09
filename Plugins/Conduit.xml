@@ -9,19 +9,13 @@
 
   <Description>A generic, format-agnostic data pipe for Space Engineers.
 
-Conduit reads any block whose Custom Data begins with the marker [CDT:...] (a tagged packet), wraps each packet in a small standard envelope, and ships it to a backend you run (HTTPS POST) and/or a local file. It never interprets the payload and never senses anything itself.
+Conduit forwards any block Custom Data tagged [CDT:...] to a backend you run (HTTPS POST) or a local file, wrapped in a small standard envelope. It never interprets the payload and never senses anything itself.
 
-The access guardrail is mechanical: it reads Custom Data only on grids you can vanilla-access right now: your own or shared-faction grids that you are controlling (in a seat), that have their terminal open, or that are within range of a live broadcasting antenna while your own antenna is online. Merely standing next to a grid does not count. Each block is then checked share-aware. So it can only ever forward data a vanilla script, mod, or player could have written on a grid whose terminal you could open yourself. No grid positions are ever sent.
+Bring-your-own-backend: there is no author server; data goes only where you point it. The in-game menu (Ctrl+Shift+Home) sets destination, auth (none / bearer / OAuth2), sinks, and sync rate; optional in-game sign-in binds a per-member token, stored DPAPI-encrypted.
 
-Bring-your-own-backend: the plugin only extracts and ships; the documented JSON contract lets you build any server/dashboard. There is no author backend; data goes only to the endpoint you configure (or a local file).
+MIT. Source: https://github.com/arsnekfcn/Conduit</Description>
 
-In-game config menu (Ctrl+Shift+Home): destination URL; auth mode (none / bearer / OAuth2 client-credentials) and its fields; online/offline sinks; sync rate; live link status; and Wipe auth. No config-file editing for any auth mode. Manual sync with a HUD confirmation; optional chat-on-sync. Optional in-game Steam sign-in binds a per-member token to your verified SteamID, stored DPAPI-encrypted and never shown in a URL.
-
-A separate, optional companion Programmable Block script (vanilla) is one example of something that writes [CDT:...] packets; the plugin reads any source.
-
-MIT licensed. Source: https://github.com/arsnekfcn/Conduit</Description>
-
-  <Commit>a72892bb8fa6bc8c9ad13e32ff19d186311c21a2</Commit>
+  <Commit>0e71ad62029ab72f78bdc208ba7b6ffbf50b37ff</Commit>
 
   <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
   <Runtimes>NETFramework</Runtimes>
