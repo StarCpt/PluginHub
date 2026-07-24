@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>ArthurGamerHD/ProjectionToolbarFixPlugin</Id>
+  <FriendlyName>Projection Toolbar Fix</FriendlyName>
+  <Author>Arthur</Author>
+  <Tooltip>Adds "Fix all toolbars" button to projectors.</Tooltip>
+  <Description>Adds "Fix all toolbars" button to projectors.</Description>
+  <Commit>b4d85fc15c7304e900f9b188045b484f27b0ac37</Commit>
+</PluginData>
