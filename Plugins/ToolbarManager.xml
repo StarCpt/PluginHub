@@ -21,7 +21,7 @@ Thank you!
   </Description>
 
   <SourceDirectories>
-    <Directory>ToolbarManager</Directory>
+    <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
   <Commit>39c9ffc6309ab9aaa7e5865edaf557c5486f1cb3</Commit>
