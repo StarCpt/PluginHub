@@ -1,12 +1,24 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>viktor-ferenczi/se-toolbar-manager</Id>
-   
-  <FriendlyName>Toolbar Manager</FriendlyName>
-  <Author>Viktor</Author>
-  <Tooltip>Allows saving and loading of character and block toolbars.</Tooltip>
-  <Description>Allows saving, loading and efficiently editing of character and block toolbars.
-Speed up your build by using a familiar toolbar layout, copy cockpits into remote control blocks and more. Allows copying toolbars between ships and games, identifies blocks by name (like named groups). Stores your toolbars locally, works with online multiplayer. 
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>viktor-ferenczi/se-toolbar-manager</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se-toolbar-manager</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Toolbar Manager</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Viktor</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Allows saving and loading of character and block toolbars.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Allows saving, loading and efficiently editing of character and block toolbars.
+Speed up your build by using a familiar toolbar layout, copy cockpits into remote control blocks and more. Allows copying toolbars between ships and games, identifies blocks by name (like named groups). Stores your toolbars locally, works with online multiplayer.
 
 For support join the SE Mods Discord:
 https://discord.gg/PYPFPGf3Ca
@@ -18,12 +30,14 @@ One time support via PayPal:
 https://www.paypal.com/paypalme/vferenczi/
 
 Thank you!
-  </Description>
+    </Description>
 
-  <SourceDirectories>
-    <Directory>ClientPlugin</Directory>
-  </SourceDirectories>
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
 
-  <Commit>39c9ffc6309ab9aaa7e5865edaf557c5486f1cb3</Commit>
+    <!-- The current plugin version's commit hash -->
+    <Commit>39c9ffc6309ab9aaa7e5865edaf557c5486f1cb3</Commit>
 
 </PluginData>
