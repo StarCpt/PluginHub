@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>AF7C26DB-2142-46C3-AC11-2DC7771A4F39</Id>
+  <RepoId>VanirDev/se-plugin-hudhooks</RepoId>
+  <FriendlyName>HUD Hooks</FriendlyName>
+  <Author>VanirDev</Author>
+  <Tooltip>Lets mods hide the crosshair and hold ESC while their own screen is open.</Tooltip>
+  <Description>Gives mods control over parts of the HUD that the Mod API does not expose, over a mod message channel.
+
+    Hooks available so far:
+    - Hide the in-world crosshair.
+    - Intercept ESC, so the pause menu does not open on top of the mod's screen.
+
+    Tokens are tracked per screen, so several mods can hold hooks at the same time without interfering with each other, and the HUD returns to normal once the last token is released. Pressing ESC twice within half a second always opens the pause menu, so a mod that fails to release its token cannot lock you out.
+
+    The plugin does nothing on its own. Install it when a mod you use asks for it. Mods keep working without it, just without the hooks.
+  </Description>
+  <SourceDirectories>
+    <Directory>HudHooks</Directory>
+  </SourceDirectories>
+  <Commit>8d912fe20ccecf3105ca70fac591763330bd75da</Commit>
+</PluginData>
