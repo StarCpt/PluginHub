@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
     <Id>KerboNerd/ConveyorHelper</Id>
@@ -12,7 +12,7 @@
 
 While you are placing a block, Conveyor Helper draws thick cyan markers on every conveyor port of the ghost, pointing outward so you can see how the block will connect before you confirm.
 
-Works with vanilla conveyors and modded ones (including AQD armored T/X/corner pieces) by reading the block's conveyor dummies — no per-mod setup.
+Works with vanilla conveyors and modded ones (including AQD armored T/X/corner pieces) by reading the block's conveyor dummies - no per-mod setup.
 
 Toggle on/off with NumPad * (configurable in the plugin settings). Visuals only; does not change placement rules or conveyor behavior.</Description>
 
