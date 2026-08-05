@@ -1,22 +1,22 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
     <Id>B64AC6ED-A9FD-4CF7-B577-5CBAA2398913</Id>
     <RepoId>InvalidArgument3/TacticalFactionPing</RepoId>
     <FriendlyName>Tactical Faction Ping</FriendlyName>
-    <Author>InvalidArgument3</Author>
+    <Author>Invalid</Author>
     <Tooltip>Private faction tactical GPS pings (look-dir / distance)</Tooltip>
     <Description>Client-only Pulsar plugin for private faction tactical pings.
 
 Place a look-direction ping with Shift+T (configurable), or /fping &lt;km&gt; &lt;name&gt;.
 Pings ride vanilla faction chat, appear as local GPS markers (one per player),
-with username-seeded or custom colors and a configurable cooldown.
+with username-seeded or custom colors and a 5s cooldown.
 
 Requires faction membership. All faction mates need the plugin to see pings.
 Repo: https://github.com/InvalidArgument3/TacticalFactionPing</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>39bba188f32eabce892d39c760a0a49af6f34000</Commit>
+    <Commit>56840ef7e6ce6aaa041ec04ee0d053373b91d8fd</Commit>
 
 </PluginData>
