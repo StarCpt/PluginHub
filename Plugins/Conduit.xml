@@ -15,9 +15,6 @@ Bring-your-own-backend: there is no author server; data goes only where you poin
 
 MIT. Source: https://github.com/arsnekfcn/Conduit</Description>
 
-  <Commit>0e71ad62029ab72f78bdc208ba7b6ffbf50b37ff</Commit>
-
-  <!-- Windows / .NET Framework only: uses DPAPI (token encryption at rest). -->
-  <Runtimes>NETFramework</Runtimes>
+  <Commit>b371e29cb8f879400adeb07cb0180a68266c6b13</Commit>
 
 </PluginData>
