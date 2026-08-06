@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>EAE23956-6E0C-420C-A57A-1C3BEF85436E</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se-aurora</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Aurora Borealis</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Viktor</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Aurora Borealis (Northern Lights) over the poles of planets with an atmosphere.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Renders volumetric Aurora Borealis (Northern Lights)
+over the poles of planets which have an atmosphere.
+
+Open the plugin's Settings for the configuration.
+        
+Original algorithm:
+
+https://blog.roytheunissen.com/2022/09/17/aurora-borealis-a-breakdown/
+https://github.com/RoyTheunissen/Aurora-Borealis-Unity
+        
+For support please join the Pulsar Discord: https://discord.gg/z8ZczP2YZY
+Please consider supporting my work on Patreon: https://www.patreon.com/semods
+    </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The HLSL shader source is copied onto disk, because the game's shader compiler loads
+         shaders from files. Needed when Pulsar builds the plugin from source. -->
+    <AssetFolder>ClientPlugin/Shaders/</AssetFolder>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>9d4784005de57935eedc365c2a68c4b4cfe7f1ec</Commit>
+
+</PluginData>
