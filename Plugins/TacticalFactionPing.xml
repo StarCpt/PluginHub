@@ -17,6 +17,6 @@ Repo: https://github.com/InvalidArgument3/TacticalFactionPing</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>398fa81243cac69420aae371e6a9ab58b793f297</Commit>
+    <Commit>fbc706e20e3f2e4231b351c640ba8cc3c6550c5d</Commit>
 
 </PluginData>
