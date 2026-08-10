@@ -15,11 +15,7 @@ Features: shared ship library browsing; check-out locks; publish/update as PRs w
 
 MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
 
-  <Commit>1d2b9a1337d621adaec18a99f412285ffe1651cb</Commit>
-
-  <!-- Windows / .NET Framework only: uses DPAPI (token encryption) and System.Drawing (thumbnail
-       normalization). -->
-  <Runtimes>NETFramework</Runtimes>
+  <Commit>c364e361273ae5ca230f960f53854f414dcd175f</Commit>
 
   <!-- Logo crest etc. Pulsar exposes this repo folder and calls Plugin.LoadAssets(path) with it. -->
   <AssetFolder>assets</AssetFolder>
@@ -29,6 +25,9 @@ MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
   <NuGetReferences>
     <PackageReference Include="Octokit" Version="13.0.1" />
     <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
+    <PackageReference Include="SkiaSharp" Version="4.150.1" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="10.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Extensions" Version="10.0.10" />
   </NuGetReferences>
 
 </PluginData>
