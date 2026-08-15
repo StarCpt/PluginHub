@@ -2,8 +2,8 @@
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
     <!-- NEVER change the Id, because it is hardcoded into the Interim (.NET Core) version of Pulsar! -->
-    <Id>dotnet-compat</Id>
-    <GroupId>dotnet-compat</GroupId>
+    <Id>se-dotnet-compat</Id>
+    <GroupId>se-dotnet-compat</GroupId>
     <RepoId>CometWorks/dotnet-compat</RepoId>
 
     <FriendlyName>DotNetCompat</FriendlyName>
