@@ -21,5 +21,5 @@ Report bugs via GitHub issues.</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>7a5a9c4d8832d3048e4e7b7643230a9356dd65e6</Commit>
+    <Commit>2203d19ae148716f1ee2ec78b5d235d209e1d230</Commit>
 </PluginData>
