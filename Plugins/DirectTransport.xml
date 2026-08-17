@@ -25,7 +25,6 @@
         <PackageReference Include="LiteNetLib" Version="1.3.1" />
     </NuGetReferences>
 
-    <Runtimes>NETCoreApp</Runtimes>
     <Platforms>Linux</Platforms>
 
     <Hidden>true</Hidden>

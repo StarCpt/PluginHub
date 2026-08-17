@@ -21,7 +21,8 @@ plugin by Pulsar if running on Linux.</Description>
         <PackageReference Include="Silk.NET.OpenAL" Version="2.23.0" />
 	</NuGetReferences>
 
-    <Runtimes>NETCoreApp</Runtimes>
+    <Runtimes>CoreCLR</Runtimes>
+    <Platforms>Linux</Platforms>
 
     <Hidden>true</Hidden>
 

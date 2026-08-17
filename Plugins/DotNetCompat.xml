@@ -25,7 +25,7 @@ It is added by Pulsar automatically on demand.
 		<PackageReference Include="System.Formats.Nrbf" Version="10.0.1" />
 	</NuGetReferences>
 
-    <Runtimes>NETCoreApp</Runtimes>
+    <Runtimes>CoreCLR</Runtimes>
 
     <Hidden>true</Hidden>
     
