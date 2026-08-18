@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>876E6E2C-2CD1-4285-B092-93D76F752D10</Id>
+    <RepoId>dawidmachon/se-ore-to-auto-gps</RepoId>
+    <FriendlyName>Ore to Auto Gps</FriendlyName>
+    <Author>dawidmachon</Author>
+    <Tooltip>Legit: automatically mark ore your ore detector detects, with an approximate size measured in the background.</Tooltip>
+    <Description>Ore to Auto Gps automatically turns ore your ore detector detects into GPS waypoints - no keybind needed. It is legit: it ONLY ever marks ore the detector has already found; it never reveals ore you have not detected.
+
+To give each waypoint an approximate size and proper center, it measures the already-detected deposits with a background voxel read (anything the detector did not find is discarded). The sizing scan auto-expands to your ore detector's maximum range, so whatever tier of detector you use gets covered.
+
+Features:
+- Fully automatic - markers appear as your detector scans (works while remote-controlling drones, since the drone's detector does the detecting).
+- Connected-component grouping: one deposit = one marker at its true center with the real total size, no matter how wide it is.
+- Size bands (Trace/Small/Medium/Large/Huge, Huge >= 5,000,000 kg of ore) plus the potential yield in kg: ore kg and ingot kg @100% (default refinery, no yield upgrades).
+- Field markers: scattered tiny deposits within a radius share one marker to avoid clutter.
+- Per-ore toggles, distinct color per ore, smart cross-scan de-duplication.
+- Runs on a background thread (never freezes the game). Works on dedicated servers (client-side).
+
+Report bugs via GitHub issues.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>2203d19ae148716f1ee2ec78b5d235d209e1d230</Commit>
+</PluginData>
