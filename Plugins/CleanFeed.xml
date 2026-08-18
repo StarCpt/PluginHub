@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>arsnekfcn/CleanFeed</Id>
+  <FriendlyName>CleanFeed</FriendlyName>
+  <Author>arsnek</Author>
+  <Tooltip>Keep selected HUD elements visible while hiding them from supported game capture.</Tooltip>
+  <Description>Independent HUD privacy controls for Space Engineers recording and streaming.
+
+CleanFeed can leave selected HUD elements visible to the player while removing them from NVIDIA, OBS Game Capture, and other compatible game-capture recordings. Player visibility can also be configured independently, and an unfocused-window privacy guard prevents supported HUD from appearing in a stream during alt-tab.
+
+Explicit compatibility controls for vanilla HUD, HUDLCD, WeaponCore, WC Radar, Flight HUD, Flight Vector, Beaconless Thrust/Power Signals, Flip and Burn, GameCore's Hand Terminal, and BuildInfo's toolbar info panel, plus best-effort discovery for other HUD providers. Unsupported render paths remain visible and are reported in the settings screen.
+
+Requires Windows and Pulsar (Legacy or Interim), and windowed or fullscreen-window mode. Capture compatibility varies by recorder; Display Capture is not a clean-feed route.
+
+MIT. Source and issue reporting: https://github.com/arsnekfcn/CleanFeed</Description>
+  <SourceDirectories>
+    <Directory>Compatibility</Directory>
+    <Directory>Core</Directory>
+    <Directory>Diagnostics</Directory>
+    <Directory>Entrypoint</Directory>
+    <Directory>Overlay</Directory>
+    <Directory>Profiles</Directory>
+    <Directory>Render</Directory>
+    <Directory>Screens</Directory>
+    <Directory>Tools</Directory>
+  </SourceDirectories>
+  <Platforms>Windows</Platforms>
+  <Commit>4510fed181e311af7c2a94583c70759918e2d8e4</Commit>
+</PluginData>
