@@ -25,5 +25,5 @@ MIT. Source and issue reporting: https://github.com/arsnekfcn/CleanFeed</Descrip
     <Directory>Tools</Directory>
   </SourceDirectories>
   <Platforms>Windows</Platforms>
-  <Commit>de4e2056ba00c7670d6a521e248736b84c39ab27</Commit>
+  <Commit>4510fed181e311af7c2a94583c70759918e2d8e4</Commit>
 </PluginData>
