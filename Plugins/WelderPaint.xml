@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>dawidmachon/se-welder-paint</Id>
+  <FriendlyName>Welder Paint</FriendlyName>
+  <Author>dawidmachon</Author>
+  <Tooltip>Paint blocks by aiming a welder at them instead of using a ghost block</Tooltip>
+  <Description>Repaint blocks by aiming your welder at them and pressing the left mouse button - no need to hold a block in hand and touch its sides with the ghost, which is tedious for small or decorative blocks.
+
+Pick a color or skin in the normal color picker (P) as usual, toggle paint mode with a configurable keybind (default O), aim, click. Hold the left mouse button to paint continuously.
+
+Targeting mirrors the welder's own highlight, so visually small blocks that own a whole cube cell (corner floor lamps, wall pictures) can be painted directly or aimed past to paint the floor/wall behind them.
+
+Uses the exact same server-validated paint request as vanilla block painting, so multiplayer ownership rules apply unchanged. Optional debug network logging for diagnostics.</Description>
+  <Commit>a50c8ada5151ad85aef89be6e844bb8899dc634f</Commit>
+</PluginData>
