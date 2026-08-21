@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>dawidmachon/se-cargo-hud-overlay</Id>
+    <FriendlyName>Cargo HUD Overlay</FriendlyName>
+    <Author>dawidmachon</Author>
+    <Tooltip>Passive HUD overlay showing ore / ingot / component / ammo totals of the local grid while seated.</Tooltip>
+    <Description>Displays a compact overlay on the HUD with the current cargo of the grid you are seated in (local grid only, no subgrids). Categories: ore, ingot, components, ammunition. Updates only when cargo changes. Hidden on foot, in spectator, and in minimal HUD.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>c736dfa59ddb7824e8c4d07e2beea273aa31911d</Commit>
+</PluginData>
