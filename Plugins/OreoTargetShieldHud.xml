@@ -6,13 +6,13 @@
   <RepoId>austinog92-afk/OreoTargetShieldHud</RepoId>
   <FriendlyName>Oreo Target Shield HUD</FriendlyName>
   <Author>Oreo Systems</Author>
-  <Tooltip>WeaponCore target damage and Defense Shields HP overlay.</Tooltip>
-  <Description>Displays live Defense Shields HP for the current WeaponCore focus and nearby hostile grids, along with session damage dealt and locally recorded maximum NPC shield capacity.
+  <Tooltip>WeaponCore damage, shield/hull bars, ETA, and optional Roacher T3 tracking.</Tooltip>
+  <Description>Displays live Defense Shields HP, selected-target hull integrity, RPG-style floating hit numbers, drain or recharge rate, and break or full ETA for the current WeaponCore focus. Also shows up to sixteen on-screen hostile shield bars, session damage dealt, locally recorded maximum NPC shield capacity, and the matching Oreo Roacher TRACK target's T3 recovery statistics.
 
 Requires WeaponCore and Defense Shields on the server. Enable the Text HUD API client mod in Pulsar.</Description>
   <SourceDirectories>
     <Directory>.</Directory>
   </SourceDirectories>
   <Hidden>false</Hidden>
-  <Commit>40af2dc5a625026586f3a206a9374800fd39fedf</Commit>
+  <Commit>035467cbee1781054913883c6d7d0b257064efbf</Commit>
 </PluginData>
