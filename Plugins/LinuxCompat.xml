@@ -29,6 +29,7 @@
     <Asset Name="NativeWrappers"
            Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.23/se1-native-wrappers.tar.gz"
            Sha256="d84bcca3a7707762632f7941b74a7f815b284c597d1c39cea0ffb7b24532eba2"
+           Extract="true"
            Placement="Bin" />
 
     <Runtimes>CoreCLR</Runtimes>
