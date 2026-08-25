@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3784965557</Id>
+  <FriendlyName>SEpedia</FriendlyName>
+  <Author>marnason</Author>
+  <Tooltip>A searchable in-game encyclopedia for Space Engineers. *Requires Rich HUD Master.*</Tooltip>
+  <DependencyIds>
+    <Id>1965654081</Id>
+  </DependencyIds>
+</PluginData>
