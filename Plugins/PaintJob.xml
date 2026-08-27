@@ -26,5 +26,5 @@ COMMANDS:
 /paint - Open the Paint Designer GUI
 /paint help - Show help information
   </Description>
-  <Commit>df26ca34d02e94e7c9bc3ce51d12659031167605</Commit>
+  <Commit>454d695a3f237c2e032b4533b32d0562b0facb9a</Commit>
 </PluginData>
