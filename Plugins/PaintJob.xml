@@ -3,17 +3,17 @@
   <Id>rosudrag/se-paintjob</Id>
   <FriendlyName>Paint Jobs</FriendlyName>
   <Author>rosudrag</Author>
-  <Tooltip>Paints a whole grid in one click - 8 styles, 37 variants, undo and reroll</Tooltip>
+  <Tooltip>Paints a whole grid in one click - 134 schemes, undo and reroll</Tooltip>
   <Description>
 Paint Jobs gives a grid a coherent paint scheme in one click - colour and armour skin together, symmetric, and derived from the grid's own shape, so a fighter and a mining rig in the same style still look nothing alike.
 
-8 styles, 37 variants: Military, Racing, Pirate, Corporate, Alien, Retro, Rudimentary, and Custom, which builds a harmony around any hue you pick (mono, analogous, complementary, split, triad, tetrad). Nav lights come out port red and starboard green, and only skins you actually own get used.
+134 schemes in 6 collections, picked as collection, then faction, then variant. Classic holds the original 8 styles, including Custom, which builds a harmony around any hue you pick (mono, analogous, complementary, split, triad, tetrad). Alongside it: The Expanse (UNN, MCRN, Belter, Free Navy, Protogen), Star Wars (Empire, Rebellion, Republic, Separatist, Mandalorian, First Order), Star Trek (Starfleet, Klingon, Romulan, Borg, Cardassian, Ferengi), Warhammer 40,000 (Ultramarines, Blood Angels, Imperial Navy, Adeptus Mechanicus, Necrons, Orks) and Stargate (Tau'ri, Goa'uld, Asgard, Wraith, Ori, Replicators). Nav lights come out port red and starboard green - unless the faction has none - and only skins you actually own get used.
 
-Type /paint, pick a grid within 500m that you own, choose a style, hit Apply. Don't like the result? Reroll for a new seed, or Undo to put it back the way it was.
+Type /paint, pick a grid within 500m that you own, choose a scheme, hit Apply. Don't like the result? Reroll for a new seed, or Undo to put it back the way it was.
 
 Chat commands, if you prefer them:
-/paint &lt;style&gt; [variant] [--hue 0-360] [--nonce n]
-/paint undo | reroll | list [style] | help
+/paint &lt;collection&gt; &lt;faction&gt; [variant] [--hue 0-360] [--nonce n]
+/paint undo | reroll | list [collection] [faction] | help
 
 Bugs and requests: https://github.com/rosudrag/se-paintjob/issues
   </Description>
@@ -21,5 +21,5 @@ Bugs and requests: https://github.com/rosudrag/se-paintjob/issues
     <Directory>PaintJob</Directory>
     <Directory>Shared</Directory>
   </SourceDirectories>
-  <Commit>7f474f7d1065894579fa44d098436878fb1948e2</Commit>
+  <Commit>2beb1785ecc6cbd1908db736b0926a1b0febf06a</Commit>
 </PluginData>
