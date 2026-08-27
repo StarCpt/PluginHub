@@ -4,37 +4,18 @@
   <GroupId>rosudrag/se-phyzix</GroupId>
   <FriendlyName>Phyzix - Entity Streaming Optimizer</FriendlyName>
   <Author>rosudrag</Author>
-  <Commit>1db50edecd7ebb3002afaf6d5c64799c0e7fbeef</Commit>
+  <Commit>eccce26e2cceaec2c0784f04295f0ba999340610</Commit>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <Tooltip>Spreads bulk entity creation across frames to remove multiplayer streaming freezes</Tooltip>
-  <Description>Phyzix - Space Engineers Entity Streaming Optimizer
+  <Description>Phyzix kills the multi-second freezes you get when a pile of entities lands in a single frame - crossing into a new sector, an MES encounter spawning, an asteroid field streaming in.
 
-Removes the multi-second freezes caused by a large batch of entities being added to the scene in one frame - entering a new sector, an MES encounter spawning, an asteroid field streaming in.
+The game drains its entity-creation queue in one unbounded loop, so a whole sector's worth of work can run in a single tick. Phyzix puts a per-frame cap on that loop - a count and a millisecond budget - and finishes the rest on later frames. Nothing is dropped, and at least one entity always gets through per frame, so a backlog can never stall. Network-streamed asteroids skip that queue entirely, so their loads are captured and replayed under the same budget.
 
-HOW IT WORKS
+Settings: adds per frame (8), frame budget (3 ms), defer asteroid loads (on), max deferred loads (64 - past that they load inline, so an extreme storm degrades to vanilla instead of eating memory), plus optional counters in the log and chat narration.
 
-The game drains its async entity-creation queue with an unbounded loop in MyEntities.UpdateAfterSimulation. Each iteration runs MyEntities.Add and OnAddedToScene: render object alloc, physics registration, hierarchy update. A whole sector finishing in one tick lands in one frame.
+Client-side, works on any server. Multiplayer only, because the loop it patches sits behind the game's own multiplayer check, and it stands down while a world is still loading.
 
-Phyzix bounds that loop with a per-frame budget - a count cap and a wall-clock cap. The rest is consumed on later frames. Nothing is dropped, and the budget always admits at least one entity per frame, so a backlog can never stall.
-
-Network-streamed asteroids skip that queue, so Phyzix captures MyVoxelReplicable.OnLoad and replays it under the same budget on a later frame - the mechanism the replication layer already uses for grids.
-
-SETTINGS
-
-- Max entity adds per frame (default 8)
-- Frame budget in milliseconds (default 3)
-- Defer asteroid loads (default on)
-- Max deferred asteroid loads (default 64) - past this cap loads run immediately, so extreme storms degrade to vanilla instead of growing memory
-- Optional per-second counters in the game log
-- Optional in-game chat narration of what the plugin is doing (off by default)
-
-SCOPE
-
-Multiplayer only - the patched loop is guarded by a multiplayer check and voxel replication is network-only, so the plugin is a no-op offline. No budget while a session is still loading.
-
-Client-side only. Works on any server.
-
-Report bugs: https://github.com/rosudrag/se-phyzix/issues</Description>
+Bugs: https://github.com/rosudrag/se-phyzix/issues</Description>
 </PluginData>
