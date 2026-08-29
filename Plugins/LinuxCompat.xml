@@ -27,8 +27,8 @@
            Placement="Bin" />
 
     <Asset Name="NativeWrappers"
-           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.31/se1-native-wrappers.tar.gz"
-           Sha256="dcfd331c2ce336501ccbe9241593d7295079c377910d62110a73489bc26a0e65"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.33/se1-native-wrappers.tar.gz"
+           Sha256="bfff82e21817d4ce96c0a2d5ea8695df8eb2d16fd131eb7c9b0c6e178dfd89ed"
            Extract="true"
            Placement="Bin" />
 
