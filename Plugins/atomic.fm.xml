@@ -2,7 +2,7 @@
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
     <Id>TomasServo/atomic.fm</Id>
-    <RepoId>TomasServo/atomicfm</RepoId>
+    <RepoId>TomasServo/atomic.fm</RepoId>
 
     <FriendlyName>Atomic.FM</FriendlyName>
     <Author>TomasServo</Author>
@@ -21,7 +21,7 @@ Volume scale is 0–11 (11 is max). The stream starts near marked blocks with di
 
 Controls: Ctrl+Alt+M toggles playback.
 
-https://github.com/TomasServo/atomicfm
+https://github.com/TomasServo/atomic.fm
     </Description>
 
     <SourceDirectories>
@@ -35,7 +35,6 @@ https://github.com/TomasServo/atomicfm
     <Platforms>Windows</Platforms>
     <Hidden>false</Hidden>
 
-    <!-- Pulsar builds this commit from RepoId after it exists on GitHub -->
-    <Commit>0933c143bf5202d1a80e92135f69ed933f4ae4fe</Commit>
+    <Commit>40365b6860a5ed28973c060a0f880fc9149dbe0d</Commit>
 
 </PluginData>
