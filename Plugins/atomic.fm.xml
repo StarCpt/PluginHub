@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>TomasServo/atomic.fm</Id>
+    <RepoId>TomasServo/atomicfm</RepoId>
+
+    <FriendlyName>Atomic.FM</FriendlyName>
+    <Author>TomasServo</Author>
+
+    <Tooltip>All Ultralounge all the time — client-side internet radio for Space Engineers.</Tooltip>
+
+    <Description>All Ultralounge all the time.
+
+Atomic.FM streams radio.atomic.fm into Space Engineers through Pulsar. Mark any terminal block as a radio source in Custom Data:
+
+atomic.fm=true
+atomic.fm.range=35
+atomic.fm.volume=1.0
+
+Volume scale is 0–11 (11 is max). The stream starts near marked blocks with distance fade and stereo pan. Plain armor blocks do not work. Audio is client-side.
+
+Controls: Ctrl+Alt+M toggles playback.
+
+https://github.com/TomasServo/atomicfm
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <NuGetReferences>
+        <PackageReference Include="NAudio" Version="2.2.1" />
+    </NuGetReferences>
+
+    <Platforms>Windows</Platforms>
+    <Hidden>false</Hidden>
+
+    <!-- Pulsar builds this commit from RepoId after it exists on GitHub -->
+    <Commit>0933c143bf5202d1a80e92135f69ed933f4ae4fe</Commit>
+
+</PluginData>
