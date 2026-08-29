@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>Squeech007/ToolSwitcherPlugin</Id>
+  <FriendlyName>Tool Switcher</FriendlyName>
+  <Author>austinvaness / Squeech007</Author>
+  <Tooltip>Automatically switches to the appropriate tool when cycling the toolbar.</Tooltip>
+  <Description>Automatically switches to the appropriate tool when cycling the toolbar, with fast player-change detection for Nexus seamless server switching.</Description>
+  <Commit>cc38a43d038cee969f36654c140d98f3beebafec</Commit>
+</PluginData>
