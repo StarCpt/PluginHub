@@ -3,11 +3,11 @@
 
     <Id>B6469FEE-83BF-44A9-93F9-B4A252527C35</Id>
     <RepoId>PhoenixTheSage/SE-DLSS</RepoId>
-    <FriendlyName>Zeridian DLSS 4.5</FriendlyName>
+    <FriendlyName>Zeridian's DLSS 4.5</FriendlyName>
     <Author>PhoenixTheSage</Author>
     <Tooltip>Enables DLSS 4.5 in Space Engineers</Tooltip>
     <Description>
-Adds NVIDIA DLSS & DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable GPU. Has built-in support for Rich HUD Framework.
+Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable GPU. Has built-in support for Rich HUD Framework.
     </Description>
 
     <SourceDirectories>
