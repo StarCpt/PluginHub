@@ -5,4 +5,6 @@
   <Author>opekope2</Author>
   <Commit>40164095f599d450f565a1f1054e324477c517bd</Commit>
   <Tooltip>Fixes the clipboard bug</Tooltip>
+
+  <Platforms>Proton</Platforms>
 </PluginData>

@@ -17,5 +17,6 @@
   
   <!-- The commit id. You can find this in the commits list: https://github.com/austinvaness/ToolSwitcherPlugin/commits/main -->
   <Commit>7b09ca617ed865df80b8589c7c01a85e3be857a1</Commit>
- 
+
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>
