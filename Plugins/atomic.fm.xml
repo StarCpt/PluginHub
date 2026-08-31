@@ -1,40 +1,23 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>TomasServo/atomic.fm</Id>
+  <RepoId>TomasServo/atomic.fm</RepoId>
+  <FriendlyName>atomic.fm</FriendlyName>
+  <Author>TomasServo</Author>
+  <Tooltip>Streams atomic.fm from Icecast into the Space Engineers client.</Tooltip>
+  <Description>All Ultralounge all the time.
 
-    <Id>TomasServo/atomic.fm</Id>
-    <RepoId>TomasServo/atomic.fm</RepoId>
+atomic.fm brings live internet radio, music, and ambient station audio to Space Engineers through Pulsar. Tune into an Icecast stream in the client, or turn almost any terminal block into a spatial radio source by adding atomic.fm=true to Custom Data.
 
-    <FriendlyName>Atomic.FM</FriendlyName>
-    <Author>TomasServo</Author>
-
-    <Tooltip>All Ultralounge all the time — client-side internet radio for Space Engineers.</Tooltip>
-
-    <Description>All Ultralounge all the time.
-
-Atomic.FM streams radio.atomic.fm into Space Engineers through Pulsar. Mark any terminal block as a radio source in Custom Data:
-
-atomic.fm=true
-atomic.fm.range=35
-atomic.fm.volume=1.0
-
-Volume scale is 0–11 (11 is max). The stream starts near marked blocks with distance fade and stereo pan. Plain armor blocks do not work. Audio is client-side.
-
-Controls: Ctrl+Alt+M toggles playback.
-
-https://github.com/TomasServo/atomic.fm
-    </Description>
-
-    <SourceDirectories>
-        <Directory>ClientPlugin</Directory>
-    </SourceDirectories>
-
-    <NuGetReferences>
-        <PackageReference Include="NAudio" Version="2.2.1" />
-    </NuGetReferences>
-
-    <Platforms>Windows</Platforms>
-    <Hidden>false</Hidden>
-
-    <Commit>fb7c3e1ac43e4258cd08653e9106ec1c95cac09e</Commit>
-
+Use it for lounges, bars, ships, stations, hangars, stores, events, faction bases, and server communities that want music without adding a server mod. Optional per-block settings include atomic.fm.range=35 and atomic.fm.volume=5.5. Ctrl+Alt+M toggles playback manually. Audio is client-side, so each player chooses whether to install, enable, and hear atomic.fm.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Runtimes>CLR;Mono</Runtimes>
+  <Platforms>Windows</Platforms>
+  <NuGetReferences>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </NuGetReferences>
+  <Hidden>false</Hidden>
+  <Commit>7ecb49095755a7adc839604612750096c0323b92</Commit>
 </PluginData>
