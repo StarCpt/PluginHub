@@ -12,6 +12,7 @@ Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable 
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
+        <Directory>Assets</Directory>
     </SourceDirectories>
 
     <!-- Pulsar copies this folder and calls Plugin.LoadAssets with its path.
@@ -25,6 +26,6 @@ Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable 
 
     <Platforms>Windows</Platforms>
 
-    <Commit>428ce9fbd051ba6d3145cd152b30fd14046219e7</Commit>
+    <Commit>32a0e73f8a4e69e80d0070de70d25e52aa38e454</Commit>
 
 </PluginData>
