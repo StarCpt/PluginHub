@@ -21,14 +21,14 @@
 	</NuGetReferences>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.26/se1-dependencies.tar.gz"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.31/se1-dependencies.tar.gz"
            Sha256="73530eeb5bd29b0a2e2f208149aecaea2ed12d104e501184d3291e6059e6cba5"
            Extract="true"
            Placement="Bin" />
 
     <Asset Name="NativeWrappers"
-           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.33/se1-native-wrappers.tar.gz"
-           Sha256="bfff82e21817d4ce96c0a2d5ea8695df8eb2d16fd131eb7c9b0c6e178dfd89ed"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.35/se1-native-wrappers.tar.gz"
+           Sha256="45252fddcbab3022fa3c2c63f89ce4c21b0b7e52ca97d6713e85ac2a55613724"
            Extract="true"
            Placement="Bin" />
 
