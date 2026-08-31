@@ -27,4 +27,5 @@
   
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag. -->
   <AssetFolder>Prism.SMAA/Assets/</AssetFolder>
+  <Asset Name="AssetFolder" Path="Prism.SMAA/Assets/" />
 </PluginData>

@@ -21,5 +21,6 @@ Sampling is based on the SSILVB algorithm with a modified SVGF denoiser for deno
   </SourceDirectories>
 
   <AssetFolder>Prism.Render/Shaders/</AssetFolder>
+  <Asset Name="AssetFolder" Path="Prism.Render/Shaders/" />
 
 </PluginData>

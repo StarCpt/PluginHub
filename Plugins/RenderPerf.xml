@@ -16,5 +16,6 @@
   </SourceDirectories>
 
   <AssetFolder>Prism.RenderPerf/Shaders</AssetFolder>
+  <Asset Name="AssetFolder" Path="Prism.RenderPerf/Shaders" />
 
 </PluginData>

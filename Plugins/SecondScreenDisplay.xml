@@ -23,6 +23,7 @@
   
   <!-- To specify asset files to be copied onto disk, use the AssetFolder tag.-->
   <AssetFolder>SecondScreenDisplay/resources/</AssetFolder>
+  <Asset Name="AssetFolder" Path="SecondScreenDisplay/resources/" />
 
   <Runtimes>NETFramework;CLR;Mono</Runtimes>
   

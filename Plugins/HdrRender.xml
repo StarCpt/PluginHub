@@ -34,6 +34,7 @@ Requires Windows HDR enabled and a supported display; can be force-enabled on SD
 
     <!-- To specify asset files to be copied onto disk, use the AssetFolder tag. -->
     <AssetFolder>ClientPlugin/Assets/</AssetFolder>
+    <Asset Name="AssetFolder" Path="ClientPlugin/Assets/" />
 
     <!-- The current plugin version's commit hash -->
     <Commit>b7aa3e9626c6bd213059b788cf43e0c91931a56d</Commit>
