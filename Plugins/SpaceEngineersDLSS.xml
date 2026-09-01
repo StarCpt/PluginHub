@@ -12,19 +12,21 @@ Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable 
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
+        <Directory>Assets</Directory>
     </SourceDirectories>
 
     <!-- NVIDIA DLSS redistributable. Placement=Bin copies it next to plugin.dll.
          Path is in-repo; -->
-    <Asset Name="NvngxDlss"
+    <!-- <Asset Name="NvngxDlss"
            Path="Assets/nvngx_dlss.dll"
-           Placement="Bin" />
+           Placement="Bin" /> -->
+    <AssetFolder>Assets</AssetFolder>
 
     <!-- Anomaly is optional and discovered at runtime. Do not add DependencyIds
          until Anomaly is on PluginHub; camera motion vectors remain the fallback. -->
 
     <Platforms>Windows</Platforms>
 
-    <Commit>c58590a1d908b514d3da40f38d2cc81cfefdf179</Commit>
+    <Commit>c6bc836ce1e4bf20894c73d192b33693274c2dfe</Commit>
 
 </PluginData>
