@@ -12,20 +12,19 @@ Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable 
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
-        <Directory>Assets</Directory>
     </SourceDirectories>
 
-    <!-- Pulsar copies this folder and calls Plugin.LoadAssets with its path.
-         Place SeDlssNgx.dll (native wrapper) and NVIDIA's nvngx_dlss.dll here. -->
-    <AssetFolder>Assets</AssetFolder>
+    <!-- NVIDIA DLSS redistributable. Placement=Bin copies it next to plugin.dll.
+         Path is in-repo; -->
+    <Asset Name="NvngxDlss"
+           Path="Assets/nvngx_dlss.dll"
+           Placement="Bin" />
 
-    <NuGetReferences>
-      <PackageReference Include="Lib.Harmony" Version="2.4.2" />
-      <PackageReference Include="Krafs.Publicizer" Version="2.3.0" />
-    </NuGetReferences>
+    <!-- Anomaly is optional and discovered at runtime. Do not add DependencyIds
+         until Anomaly is on PluginHub; camera motion vectors remain the fallback. -->
 
     <Platforms>Windows</Platforms>
 
-    <Commit>ef9d5976ffca94130c320ffb86e900df5b950df1</Commit>
+    <Commit>c58590a1d908b514d3da40f38d2cc81cfefdf179</Commit>
 
 </PluginData>
