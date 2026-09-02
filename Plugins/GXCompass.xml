@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>GyverX1/GXCompass</Id>
+  <FriendlyName>GX Compass</FriendlyName>
+  <Author>GyverX</Author>
+  <Tooltip>Client-side recolorable, movable planetary compass + clock.</Tooltip>
+  <Description>A clean, configurable planetary compass and clock drawn straight onto the HUD.
+
+- Client-side only: works on any server, no world mod and no Text HUD API required.
+- Recolor the text, move and resize it, with a tinted backing plate so it stays readable.
+- Cardinal letters or degrees, optional UTC + Local clock, live settings dialog.
+
+Configure it in the plugin's settings screen. Purely visual — it never affects the world or other players.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Hidden>false</Hidden>
+  <Commit>85593b895c19273d2c02b3b642bd97da0b83106a</Commit>
+</PluginData>
