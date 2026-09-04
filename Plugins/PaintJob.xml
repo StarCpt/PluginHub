@@ -28,5 +28,5 @@ Bugs and requests: https://github.com/rosudrag/se-paintjob/issues
   <!-- The pinned commit. The copy of this file in StarCpt/PluginHub is what Pulsar reads; refresh
        this hash whenever a new commit is submitted there. A file cannot name its own commit, so
        this necessarily lags the tip by the commit that updates it. -->
-  <Commit>462b0285db3e0475810691417fbd316e8704e2bf</Commit>
+  <Commit>e45284a6f3e41a8fd883e0115a8ef9759ff4b13b</Commit>
 </PluginData>
