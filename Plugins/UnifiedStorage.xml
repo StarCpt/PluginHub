@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>4BD38E0B-20BC-4797-A011-44B59E928DA4</Id>
+    <RepoId>OwendB1/se-unified-storage</RepoId>
+    <FriendlyName>Unified Storage</FriendlyName>
+    <Author>Owen de Bree</Author>
+    <Tooltip>One projected ship-wide inventory with definition-driven distribution and a vanilla UI fallback.</Tooltip>
+    <Description>Replaces the grid-side terminal inventory with a unified view while keeping every item in its real container. Includes configurable inventory groups, vanilla and modded inventory support, placement policies, refinery ore priorities, component production targets, loadouts, and transfers between distinct mechanical ship groups when conveyors permit them. Works with unmodified servers; no programmable block or server companion is required. The Unified toggle restores the vanilla inventory UI. An optional Magnetar companion adds shared ship settings.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+    <Commit>546f5cd5d215100d82c1e4c8ef335760fbea8982</Commit>
+</PluginData>
