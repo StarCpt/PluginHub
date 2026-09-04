@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Unique plugin ID — generated once, never changed. -->
+    <Id>11907A1E-7888-4CC3-916F-82CE64E27E3F</Id>
+
+    <RepoId>xSyphyx/SkylarkBelt</RepoId>
+
+    <FriendlyName>Skylark Belt</FriendlyName>
+
+    <Author>Chip Skylark</Author>
+
+    <Tooltip>Draws a wireframe torus nav marker around the Belt (asteroid ring) instance.</Tooltip>
+
+    <Description>Renders a true wireframe torus as a navigation marker around a ring-shaped
+        region — built for the Sigma Draconis Expanse "Belt" instance (an 8,500 km asteroid
+        ring around Sol), but the ring center, radius, tube radius and plane are all
+        configurable, so it works for any toroidal zone.
+
+        Client-side and render-only: it draws with the same transparent-line primitive the
+        NavMarkers mod uses for its spherical zone markers, so it sits visually alongside them
+        and sends nothing to the server. Line thickness scales with distance and fades out as
+        you fly inside the ring so it never fills the screen.
+
+        Chat commands (all persisted): /belt toggles it, /belt info reports your distance from
+        the ring centerline, /belt here opts the current world in or out, /belt scale and
+        /belt alpha tune the look, /belt reload re-reads the config file. Config lives at
+        %AppData%/SpaceEngineers/Storage/SkylarkBelt.cfg.
+
+        By default the torus only draws in worlds named "Expanse"; use /belt here elsewhere.
+    </Description>
+
+    <!-- Only this directory is compiled by the Pulsar build. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The commit the PluginHub build compiles. Pinned after the repo is pushed. -->
+    <Commit>5fa4ed99ff6fb83d84e07adb5c5762a84f564a2e</Commit>
+
+</PluginData>
