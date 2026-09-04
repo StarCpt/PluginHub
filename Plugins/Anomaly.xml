@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. PluginHub consumers depend on it. -->
+    <Id>A9C29274-E447-49EE-881B-C980E6D190FD</Id>
+    <RepoId>PhoenixTheSage/Anomaly</RepoId>
+    <FriendlyName>Anomaly Shader Framework</FriendlyName>
+    <Author>PhoenixTheSage</Author>
+    <Tooltip>Shader Framework for Space Engineers</Tooltip>
+    <Description>
+Does nothing on its own. API that provides a common layer for shaders and advanced rendering.
+
+Documentation to come at a later date. Currently mainly used by DLSS plugin for testing.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Assets</Directory>
+    </SourceDirectories>
+
+    <!-- Pulsar 2.3.1 copies this tree and calls LoadAssets(string). Named Asset / Platforms tags are post-2.3.1. -->
+    <AssetFolder>Assets</AssetFolder>
+
+    <Hidden>false</Hidden>
+
+    <Commit>acb16cef0af7898ceadef7119ddb07ee04a2b513</Commit>
+
+</PluginData>
