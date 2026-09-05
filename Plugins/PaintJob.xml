@@ -3,28 +3,30 @@
   <Id>rosudrag/se-paintjob</Id>
   <FriendlyName>Paint Jobs</FriendlyName>
   <Author>rosudrag</Author>
-  <Tooltip>Professional paint designer with GUI - 7 styles, 30+ variants including military, racing, pirate, alien &amp; more!</Tooltip>
+  <Tooltip>Paints a whole grid in one click - 134 liveries in 6 collections, live preview, undo and reroll</Tooltip>
   <Description>
-Transform your grids with professional paint jobs through an intuitive GUI interface!
+Paint Jobs gives a grid a coherent paint scheme in one click - colour and armour skin together, symmetric, and derived from the grid's own shape, so a fighter and a mining rig in the same style still look nothing alike.
 
-FEATURES:
-• User-friendly GUI: No complex commands needed - just point and paint!
-• 7 unique paint styles with 30+ total variants
-• Advanced painting system with gradient effects and pattern generation
-• Smart ship analysis for intelligent color placement
-• Navigation lights: Automatic port (red) &amp; starboard (green) lighting
-• Unique variations: Each grid gets unique colors based on its ID
-• Range-based selection: Paint grids within 500m that you own
+134 liveries in 6 collections: Classic (the 8 original styles and 37 variants, including Custom, which builds a harmony around any hue you pick - mono, analogous, complementary, split, triad, tetrad), The Expanse, Star Wars, Star Trek, Warhammer 40,000 and Stargate. Every hull wears several armour skins rather than one flat texture, placed by geometry - corners scuff, the exhaust end scorches, the belly weathers, whole panels read as replaced plate - and how used a ship looks follows the livery. Nav lights come out port red and starboard green off the main cockpit's facing, and only skins you actually own get used.
 
-HOW TO USE:
-1. Type /paint to open the Paint Designer GUI
-2. Select your grid from the dropdown (must be within 500m and owned by you)
-3. Choose a paint style and variant
-4. Click Apply to transform your grid instantly!
+Type /paint to open the paint window: collection tabs, a scrolling scheme list, and a live rotating hologram of your ship already wearing the livery you have highlighted. Browsing sends nothing over the network - the preview is a client-only miniature. Pick a grid within 500m that you own, hit Apply. Don't like the result? Reroll for a new seed, or Undo to put it back the way it was.
 
-COMMANDS:
-/paint - Open the Paint Designer GUI
-/paint help - Show help information
+The window needs the Rich HUD Master mod (workshop 1965654081) enabled in the world. Without it /paint opens a plain dropdown dialog instead; every command works either way.
+
+Chat commands, if you prefer them:
+/paint &lt;collection&gt; &lt;faction&gt; [variant] [--hue 0-360] [--nonce n]
+/paint undo | reroll | list [collection] [faction] | help
+
+The collection is optional when a faction name is unambiguous, so /paint Military Stealth still works alongside /paint Expanse MCRN Donnager.
+
+Bugs and requests: https://github.com/rosudrag/se-paintjob/issues
   </Description>
-  <Commit>df26ca34d02e94e7c9bc3ce51d12659031167605</Commit>
+  <SourceDirectories>
+    <Directory>PaintJob</Directory>
+    <Directory>Shared</Directory>
+  </SourceDirectories>
+  <!-- The pinned commit. The copy of this file in StarCpt/PluginHub is what Pulsar reads; refresh
+       this hash whenever a new commit is submitted there. A file cannot name its own commit, so
+       this necessarily lags the tip by the commit that updates it. -->
+  <Commit>e45284a6f3e41a8fd883e0115a8ef9759ff4b13b</Commit>
 </PluginData>
