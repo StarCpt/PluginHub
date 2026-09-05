@@ -5,10 +5,11 @@
     <FriendlyName>Unified Storage</FriendlyName>
     <Author>Owen de Bree</Author>
     <Tooltip>One projected ship-wide inventory with definition-driven distribution and a vanilla UI fallback.</Tooltip>
-    <Description>Replaces the grid-side terminal inventory with a unified view while keeping every item in its real container. Includes configurable inventory groups, vanilla and modded inventory support, placement policies, refinery ore priorities, component production targets, loadouts, and transfers between distinct mechanical ship groups when conveyors permit them. Works with unmodified servers; no programmable block or server companion is required. The Unified toggle restores the vanilla inventory UI. An optional Magnetar companion adds shared ship settings.</Description>
+    <Description>Replaces the grid-side terminal inventory with a unified view while keeping every item in its real container. Includes configurable inventory groups, vanilla and modded inventory support, placement policies, refinery ore priorities, crafting targets, loadouts, and transfers between distinct mechanical ship groups when conveyors permit them. Works with unmodified servers; no programmable block or server companion is required. The Unified toggle restores the vanilla inventory UI. An optional Magnetar companion adds shared ship settings. Original idea and UI testing by SpaceGT: https://github.com/SpaceGT/</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
         <Directory>Shared</Directory>
+        <Directory>Runtime</Directory>
     </SourceDirectories>
-    <Commit>546f5cd5d215100d82c1e4c8ef335760fbea8982</Commit>
+    <Commit>747a6dd372ce1fa89bfe6113f5f6cf7c63ad4b4f</Commit>
 </PluginData>
