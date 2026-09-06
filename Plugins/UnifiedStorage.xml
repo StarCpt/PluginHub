@@ -11,5 +11,5 @@
         <Directory>Shared</Directory>
         <Directory>Runtime</Directory>
     </SourceDirectories>
-    <Commit>747a6dd372ce1fa89bfe6113f5f6cf7c63ad4b4f</Commit>
+    <Commit>f79f801bc62ac16b5ec10b8f082d733895589fde</Commit>
 </PluginData>
