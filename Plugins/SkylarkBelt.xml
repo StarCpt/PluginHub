@@ -25,7 +25,7 @@
         Chat commands (all persisted): /belt toggles it, /belt info reports your distance from
         the ring centerline, /belt here opts the current world in or out, /belt scale and
         /belt alpha tune the look, /belt reload re-reads the config file. Config lives at
-        %AppData%/SpaceEngineers/Storage/SkylarkBelt.cfg.
+        Storage/SkylarkBelt.cfg in the game's user data folder.
 
         By default the torus only draws in worlds named "Expanse"; use /belt here elsewhere.
     </Description>
@@ -36,6 +36,6 @@
     </SourceDirectories>
 
     <!-- The commit the PluginHub build compiles. Pinned after the repo is pushed. -->
-    <Commit>5c837357447b662708160518e6501664abac520a</Commit>
+    <Commit>5c72c1073cc2414f35a41f17714b4c1911de20e6</Commit>
 
 </PluginData>
