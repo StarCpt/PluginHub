@@ -23,6 +23,12 @@ Documentation to come at a later date. Currently mainly used by DLSS plugin for 
 
     <Hidden>false</Hidden>
 
-    <Commit>acb16cef0af7898ceadef7119ddb07ee04a2b513</Commit>
+    <!-- Rich HUD Master is optional. Settings stay on the Pulsar MyGui dialog
+         until a terminal page is added. -->
+    <SoftDependencyIds>
+        <Id>1965654081</Id>
+    </SoftDependencyIds>
+
+    <Commit>83a143fd39ba3dc5d0b6fe3dc146527e4462ff77</Commit>
 
 </PluginData>

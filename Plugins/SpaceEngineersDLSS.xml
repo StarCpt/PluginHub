@@ -7,7 +7,13 @@
     <Author>PhoenixTheSage</Author>
     <Tooltip>Enables DLSS 4.5 in Space Engineers</Tooltip>
     <Description>
-Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable GPU. Has built-in support for Rich HUD Framework.
+Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. 
+
+Requires NVIDA DLSS-capable GPU.
+Built-in support for Rich HUD Framework.
+Built-in support for Anomaly Shader Framework.
+
+Anomaly is highly recommended as it provides real motion vectors that remove ghosting.
     </Description>
 
     <SourceDirectories>
@@ -22,11 +28,14 @@ Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. Requires NVIDA DLSS-capable 
            Placement="Bin" /> -->
     <AssetFolder>Assets</AssetFolder>
 
-    <!-- Anomaly is optional and discovered at runtime. Do not add DependencyIds
-         until Anomaly is on PluginHub; camera motion vectors remain the fallback. -->
+    <!-- Anomaly is optional and discovered at runtime. Camera motion vectors
+         remain the fallback when it is not enabled. -->
+    <SoftDependencyIds>
+        <Id>A9C29274-E447-49EE-881B-C980E6D190FD</Id>
+    </SoftDependencyIds>
 
     <Platforms>Windows</Platforms>
 
-    <Commit>c6bc836ce1e4bf20894c73d192b33693274c2dfe</Commit>
+    <Commit>67546f86d2fca95284ca5ac82035514bb1235522</Commit>
 
 </PluginData>
