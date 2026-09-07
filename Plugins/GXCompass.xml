@@ -8,12 +8,14 @@
 
 - Client-side only: works on any server, no world mod and no Text HUD API required.
 - Recolor the text, move and resize it, with a tinted backing plate so it stays readable.
-- Cardinal letters or degrees, optional UTC + Local clock, live settings dialog.
+- Cardinal letters or degrees, optional UTC + Local clock + in-game survival date, live settings dialog.
+- Follows your vehicle/character, or the view camera (V chase / ALT free-look).
+- Configure in the F2 settings dialog or with /gxc chat commands.
 
 Configure it in the plugin's settings screen. Purely visual — it never affects the world or other players.</Description>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <Hidden>false</Hidden>
-  <Commit>85593b895c19273d2c02b3b642bd97da0b83106a</Commit>
+  <Commit>19df34fac291312816aeaad3553fefd2a8f6348f</Commit>
 </PluginData>
