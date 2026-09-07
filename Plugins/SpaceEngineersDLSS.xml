@@ -1,32 +1,29 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
     <Id>B6469FEE-83BF-44A9-93F9-B4A252527C35</Id>
     <RepoId>PhoenixTheSage/SE-DLSS</RepoId>
-    <FriendlyName>Zeridian's DLSS 4.5</FriendlyName>
+    <FriendlyName>NVIDIA DLSS</FriendlyName>
     <Author>PhoenixTheSage</Author>
-    <Tooltip>Enables DLSS 4.5 in Space Engineers</Tooltip>
+    <Tooltip>Enables NVIDIA DLSS Super Resolution and DLAA in Space Engineers</Tooltip>
     <Description>
-Adds NVIDIA DLSS &amp; DLAA 4.5 to Space Engineers. 
+Adds NVIDIA DLSS Super Resolution and DLAA. Windows, NVIDIA RTX required. Defaults off.
 
-Requires NVIDA DLSS-capable GPU.
-Built-in support for Rich HUD Framework.
-Built-in support for Anomaly Shader Framework.
+Loads the NVIDIA driver's private _nvngx.dll (System32, NGXCore, or DriverStore) through an OleAut32 trampoline. A native access violation during init cannot be caught from .NET Framework and will close the game. Other failures fail closed.
 
-Anomaly is highly recommended as it provides real motion vectors that remove ghosting.
+Do not enable with HdrRender, SMAA, or SmoothFrames (tone-map, copy-to-RT, billboard, and camera-jitter overlap). Safer paths: HdrRender - use one or the other until an AfterUpscale/HDR-evaluate hook exists; SMAA - use DLSS or SMAA as the AA, not both; SmoothFrames - disable camera interpolation while DLSS is on.
+
+Optional Anomaly Shader Framework supplies object motion. Rich HUD is supported.
     </Description>
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
-        <Directory>Assets</Directory>
     </SourceDirectories>
 
-    <!-- NVIDIA DLSS redistributable. Placement=Bin copies it next to plugin.dll.
-         Path is in-repo; -->
-    <!-- <Asset Name="NvngxDlss"
-           Path="Assets/nvngx_dlss.dll"
-           Placement="Bin" /> -->
-    <AssetFolder>Assets</AssetFolder>
+    <Asset Name="NvngxDlss"
+           Url="https://github.com/PhoenixTheSage/SE-DLSS/releases/download/nvngx-dlss-310.7.0/nvngx_dlss.dll"
+           Sha256="be6e434a94ca32499515eb62ca0e6c274526055d568d0426e4c652dcdfb6ee6e"
+           Placement="Bin" />
 
     <!-- Anomaly is optional and discovered at runtime. Camera motion vectors
          remain the fallback when it is not enabled. -->
@@ -36,6 +33,6 @@ Anomaly is highly recommended as it provides real motion vectors that remove gho
 
     <Platforms>Windows</Platforms>
 
-    <Commit>67546f86d2fca95284ca5ac82035514bb1235522</Commit>
+    <Commit>eada5cbf453dd77e8b0169f43c3a5b18803a1f78</Commit>
 
 </PluginData>
