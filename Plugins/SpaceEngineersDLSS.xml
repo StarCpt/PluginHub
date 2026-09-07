@@ -5,15 +5,14 @@
     <RepoId>PhoenixTheSage/SE-DLSS</RepoId>
     <FriendlyName>NVIDIA DLSS</FriendlyName>
     <Author>PhoenixTheSage</Author>
-    <Tooltip>Enables NVIDIA DLSS Super Resolution and DLAA in Space Engineers</Tooltip>
+    <Tooltip>Enables NVIDIA DLSS and DLAA 4.5</Tooltip>
     <Description>
-Adds NVIDIA DLSS Super Resolution and DLAA. Windows, NVIDIA RTX required. Defaults off.
+Adds NVIDIA DLSS and DLAA 4.5 in Space Engineers. NVIDIA RTX required.
 
-Loads the NVIDIA driver's private _nvngx.dll (System32, NGXCore, or DriverStore) through an OleAut32 trampoline. A native access violation during init cannot be caught from .NET Framework and will close the game. Other failures fail closed.
+Optional Anomaly Shader Framework supplies object motion to prevent ghosting. 
+Rich HUD is supported.
 
-Do not enable with HdrRender, SMAA, or SmoothFrames (tone-map, copy-to-RT, billboard, and camera-jitter overlap). Safer paths: HdrRender - use one or the other until an AfterUpscale/HDR-evaluate hook exists; SMAA - use DLSS or SMAA as the AA, not both; SmoothFrames - disable camera interpolation while DLSS is on.
-
-Optional Anomaly Shader Framework supplies object motion. Rich HUD is supported.
+Compat: Certain rendering mods may not play nice until they use Anomaly.
     </Description>
 
     <SourceDirectories>
@@ -24,12 +23,6 @@ Optional Anomaly Shader Framework supplies object motion. Rich HUD is supported.
            Url="https://github.com/PhoenixTheSage/SE-DLSS/releases/download/nvngx-dlss-310.7.0/nvngx_dlss.dll"
            Sha256="be6e434a94ca32499515eb62ca0e6c274526055d568d0426e4c652dcdfb6ee6e"
            Placement="Bin" />
-
-    <!-- Anomaly is optional and discovered at runtime. Camera motion vectors
-         remain the fallback when it is not enabled. -->
-    <SoftDependencyIds>
-        <Id>A9C29274-E447-49EE-881B-C980E6D190FD</Id>
-    </SoftDependencyIds>
 
     <Platforms>Windows</Platforms>
 
