@@ -21,8 +21,8 @@
 	</NuGetReferences>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.31/se1-dependencies.tar.gz"
-           Sha256="73530eeb5bd29b0a2e2f208149aecaea2ed12d104e501184d3291e6059e6cba5"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.33/se1-dependencies.tar.gz"
+           Sha256="65d25ba6d2d2d52783dd7a74cbeda8dfede93032fe46edbfe065eef50004ffc8"
            Extract="true"
            Placement="Bin" />
 
@@ -35,6 +35,6 @@
     <Runtimes>CoreCLR</Runtimes>
     <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
-    <Commit>11a702bc2977523b8ed12ce9a1e97c4052b4e8dd</Commit>
+    <Commit>64fb8020c3e9f00a0122be9b391009d369738b19</Commit>
 
 </PluginData>
