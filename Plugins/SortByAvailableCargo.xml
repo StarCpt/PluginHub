@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>4F1BC801-9D1B-4ABC-BC30-2B425DBC2990</Id>
+    <RepoId>dawidmachon/se-sort-available-cargo</RepoId>
+    <FriendlyName>Sort by Available Cargo</FriendlyName>
+    <Author>dawidmachon</Author>
+    <Tooltip>Sort inventory containers by remaining free cargo space (most empty first)</Tooltip>
+    <Description>Adds a Sort checkbox to the ship/station inventory terminal that reorders containers by remaining free cargo space (most-empty first).
+
+Features:
+- One-click Sort checkbox right in the inventory UI, next to Hide Empty
+- Most-empty cargo containers rise to the top so you can find a place to drop items fast
+- Hides itself on the character/suit filter (mirrors Hide Empty behavior)
+- State remembered across sessions, enabled by default
+- Optional setting to also sort the left (production) panel</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>2597e4fd8066f93c4d8e449dabce67fbb01b3077</Commit>
+</PluginData>
