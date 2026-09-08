@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-    <Id>dawidmachon/se-cargo-hud-overlay</Id>
+    <Id>66DF51F7-16D5-4A00-A66D-B0DC451D10C5</Id>
+    <RepoId>dawidmachon/se-cargo-hud-overlay</RepoId>
     <FriendlyName>Cargo HUD Overlay</FriendlyName>
     <Author>dawidmachon</Author>
     <Tooltip>Passive HUD overlay showing ore / ingot / component / ammo totals of the local grid while seated.</Tooltip>
