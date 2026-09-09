@@ -42,6 +42,6 @@ Please consider supporting my work on Patreon: https://www.patreon.com/semods
     <Asset Name="AssetFolder" Path="ClientPlugin/Shaders/" />
 
     <!-- The current plugin version's commit hash -->
-    <Commit>d35c8821977af65a8fd9f2988445bceccdb868e3</Commit>
+    <Commit>97fc66a23531d13453f1d169065d6a751b02562f</Commit>
 
 </PluginData>
