@@ -11,7 +11,7 @@
     <FriendlyName>Disable Autosave</FriendlyName>
 
     <!-- The author name that you want to appear in the plugin list -->
-    <Author>Viktor Ferenczi</Author>
+    <Author>Viktor</Author>
 
     <!-- Optional tooltip for the plugin in the plugin list -->
     <Tooltip>Turns the Autosave option off in all newly created world saves</Tooltip>
