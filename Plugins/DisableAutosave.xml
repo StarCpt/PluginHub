@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>EA345E32-38B1-454B-8AC3-729C1DC40BE4</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se-disable-autosave</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Disable Autosave</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Viktor Ferenczi</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Turns the Autosave option off in all newly created world saves</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Turns the Autosave option off in all newly created world saves.
+
+It applies to worlds started from classic content, custom worlds, scenarios, campaigns and missions, to the Save As command of the in-game menu and to the Save As command of the Load World screen. The Autosave checkbox of the world settings screen (New World and Edit Settings) is unchecked and disabled while the plugin is enabled.
+
+World saves which already exist are never modified by this plugin, their autosave setting is left as it is until their settings are edited.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>d930c0262c4012e5fdb544f01f1a099b551082d3</Commit>
+
+</PluginData>
