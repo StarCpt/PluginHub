@@ -17,5 +17,5 @@ Configure it in the plugin's settings screen. Purely visual — it never affects
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <Hidden>false</Hidden>
-  <Commit>19df34fac291312816aeaad3553fefd2a8f6348f</Commit>
+ <Commit>863f502a72d09eac461593a714c33c2e9a030d5c</Commit>
 </PluginData>
