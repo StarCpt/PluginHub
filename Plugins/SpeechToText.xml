@@ -8,14 +8,19 @@
 
     <Tooltip>Connects the Handy speech to text application to the game, plugins, mods and scripts.</Tooltip>
 
-    <Description>How to use:
-1. Configure Handy and test it in a text editor: https://github.com/cjpais/Handy
-2. In Handy's Settings, under Advanced / Output change the Paste Method to
-   External Script or Webhook (if available), then copy the script path or the URL
-   over from the plugin's configuration.
-3. By default, the transcribed text goes to the mod communication channels and to the
-   programmable blocks whose name matches, while pasting into the chat is off.
-   Turn "Paste into chat" on in the configuration to get the text into the game's chat.
+    <Description>1. Setup Handy and test it in a text editor:
+   https://github.com/cjpais/Handy
+
+2. In Handy's Settings, under Advanced / Output change the
+   Paste Method to External Script or Webhook (if available),
+   then copy the script path or the URL over from the
+   plugin's configuration.
+
+3. By default, the transcribed text goes to the mod
+   communication channels and to the programmable blocks
+   whose name matches, while pasting into the chat is off.
+   Turn "Paste into chat" on in the configuration to get
+   the text into the game's chat.
     </Description>
 
     <SourceDirectories>
