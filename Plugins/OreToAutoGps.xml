@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>876E6E2C-2CD1-4285-B092-93D76F752D10</Id>
+    <RepoId>dawidmachon/se-ore-to-auto-gps</RepoId>
+    <FriendlyName>Ore to Auto Gps</FriendlyName>
+    <Author>dawidmachon</Author>
+    <Tooltip>Mark ore your ore detector detects as GPS waypoints - but only when you press your mark key. Approximate, vanilla-level size info.</Tooltip>
+    <Description>Ore to Auto Gps turns ore your ore detector has already detected into GPS waypoints - created only when you press your mark key (default Alt+L, rebindable in the plugin settings). Nothing is ever marked automatically, so ore cannot be marked while AFK. Each keypress creates at most a configurable number of NEW markers (default 5, max 5; 0 = no limit) - the most recent deposits; updating markers that already exist is not limited. It is legit: it ONLY ever marks ore the detector has already found; it never reveals ore you have not detected.
+
+To give each waypoint an approximate size and proper center, it measures the already-detected deposits with a background voxel read (anything the detector did not find is discarded). Size info stays at vanilla's information level: rough estimates computed from a BASELINE yield per ore (all ice is sized as regular ice, for example), because the ore detector does not expose which voxel variant (dense ice vs ice) a deposit is.
+
+Features:
+- Player-interaction gate - press your mark key (default Alt+L, rebindable) to mark deposits detected since the last press; no keypress, no markers. Bounded per press: at most N new markers (default 5, max 5; 0 = no limit), the most recent ones - updates of existing markers are not limited.
+- Connected-component grouping: one deposit = one marker at its true center with the real total size, no matter how wide it is.
+- Size tier in the name (&lt;mineral&gt; &lt;A|P&gt; &lt;tier&gt; &lt;kg&gt;, e.g. "Ore - Gold A Titanic 22.5M"; A=asteroid, P=planet; tiers Atom/Compact/Expand/Giant/Huge/Immense/Mammoth/Titanic) plus an approximate yield in kg using the baseline yield per ore (variant-agnostic, like the detector's own information). Optional display calibration multiplier (default 1.0) scales the shown kg/tier to servers with server-side harvest multipliers - the underlying estimate stays vanilla-baseline.
+- Field markers: scattered tiny deposits within a radius share one marker to avoid clutter.
+- Per-ore toggles, distinct color per ore, smart cross-scan de-duplication.
+- Configurable GPS name prefix (default "Ore - ") so all auto-added waypoints group together in the GPS list for bulk manage/delete and GPS grouping plugins.
+- Runs on a background thread (never freezes the game). Works on dedicated servers (client-side).
+
+Report bugs via GitHub issues.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>f46e816dec0ea87cfc675fb784a51b37c6a71565</Commit>
+</PluginData>

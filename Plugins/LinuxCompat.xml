@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
-    <Id>se-linux-compat</Id>
-    <GroupId>se-linux-compat</GroupId>
+    <Id>linux-compat</Id>
     <RepoId>CometWorks/linux-compat</RepoId>
 
     <FriendlyName>LinuxCompat</FriendlyName>
     <Author>Viktor</Author>
 
-    <Tooltip>Linux compatibility</Tooltip>
-    <Description>This is applied right after the `se-dotnet-compat`
-plugin by the Linux version of Pulsar.</Description>
+    <Tooltip>Linux support for Space Engineers</Tooltip>
+    <Description>Patches Space Engineers to run natively on Linux. The plugin loads automatically when needed.</Description>
 
     <SourceDirectories>
+        <Directory>Shared</Directory>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
@@ -21,10 +20,21 @@ plugin by the Linux version of Pulsar.</Description>
         <PackageReference Include="Silk.NET.OpenAL" Version="2.23.0" />
 	</NuGetReferences>
 
-    <Runtimes>NETCoreApp</Runtimes>
+    <Asset Name="LinuxDependencies"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.33/se1-dependencies.tar.gz"
+           Sha256="65d25ba6d2d2d52783dd7a74cbeda8dfede93032fe46edbfe065eef50004ffc8"
+           Extract="true"
+           Placement="Bin" />
 
+    <Asset Name="NativeWrappers"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.39/se1-native-wrappers.tar.gz"
+           Sha256="331f3f04180bb5f0e9a41f7bdc60c26e705479b7f9e3c9e9c5139af7ee95ec4b"
+           Extract="true"
+           Placement="Bin" />
+
+    <Runtimes>CoreCLR</Runtimes>
+    <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
-
-    <Commit>0ac71ef526071b05f9c8c3420b990772358bb03d</Commit>
+    <Commit>3e390e4cdde36bd52d712fb88484db329a55d87e</Commit>
 
 </PluginData>

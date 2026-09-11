@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>3CCD7003-8959-4787-8960-2BCA481A9758</Id>
+    <RepoId>WesternSpace/SeNoDlcUpselling</RepoId>
+    <FriendlyName>No DLC Upselling</FriendlyName>
+    <Author>WesternSpace</Author>
+    <Tooltip>Removes the DLC upselling UI in the G menu.</Tooltip>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>e3e9b29731e6d0c0791620acaa414b0d2a72c29e</Commit>
+</PluginData>

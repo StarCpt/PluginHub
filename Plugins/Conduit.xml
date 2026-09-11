@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <Id>arsnekfcn/Conduit</Id>
+  <FriendlyName>Conduit</FriendlyName>
+  <Author>arsnek</Author>
+
+  <Tooltip>A generic pipe: forwards tagged [CDT:...] data from block Custom Data (only on grids you can vanilla-access) to a backend you run (or a local file). It never senses anything itself and sends no positions.</Tooltip>
+
+  <Description>A generic, format-agnostic data pipe for Space Engineers.
+
+Conduit forwards any block Custom Data tagged [CDT:...] to a backend you run (HTTPS POST) or a local file, wrapped in a small standard envelope. It never interprets the payload and never senses anything itself.
+
+Bring-your-own-backend: there is no author server; data goes only where you point it. The in-game menu (Ctrl+Shift+Home) sets destination, auth (none / bearer / OAuth2), sinks, and sync rate; optional in-game sign-in binds a per-member token, stored DPAPI-encrypted.
+
+MIT. Source: https://github.com/arsnekfcn/Conduit</Description>
+
+  <Commit>b371e29cb8f879400adeb07cb0180a68266c6b13</Commit>
+
+  <Platforms>Windows;Proton</Platforms>
+</PluginData>

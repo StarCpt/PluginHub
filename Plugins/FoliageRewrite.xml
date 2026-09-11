@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+	<Id>WhiteFang34/FoliageRewrite</Id>
+	<FriendlyName>Foliage Rewrite - Crash Fix</FriendlyName>
+	<Author>WhiteFang</Author>
+	<Tooltip>Fixes the RTX 50-series foliage crash. Same vanilla grass, no geometry shader.</Tooltip>
+	<Description>On RTX 50-series GPUs, Space Engineers can crash to desktop with a graphics-device error (DXGI device-removed) whenever grass and foliage are on screen. The crash comes from the engine's original geometry-shader foliage pipeline.
+
+Foliage Rewrite replaces that pipeline with a modern compute-shader path that draws the same grass with no geometry shader, removing the crash trigger. The result matches vanilla: the same blades, wind sway, density, and draw distance.
+
+The settings cog exposes grass draw distance, density, and distance falloff, plus an enable toggle. Press Ctrl+F8 to switch the rewrite off and back on instantly, no restart needed.</Description>
+	<SourceDirectories>
+		<Directory>Plugin</Directory>
+	</SourceDirectories>
+	<Commit>34f42684215a01ce3a23ea2a08e9b1eb94486bbb</Commit>
+</PluginData>

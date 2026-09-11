@@ -14,4 +14,6 @@ Load any offline world and press Shift+F to open the editor then follow the tool
 
   <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins only appear when they are enabled or searched for in the search box. -->
   <Hidden>false</Hidden>
+
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>

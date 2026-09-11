@@ -8,4 +8,6 @@
   <SourceDirectories>
     <Directory>SEVersion</Directory>
   </SourceDirectories>
+
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>

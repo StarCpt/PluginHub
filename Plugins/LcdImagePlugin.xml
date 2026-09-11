@@ -5,4 +5,6 @@
   <Author>avaness</Author>
   <Tooltip>Adds a button to the LCD that converts an image to characters.</Tooltip>
   <Commit>4ac6fc0982b5ab58559c5c499e5420acafc46ce9</Commit>
+
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>

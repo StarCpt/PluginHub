@@ -6,4 +6,6 @@
   <Author>WesternGamer</Author>
   <Tooltip>Shows the Red Dead Redemption 2 death screen when player dies.</Tooltip>
   <Commit>eaa917a023f5cb89a7161ac5a63db9ce861600a1</Commit>
+
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>

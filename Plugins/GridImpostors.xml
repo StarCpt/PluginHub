@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>0BAD6C9F-C5E4-46A4-9CAD-C02E62EA7AAC</Id>
+  <RepoId>empireu/GridImpostors</RepoId>
+  <FriendlyName>GridImpostors</FriendlyName>
+  <Author>empireu</Author>
+  <Tooltip>Replaces distant grids with impostors for performance.</Tooltip>
+  <Description>
+    Replaces distant grids with a simple model that costs nothing to render. This makes rendering distant grids basically free.
+    Meant for heavy combat in an SDX-like environment.
+    No stability guarantees. If you have issues, report them to me.
+
+    To start, set a distance that makes the visual impact acceptable. P.S. if you zoom into the grid, it will get reverted, so don't get confused by that. WC-locked grids are also reverted.
+  </Description>
+  <SourceDirectories>
+    <Directory>GridImpostors</Directory>
+  </SourceDirectories>
+  <Commit>c9fd46842e09d953829f3451360bdb4575908140</Commit>
+</PluginData>
