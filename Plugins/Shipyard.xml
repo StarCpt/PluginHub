@@ -18,7 +18,6 @@ MIT licensed. Source: https://github.com/arsnekfcn/Shipyard</Description>
   <Commit>c364e361273ae5ca230f960f53854f414dcd175f</Commit>
 
   <!-- Logo crest etc. Pulsar exposes this repo folder and calls Plugin.LoadAssets(path) with it. -->
-  <AssetFolder>assets</AssetFolder>
   <Asset Name="AssetFolder" Path="assets" />
 
   <!-- Pulsar compiles from source and restores these from NuGet (the local/manual build ships them as

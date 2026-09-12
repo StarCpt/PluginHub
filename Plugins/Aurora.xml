@@ -38,7 +38,6 @@ Please consider supporting my work on Patreon: https://www.patreon.com/semods
 
     <!-- The HLSL shader source is copied onto disk, because the game's shader compiler loads
          shaders from files. Needed when Pulsar builds the plugin from source. -->
-    <AssetFolder>ClientPlugin/Shaders/</AssetFolder>
     <Asset Name="AssetFolder" Path="ClientPlugin/Shaders/" />
 
     <!-- The current plugin version's commit hash -->
