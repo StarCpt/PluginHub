@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3797793543</Id>
+   
+  <FriendlyName>More Custom Data Actionws</FriendlyName>
+  <Author>Nerd e1</Author>
+  <Tooltip>Allows for copy pasting and saving/loading block custom data.</Tooltip>
+  <Description>
+Adds the following terminal/toolbar actions to every terminal block:
+- Copy Custom Data: Copies the block's custom data
+- Paste Custom Data: Pastes the last copied custom data
+- Clear Custom Data: Clears the block's custom data
+- Save Custom Data Profile w/ a text box: Saves the block's custom data into a named profile, persists between worlds.
+- Load Custom Data Profile w/ a dropdown: Loads the block's custom data from the given named profile, persists between worlds.
+- Delete Custom Data Profile: Deletes the selected named profile.
+
+Also has a terminal toggle to enable/disable showing the toolbar actions to avoid clutter (terminal controls unaffected).
+</Description>
+  <DependencyIds>
+    <Id>1965654081</Id>
+  </DependencyIds>
+</PluginData>
