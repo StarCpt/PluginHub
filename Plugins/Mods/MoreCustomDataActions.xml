@@ -2,7 +2,7 @@
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
   <Id>3797793543</Id>
    
-  <FriendlyName>More Custom Data Actionws</FriendlyName>
+  <FriendlyName>More Custom Data Actions</FriendlyName>
   <Author>Nerd e1</Author>
   <Tooltip>Allows for copy pasting and saving/loading block custom data.</Tooltip>
   <Description>
