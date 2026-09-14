@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>DB0C2D17-9642-4B33-BD5E-96334E20144C</Id>
+  <RepoId>KLoverTony/realistic-acs</RepoId>
+  <FriendlyName>Realistic ACS</FriendlyName>
+  <Author>KLoverTony</Author>
+  <Tooltip>Client-side finite RCS and virtual-thruster attitude-control prototype.</Tooltip>
+  <Description>Client-side Realistic ACS prototype for Space Engineers 1. It uses finite RCS, virtual ordinary-thruster geometry, persistent rotational inertia, dampener-coupled rotational arrest, and manual override torque. The optional Realistic ACS RCS Blocks content mod adds finite ion and hydrogen RCS clusters with animated gimbals: https://github.com/KLoverTony/realistic-acs/tree/main/acs-rcs-block-mod
+
+This is a local-physics prototype and is not multiplayer-safe.</Description>
+  <SourceDirectories>
+    <Directory>acs-client-plugin/ClientPlugin</Directory>
+  </SourceDirectories>
+  <Runtimes>NETFramework</Runtimes>
+  <Commit>d746fc45df274ec39b2ad05e65e32e1c5bcfdd42</Commit>
+</PluginData>
