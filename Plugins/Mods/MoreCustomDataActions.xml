@@ -16,7 +16,4 @@ Adds the following terminal/toolbar actions to every terminal block:
 
 Also has a terminal toggle to enable/disable showing the toolbar actions to avoid clutter (terminal controls unaffected).
 </Description>
-  <DependencyIds>
-    <Id>1965654081</Id>
-  </DependencyIds>
 </PluginData>
