@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. PluginHub consumers depend on it. -->
+    <Id>A9C29274-E447-49EE-881B-C980E6D190FD</Id>
+    <RepoId>PhoenixTheSage/Anomaly</RepoId>
+    <FriendlyName>Anomaly Shader Framework</FriendlyName>
+    <Author>PhoenixTheSage</Author>
+    <Tooltip>Shader Framework for Space Engineers</Tooltip>
+    <Description>
+Does nothing on its own. API that provides a common layer for shaders and advanced rendering.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Asset Name="AssetFolder" Path="Assets/" />
+
+    <Hidden>false</Hidden>
+
+    <Commit>0d8addf793f2aac7d569d1012bc76fe80972d080</Commit>
+
+</PluginData>
