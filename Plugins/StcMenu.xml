@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of the plugin, never change this -->
+    <Id>CC2344F5-02BB-409E-ADE4-2B800DF06D36</Id>
+
+    <RepoId>STContinuum3/stc-launcher</RepoId>
+
+    <FriendlyName>Star Trek Continuum 4.1 - Menu System</FriendlyName>
+    <Author>Sargonnas</Author>
+    <Tooltip>Adds STC specific menu items and background video.</Tooltip>
+
+    <!-- Shown on the plugin details panel, 1000 characters max. Defaults to the Tooltip. -->
+    <Description>
+        Main menu integration for the Star Trek Continuum (STC) servers.
+
+        - Adds an STC Servers button next to New Game. Picking a server opens the game's Direct Connect screen with its address filled in. With Dev mode on, an STC Dev Servers button lists the development servers.
+        - Replaces the main menu background with an STC video whose soundtrack replaces the stock menu music and follows the music volume slider. Turn off Enable custom video in the settings to keep the stock background and music.
+        - Hides the Keen news panel, DLC banners and Newsletter button. Turn off Hide menu news in the settings to show them, for example to subscribe to the newsletter for its reward blocks.
+
+        Network: downloads the background video (about 12 MB) from this repository's GitHub releases, and the server list (servers.json) from raw.githubusercontent.com once per launch.
+
+        Video footage by Star Trek Continuum members, soundtrack by siege3581. The media is not covered by the MIT licence.
+    </Description>
+
+    <!-- Only source code in these directories is compiled -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Main menu background video, kept out of the repository so the source download stays small.
+         Pulsar downloads the release zip, checks its hash, extracts it and passes the folder to
+         Plugin.LoadAssets. A new video needs a new release and a new Url and Sha256 here. -->
+    <Asset Name="AssetFolder"
+           Url="https://github.com/STContinuum3/stc-launcher/releases/download/media-v1/stc-menu-video-v1.zip"
+           Sha256="66f6b93082667e4a46052cbb95539501e03b122b50092f1b87a5ffd7322d9973"
+           Extract="true" />
+
+    <Commit>d17492abb397822e39d16137c93c146924425186</Commit>
+
+</PluginData>
