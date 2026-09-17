@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>CD2C21E3-AD40-4867-9F2F-C25968258B47</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se-night-vision</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Night Vision</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Space; Viktor</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Night vision with active and through-glass passive modes.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>
+        Night vision inspired by Elite Dangerous. Active mode brightens dark scenes, outlines nearby
+        geometry, and uses a short-range infrared fallback. Passive mode limits the effect to one-way glass.
+
+        Hold the light key (L by default) to toggle it. A short press still toggles the light. Helmet,
+        camera, and spectator modes can be changed in the plugin settings.
+
+        This is a local visual effect and does not change gameplay.
+
+        For support please join the Pulsar Discord: https://discord.gg/z8ZczP2YZY
+    </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The game's shader compiler loads shaders from files, so the HLSL source and the HUD icon are
+         copied onto disk. The reserved asset name "AssetFolder" makes Pulsar call Plugin.LoadAssets(string). -->
+    <Asset Name="AssetFolder" Path="ClientPlugin/Assets" />
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>5854f890b289151f1e02734e65eb491b81203d83</Commit>
+
+</PluginData>
