@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:type="ModPlugin">
+  <Id>3789098420</Id>
+  <FriendlyName>OREO SYSTEMS // BETA</FriendlyName>
+  <Author>austinog92-afk</Author>
+  <Tooltip>Client-side OREO SYSTEMS beta HUD, allegiance, progression and WeaponCore combat UI.</Tooltip>
+  <Description>Client-side OREO SYSTEMS beta HUD with Lion/Dragon allegiance, evolving rank and faction icons, and persistent mastery/career progression. Uses Rich HUD Framework and reads WeaponCore / Defense Shields APIs without requiring an Oreo server mod.</Description>
+  <Hidden>true</Hidden>
+  <DependencyIds>
+    <Id>1965654081</Id>
+  </DependencyIds>
+</PluginData>
