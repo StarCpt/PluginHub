@@ -11,6 +11,6 @@ This is a local-physics prototype and is not multiplayer-safe.</Description>
   <SourceDirectories>
     <Directory>acs-client-plugin/ClientPlugin</Directory>
   </SourceDirectories>
-  <Runtimes>NETFramework</Runtimes>
+  <Runtimes>CLR</Runtimes>
   <Commit>d746fc45df274ec39b2ad05e65e32e1c5bcfdd42</Commit>
 </PluginData>
