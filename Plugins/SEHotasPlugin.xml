@@ -41,4 +41,6 @@
   <NuGetReferences>
     <Config>Project/packages.config</Config>
   </NuGetReferences> -->
+  
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>
