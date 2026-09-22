@@ -11,4 +11,5 @@
     The plugin needs to be installed on any server as well in order to fully support rovers.
   </Description>
   <Commit>b76a0a2859531f733c7506fe74a6e6ce3331591a</Commit>
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>
