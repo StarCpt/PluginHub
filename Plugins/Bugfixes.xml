@@ -6,21 +6,14 @@
     <FriendlyName>Bugfixes</FriendlyName>
     <Author>CometWorks</Author>
 
-    <Tooltip>Fixes long standing bugs may never be fixed in the vanilla game.</Tooltip>
-
-    <Description>
-        Fixes long standing bugs may never be fixed in the vanilla game.
-
-        Bugs fixed:
-        - #1: Server-absolute mod model paths in the vicinity asset preload
-        - #3: The HUD energy-time stat dereferencing a resource distributor the controlled grid does not have
-    </Description>
+    <Tooltip>Fixes long-standing bugs may never be fixed in the game client</Tooltip>
+    <Description>See the README on GitHub</Description>
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>50583e714e3346c46eae2fd301293e22b1a6842a</Commit>
+    <Commit>ca4c6dce1233fed5793a31f01439ba73c4091611</Commit>
 
 </PluginData>
