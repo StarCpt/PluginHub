@@ -12,8 +12,9 @@
         Fixes long standing bugs may never be fixed in the vanilla game.
 
         Bugs fixed:
-        - #1: Server-absolute mod model paths in the vicinity asset preload
-        - #3: The HUD energy-time stat dereferencing a resource distributor the controlled grid does not have
+        - Server-absolute mod model paths in the vicinity asset preload
+        - The HUD energy-time stat dereferencing a resource distributor the controlled grid does not have
+        - Crash in Havok's end-of-step contact callbacks after a contact listener is detached (doors vs missiles)
     </Description>
 
     <SourceDirectories>
@@ -21,6 +22,6 @@
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>50583e714e3346c46eae2fd301293e22b1a6842a</Commit>
+    <Commit>ea3db4fbfa95f0452ac569af97e202e0741ef682</Commit>
 
 </PluginData>
