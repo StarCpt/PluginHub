@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>57F5514B-B0B8-4332-BFB9-35FB08BB76F4</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>Taeleus/TetherSE</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>TetherSE</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Taeleus</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Link a player's tools to a nearby inventory.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Highlight a block with inventory access and type /tether to link to it. Welders pull components from the linked inventory, while grinders and drills transfer collected materials back to it.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>63f294df9f3627e126f237724706533f76270afe</Commit>
+
+</PluginData>
