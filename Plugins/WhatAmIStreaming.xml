@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>maxpowa/SE_WhatAmIStreaming</Id>
+    <GroupId>maxpowa/SE_WhatAmIStreaming</GroupId>
+    <FriendlyName>What Am I Streaming?</FriendlyName>
+    <Author>maxpowa</Author>
+    <Commit>8e70d861b8f2f87fd63f1d8a62fad76b1f70815f</Commit>
+    <Tooltip>
+        Replaces the vague "Streaming..." loading wheel with a live count of exactly what's loading in — voxels, small grids, static grids, and large grids.
+    </Tooltip>
+    <Description>
+        Stop staring at that vague "Streaming..." spinner and wondering what's actually taking so long. This plugin 
+        replaces the generic loading wheel with a live, per-category breakdown of exactly what's streaming into your 
+        world: how many entities are in flight, and what kind — voxels, small grids, static grids, or large grids. It's 
+        lightweight, updates in real time as the stream progresses, and works in any multiplayer session, so the next 
+        time the world is loading you'll know precisely what's on its way instead of just waiting blind.
+
+        Bugs: https://github.com/maxpowa/SE_WhatAmIStreaming/issues
+    </Description>
+</PluginData>
