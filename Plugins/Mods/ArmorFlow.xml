@@ -3,4 +3,10 @@
    <Id>3805405596</Id>
    <FriendlyName>ArmorFlow – Smart Armor Building</FriendlyName>
    <Author>RadKreuzWerfer</Author>
+  <Tooltip>Hull making allowing for clicking and dragging following geometry.</Tooltip>
+  <Description>ArmorFlow analyzes existing armor geometry and helps you find, preview and build matching armor shapes. Has an optional Rich HUD Master gui
+that labels the price of what you are placing, 
+You can use N ( Default Keybind ) to attempt to match the geometry of the block you are looking at or...
+You can use Shift + N to switch to hull mode placing multiple points to place a large amount of blocks while attempting to match geometry and slope
+  </Description>
 </PluginData>
