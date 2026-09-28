@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>BDFC3B70-41F1-4C50-9F5B-08A931863EAF</Id>
+    <RepoId>viktor-ferenczi/se-speech-to-text</RepoId>
+    <FriendlyName>Speech To Text</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Connects the Handy speech to text application to the game, plugins, mods and scripts.</Tooltip>
+
+    <Description>1. Setup Handy and test it in a text editor:
+   https://github.com/cjpais/Handy
+
+2. In Handy's Settings, under Advanced / Output change the
+   Paste Method to External Script or Webhook (if available),
+   then copy the script path or the URL over from the
+   plugin's configuration.
+
+3. By default, the transcribed text goes to the mod
+   communication channels and to the programmable blocks
+   whose name matches, while pasting into the chat is off.
+   Turn "Paste into chat" on in the configuration to get
+   the text into the game's chat.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Asset Name="AssetFolder" Path="Scripts" Placement="Bin"/>
+
+    <Commit>7fe5210811379dbf55b84668ad1df6a6444b2c4a</Commit>
+
+</PluginData>

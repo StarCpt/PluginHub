@@ -17,4 +17,5 @@ MIT. Source: https://github.com/arsnekfcn/Conduit</Description>
 
   <Commit>b371e29cb8f879400adeb07cb0180a68266c6b13</Commit>
 
+  <Platforms>Windows;Proton</Platforms>
 </PluginData>

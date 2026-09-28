@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>A77D81C6-222D-4D5E-8DB1-4DD23A5C6E3B</Id>
+    <RepoId>CometWorks/bugfixes</RepoId>
+    <FriendlyName>Bugfixes</FriendlyName>
+    <Author>CometWorks</Author>
+
+    <Tooltip>Fixes long-standing bugs may never be fixed in the game client</Tooltip>
+    <Description>See the README on GitHub</Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+
+    <Commit>ca4c6dce1233fed5793a31f01439ba73c4091611</Commit>
+
+</PluginData>

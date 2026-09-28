@@ -31,6 +31,6 @@ There is also an issue with wheels and analog controls. The brakes and throttle 
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </NuGetReferences>
 
-  <Runtimes>NETFramework</Runtimes>
+  <Runtimes>NETFramework;CLR;Mono</Runtimes>
   
 </PluginData>

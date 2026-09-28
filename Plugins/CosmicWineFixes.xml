@@ -7,4 +7,5 @@
   <Tooltip>Fixes the clipboard bug (enabled by default)
 Lets you automatically open log when the game crashes (in case the log button shows an error) (disabled by default)
 Lets you replace 'Exit to Windows' with 'Exit to Linux' (disabled by default)</Tooltip>
+  <Platforms>Proton</Platforms>
 </PluginData>

@@ -1,10 +1,14 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>austinvaness/SkyboxPlugin</Id>
+  <RepoId>mkaito/SkyboxPlugin</RepoId>
   <FriendlyName>Skybox Mod Loader</FriendlyName>
-  <Author>avaness</Author>
+  <Author>mkaito; avaness</Author>
   <Tooltip>Allows any skybox mod to be loaded.</Tooltip>
   <Description>Allows any skybox mod to be loaded. 
 Plugin config can also be opened using /skybox in chat.</Description>
-  <Commit>91f759385f9737269cc06b24e14218a8330c498a</Commit>
+  <Commit>83a4556bc4a5f13a04d93479e23216b588b058fb</Commit>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
 </PluginData>
