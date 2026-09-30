@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+   <Id>3798276908</Id>
+   <FriendlyName>Window Frame Be Gone!</FriendlyName>
+   <Author>CHKNFRYRMN</Author>
+ <Tooltip>Removes the frame from the edge of windows.</Tooltip>
+  <Description>This is Window Frame Be Gone!
+
+This mod replaces the normal vanilla windows with frameless versions while keeping their original functionality.
+
+Existing builds that use vanilla windows will automatically use the frameless models when this mod is enabled.
+
+If you want the frameless windows as separate blocks instead of replacing vanilla ones, use the Separate Blocks Version.
+  </Description>
+</PluginData>
+
