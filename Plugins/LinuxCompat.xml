@@ -35,6 +35,6 @@
     <Runtimes>CoreCLR</Runtimes>
     <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
-    <Commit>146e01eefeec2c5dff5f14a2f8c951f7c59a2871</Commit>
+    <Commit>346cee2ceb06e4faa0754a93f718805f87a07ff5</Commit>
 
 </PluginData>
