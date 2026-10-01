@@ -26,6 +26,6 @@ Compat: Certain rendering mods may not play nice until they use Anomaly.
 
     <Platforms>Windows</Platforms>
 
-    <Commit>7de5b930f5c230fde3b41f95dcccdcd88ddf2a27</Commit>
+    <Commit>f70259d131edbc0bc0f15337a0b07cc01b8ff3c1</Commit>
 
 </PluginData>
