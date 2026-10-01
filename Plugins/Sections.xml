@@ -27,13 +27,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>8e46290d8b1167b4b3b10f7e5b1c729feed9f2f9</Commit>
-
-  <AlternateVersions>
-    <Version>
-      <Name>1.3.5</Name>
-      <Commit>3e923be7b5a29fd975ed70d01e74872da6998aa0</Commit>
-    </Version>
-  </AlternateVersions>
+  <Commit>e38739c1d1c068c4d565d143f2711727cadec557</Commit>
 
 </PluginData>
