@@ -12,31 +12,30 @@
     <Tooltip>MCP server for LLM-driven code execution inside Space Engineers</Tooltip>
 
     <Description>*** WARNING — REMOTE CODE EXECUTION ***
-The bearer token = root password. Any client with it can run arbitrary C# on your machine (file I/O, processes, native [DllImport]). Never share or screenshot it; never port-forward the listener. Binds 127.0.0.1 only; multiplayer requires Admin or Owner promote level.
+The bearer token = root password. Any client with it can run arbitrary C# on your machine (file I/O, processes, native [DllImport]). Never share or screenshot it; never port-forward the listener. Serves localhost only; multiplayer requires Admin or Owner promote level.
 
 Turns your Space Engineers game into an MCP (Model Context Protocol) server. An LLM like Claude can connect over HTTP and execute C# directly in the running game engine with full .NET and game API access.
 
 Features:
 - REPL-style: no boilerplate, Roslyn 5.3, [DllImport] supported
 - All assemblies referenced (.NET + game + plugins) incl. internal members
-- Multi-frame coroutines + parallel script execution
+- Lanes: main + render (multi-frame coroutines), parallel (long/blocking work)
 - Console.WriteLine() piped back to the LLM
 - Per-field errors with corrected line numbers
 - Configurable port, auto-generated bearer token
-- Multiplayer: Admin/Owner only
 
 Transport: MCP Streamable HTTP (not SSE). POST JSON-RPC to http://localhost:9876/</Description>
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
-        <Directory>Shared\Core</Directory>
-        <Directory>Shared\Se1</Directory>
+        <Directory>Shared/Core</Directory>
+        <Directory>Shared/Se1</Directory>
     </SourceDirectories>
 
     <NuGetReferences>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="5.3.0" />
     </NuGetReferences>
 
-    <Commit>5d51df6b7a8e91cc37f2ada0b3d4c241d4a5e377</Commit>
+    <Commit>09bef0212325bca066f6226d4ecb6e38e11cf74e</Commit>
 
 </PluginData>
