@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>AC284074-A676-4930-B47A-F30450988608</Id>
+    <RepoId>viktor-ferenczi/se-undo</RepoId>
+
+    <FriendlyName>Undo</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Ctrl-Z / Ctrl-Y undo and redo for building, painting, grid paste and delete, terminal changes and text fields.</Tooltip>
+    <Description>
+        Undo and redo with Ctrl-Z / Ctrl-Y
+        
+        - Placing and removing blocks, grid splits included
+        - Removed blocks come back with their settings, inventory and toolbar slots
+        - Rotors, hinges, pistons and connectors come back with what they held
+        - Painting and skins
+        - Pasting and deleting grids
+        - Terminal property changes, block and grid names
+        - Custom Data and block toolbars
+        - Programmable block programs
+        - Single line text fields
+        - Grid history (Ctrl-H): put a deleted grid back on the clipboard
+
+        The history is saved with the world and follows its backups. Works offline, when hosting, and as far as the server allows when connected to one. In survival only what you could do by hand, unless creative tools are enabled.
+
+        Relative dampeners and toggle all reactors move to Ctrl-Shift-Z and Ctrl-Shift-Y. With nothing to undo, Ctrl-Z is still relative dampeners. All keys can be changed in the plugin settings.
+
+        Video: Ship editing
+        https://youtu.be/fS_KpBiItiU
+
+        Video: Terminal fields
+        https://www.youtube.com/watch?v=xcvybKVaNjA
+
+        Please see the full documentation on GitHub:
+        https://github.com/viktor-ferenczi/se-undo
+
+        For support please join the Pulsar Discord: https://discord.gg/z8ZczP2YZY
+        Please consider supporting my work on Patreon: https://www.patreon.com/semods
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>75273b8590536d7389631ad86311795550f18a23</Commit>
+
+</PluginData>
