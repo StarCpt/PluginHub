@@ -21,7 +21,14 @@
         - Single line text fields
         - Grid history (Ctrl-H): put a deleted grid back on the clipboard
 
-        The history is saved with the world and follows its backups. Works offline, when hosting, and as far as the server allows when connected to one. In survival only what you could do by hand, unless creative tools are enabled.
+        The history is saved with the world and follows its backups.
+
+        Where it works:
+        - Offline games in creative, or in survival with creative tools enabled
+        - Friends multiplayer if you are the host, with the same game mode rules
+        - Not in multiplayer hosted on a dedicated server, nor when joining a friend's game. A client could only do very little there, and even that would be cheaty.
+
+        Where it is off, it records nothing and all keys stay as in the game.
 
         Relative dampeners and toggle all reactors move to Ctrl-Shift-Z and Ctrl-Shift-Y. With nothing to undo, Ctrl-Z is still relative dampeners. All keys can be changed in the plugin settings.
 
@@ -42,6 +49,6 @@
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>75273b8590536d7389631ad86311795550f18a23</Commit>
+    <Commit>daf143a35ddb87432412cc74ab9b7ad1ce2fe566</Commit>
 
 </PluginData>
