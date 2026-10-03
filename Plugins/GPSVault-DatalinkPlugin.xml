@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
     <Id>a151ae7d-cdc7-4866-aedf-7786f3b693d4</Id>
-    <!--<RepoId>Blues-Hailfire/Space-Engineers_GPS_Vault</RepoId>-->
+    <RepoId>Blues-Hailfire/Space-Engineers_GPS_Vault</RepoId>
     <FriendlyName>GPS Vault - Datalink</FriendlyName>
     <Author>Blues Hailfire</Author>
     <Tooltip>Client for GPS Vault, has built in searching tools.</Tooltip>
