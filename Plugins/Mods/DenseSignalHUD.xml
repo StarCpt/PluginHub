@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3809623950</Id>
+  <FriendlyName>Dense Signal HUD Colored</FriendlyName>
+  <Author>Squeech007</Author>
+  <Tooltip>Compact colored HUD. First Tab: signals only. Second Tab: full HUD.</Tooltip>
+  <Description>A compact, colored HUD with a signals-only mode. Press Tab once for a clean screen that still shows GPS, antennas, ore and unknown signals; press again for the full colored HUD. Credits: colors inspired by Color Hud (Apex) by Javert, signals-only idea from Signal HUD by Patrick. Replaces the default HUD, so do not combine with other HUD mods.</Description>
+  <Hidden>false</Hidden>
+  <DependencyIds>
+  </DependencyIds>
+</PluginData>
