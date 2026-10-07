@@ -2,7 +2,7 @@
 <PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>Arstraea.KoreanPatch</Id>
   <RepoId>Arstraea/Korean-Localization-Plugin</RepoId>
-  <Commit>deb8003b0ec75661321b98e030c70df2382cdff5</Commit>
+  <Commit>91950286c0aa7c7bcb2edea88eaebdd018bb5c63</Commit>
   <FriendlyName>Korean Localization Plugin</FriendlyName>
   <Author>Arstraea</Author>
   <Tooltip>창작마당의 한글화 팩 모드와 연계하여 게임에 각종 한글 지원을 추가합니다.</Tooltip>
