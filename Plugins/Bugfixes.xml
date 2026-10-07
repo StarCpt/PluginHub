@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
 
-    <Id>A77D81C6-222D-4D5E-8DB1-4DD23A5C6E3B</Id>
+    <Id>bugfixes</Id>
     <RepoId>CometWorks/bugfixes</RepoId>
     <FriendlyName>Bugfixes</FriendlyName>
     <Author>CometWorks</Author>
