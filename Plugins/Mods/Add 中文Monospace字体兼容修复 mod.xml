@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3815044063</Id>
+  <FriendlyName>中文Monospace字体兼容修复</FriendlyName>
+  <Author>Sirius_L</Author>
+  <Tooltip>Fixed the issue of monospace font display abnormalities in Chinese. 修复了中文游戏下monospace字体显示异常的问题。</Tooltip>
+  <Description>This mod fixes the issue of monospace font display abnormalities in Chinese and is compatible with the built-in Text Surface Scripts text display, without causing the TSS text to turn into blocks.
+  此mod修复了中文下monospace字体显示异常的问题,并且兼容原版LCD内置脚本的文字显示,不会导致内置脚本文字变成方块。</Description>
+</PluginData>
