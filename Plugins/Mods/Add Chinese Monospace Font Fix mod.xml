@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3815044063</Id>
+  <FriendlyName>Chinese Monospace Font Fix</FriendlyName>
+  <Author>Sirius_L</Author>
+  <Tooltip>Fixes monospace font display issues when the game is set to Chinese.</Tooltip>
+  <Description>This mod fixes monospace font rendering issues in Chinese environments. It is compatible with the built-in Text Surface Scripts (TSS) text display, preventing TSS text from turning into blocks.</Description>
+</PluginData>
