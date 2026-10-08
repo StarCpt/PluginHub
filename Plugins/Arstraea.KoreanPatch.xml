@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-  <Id>Arstraea.KoreanPatch</Id>
+  <Id>1e60723a-305f-4ef6-9bbb-4a13f7330f1a</Id>
   <RepoId>Arstraea/Korean-Localization-Plugin</RepoId>
   <Commit>f125db1cf8452c232d5300b827b62df51d14771e</Commit>
   <FriendlyName>Korean Localization Plugin</FriendlyName>
