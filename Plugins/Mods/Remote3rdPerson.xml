@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3063543601</Id>
+  <FriendlyName>Remote 3rd Person (Mod)</FriendlyName>
+  <Author>BDCarrillo</Author>  
+  <Tooltip>Gives Remote Controls 3rd person camera</Tooltip>  
+  <Description>This mod gives remote control blocks a third person camera (if it's allowed in the world settings) controlled just like a cockpit third person camera.  Once you take control of a remote control block the camera will automatically act as a third person view.</Description>
+</PluginData>
