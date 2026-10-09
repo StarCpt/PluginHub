@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>1e60723a-305f-4ef6-9bbb-4a13f7330f1a</Id>
+  <RepoId>Arstraea/Korean-Localization-Plugin</RepoId>
+  <Commit>f125db1cf8452c232d5300b827b62df51d14771e</Commit>
+  <FriendlyName>Korean Localization Plugin</FriendlyName>
+  <Author>Arstraea</Author>
+  <Tooltip>Works with the Workshop localization pack to add Korean language support to the game.</Tooltip>
+  <Description> Works with the Korean Localization Pack on the Steam Workshop
+ (1843839106) to add Korean language support to the game.
+
+ * Select Korean language in the game settings!
+
+ * Installs Korean fonts and enables Korean text input.
+   Korean input also works regardless of the UI language.
+
+ * Automatically adds Korean fonts to useful mods such as
+   TextHudAPI, RichHudMaster, and Build Info.
+
+ For questions, contact Arstraea through any of the following:
+  - Korean Localization Pack on the Steam Workshop
+  - Naver Cafe (cafe.naver.com/spaceengineersforum)
+  - Ruliweb: Arstraea (member ID 5042027)</Description>
+  <Runtimes>CLR</Runtimes>
+  <Platforms>Windows</Platforms>
+  <SourceDirectories>
+    <Directory>Source/</Directory>
+  </SourceDirectories>
+</PluginData>
