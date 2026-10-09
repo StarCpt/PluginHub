@@ -3,6 +3,7 @@
   <Id>3815044063</Id>
   <FriendlyName>Chinese Monospace Font Fix</FriendlyName>
   <Author>Sirius_L</Author>
-  <Tooltip>Fixes monospace font display issues when the game is set to Chinese.</Tooltip>
-  <Description>This mod fixes monospace font rendering issues in Chinese environments. It is compatible with the built-in Text Surface Scripts (TSS) text display, preventing TSS text from turning into blocks.</Description>
+  <Tooltip>Fixes Monospace fonts not being rendered when game language is set to Chinese.</Tooltip>
+  <Description>This mod fixes Monospace fonts not being rendered when game language is set to Chinese.
+Also fixed Chinese characters not being rendered when English is selected.</Description>
 </PluginData>
