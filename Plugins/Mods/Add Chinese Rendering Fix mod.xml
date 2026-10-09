@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3815044063</Id>
+  <FriendlyName>Chinese Rendering Fix</FriendlyName>
+  <Author>Sirius_L</Author>
+  <Tooltip>Fixes Monospace fonts not being rendered when game language is set to Chinese.</Tooltip>
+  <Description>This mod fixes Monospace fonts not being rendered when game language is set to Chinese.
+Also fixed Chinese characters not being rendered when English is selected.</Description>
+</PluginData>
