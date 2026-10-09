@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>e3f462c3-2469-4326-95e0-a0fa2148cd3e</Id>
+  <RepoId>gronkh68-rgb/space-engineers-vr</RepoId>
+  <FriendlyName>Space Engineers VR</FriendlyName>
+  <Author>Fuchs</Author>
+  <Tooltip>Play Space Engineers in VR with OpenXR (SteamVR, Meta, Virtual Desktop, WMR). Early access.</Tooltip>
+  <Description>Play Space Engineers in virtual reality through OpenXR. Early access, tested so far with a Steam Frame over SteamVR.
+
+Head-tracked stereo view, head steers like the mouse, the character's hands follow the controllers, tools and weapons aim where the controller points, building with the hand (freeze and rotate blocks with the wrist), floating menus with a laser pointer, world-space GPS markers and cockpit support.
+
+Single-player view only, no multiplayer features of its own. Put the headset on first and make your headset's OpenXR runtime the active one (SteamVR: Settings, OpenXR, Set SteamVR as OpenXR runtime). Without a headset the game starts normally.
+
+Source and controls: https://github.com/gronkh68-rgb/space-engineers-vr</Description>
+  <SourceDirectories>
+    <Directory>src</Directory>
+  </SourceDirectories>
+  <AssetFolder>assets/</AssetFolder>
+  <Hidden>false</Hidden>
+  <Commit>3d9b0fcab2de25954b34535823a6f3f857874ebf</Commit>
+</PluginData>
