@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>9C787A5F-F67B-4EC2-AC9E-F258AD637536</Id>
+  <RepoId>Oxnard27/Survival-Symmetry-Renderer</RepoId>
+  <FriendlyName>Survival Symmetry Renderer</FriendlyName>
+  <Author>Oxnard27</Author>
+  <Tooltip>Optional native mirrored block preview renderer for the Survival Symmetry Workshop mod.</Tooltip>
+  <Description>Adds Keen's native rendered mirrored block preview to Survival Symmetry. The Workshop mod remains fully functional without this plugin and continues to own placement, outlines, drag preview, networking, and gameplay behavior. This plugin is client-side and render-only; dedicated servers do not need it.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Hidden>false</Hidden>
+  <Commit>16fc4df22ecb6ce593947be14d090fbc075e65b0</Commit>
+</PluginData>
