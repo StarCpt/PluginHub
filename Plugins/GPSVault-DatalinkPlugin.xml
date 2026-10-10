@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>a151ae7d-cdc7-4866-aedf-7786f3b693d4</Id>
+    <RepoId>Blues-Hailfire/Space-Engineers_GPS_Vault</RepoId>
+    <FriendlyName>GPS Vault - Datalink</FriendlyName>
+    <Author>Blues Hailfire</Author>
+    <Tooltip>Client for GPS Vault, has built in searching tools.</Tooltip>
+    <Description>Automatically syncs your Space Engineers GPS list, live player position, home system's planets, and nearby detected contacts (enemy, neutral, allied, unidentified) to the Space Engineers GPS Manager Discord bot, so your faction's shared vault and live web map stay up to date without manually pasting GPS strings. Neutral/enemy contacts are reported with a randomized position + uncertainty radius instead of their exact location, and all sync is paused after an hour of no player input until the player returns.</Description>
+    <SourceDirectories>
+        <Directory>Pulsar_Plugin</Directory>
+    </SourceDirectories>
+    <NuGetReferences>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </NuGetReferences>
+    <Commit>4677c597e0a75e8655de398e2f1b726dc8fd506e</Commit>
+</PluginData>
