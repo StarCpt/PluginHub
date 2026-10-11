@@ -21,7 +21,7 @@
 
 To start: connect the headset first, start the game with Pulsar's Legacy launcher, and hold the left Menu button to recentre. Settings are in Options > VR.
 
-Early access: tested only on a Quest 3 over Meta Link (cable) with an RTX 3060. Other OpenXR headsets and runtimes should work but are untested. Meta advises that NVIDIA drivers newer than 591.86 can make Link freeze.
+Early access: tested only on a Quest 3 over Meta Link (cable) with an RTX 3060. Other OpenXR headsets and runtimes should work but are untested; Vive wands have their own layout, not yet tried on real wands. Meta advises that NVIDIA drivers newer than 591.86 can make Link freeze.
 
 Controls, known issues and bug reports: https://github.com/cheezecake-dev/CheezecakeSEVR
 
@@ -44,6 +44,6 @@ A separate project, not related to Math0424's earlier SpaceEngineersVR plugin.</
 
     <Hidden>false</Hidden>
 
-    <Commit>b4f71f88665bb449ab4c94d8dec4188f79a227ec</Commit>
+    <Commit>16ee4777d039fe2f0b88e445f0f149155c49b6e7</Commit>
 
 </PluginData>
