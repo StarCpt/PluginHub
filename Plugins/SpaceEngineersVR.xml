@@ -7,15 +7,18 @@
   <Tooltip>Play Space Engineers in VR with OpenXR (SteamVR, Meta, Virtual Desktop, WMR). Early access.</Tooltip>
   <Description>Play Space Engineers in virtual reality through OpenXR. Early access, tested with a Steam Frame over SteamVR and a Quest 2.
 
-Head-tracked stereo view, head steers like the mouse, the character's hands follow the controllers, tools and weapons aim where the controller points, building with the hand (freeze and rotate blocks with the wrist), floating menus with a laser pointer and an on-screen keyboard, world-space GPS markers, an own VR HUD drawn from the game's data, body zones for controllers without a D-pad (Quest), in-game settings and key bindings, and cockpit support.
+Head-tracked stereo view, head steers like the mouse, the character's hands follow the controllers, tools and weapons aim where the controller points, building with the hand (freeze and rotate blocks with the wrist), a hand menu on the left hand with buttons on the back of both hands, floating menus with a laser pointer, world-space GPS markers, an own VR HUD drawn from the game's data, body zones for controllers without a D-pad (Quest), in-game settings and key bindings, and a cockpit HUD with a layout per cockpit type.
 
-Works in multiplayer (sort of), no multiplayer features of its own. Put the headset on first and make your headset's OpenXR runtime the active one (SteamVR: Settings, OpenXR, Set SteamVR as OpenXR runtime). Without a headset the game starts normally.
+Single-player view only, no multiplayer features of its own. Put the headset on first and make your headset's OpenXR runtime the active one (SteamVR: Settings, OpenXR, Set SteamVR as OpenXR runtime). Without a headset the game starts normally.
 
 Source and controls: https://github.com/gronkh68-rgb/space-engineers-vr</Description>
   <SourceDirectories>
     <Directory>src</Directory>
   </SourceDirectories>
-  <AssetFolder>assets/</AssetFolder>
+  <Runtimes>NETFramework;CLR;Mono</Runtimes>
+  <Asset Name="openxr_loader" Path="assets/openxr_loader.dll" Placement="Bin" Sha256="66946ea6e9cc2649e299ec412521c5eafe56c635d05055097fe4db81e11932df" />
   <Hidden>false</Hidden>
-  <Commit>7f581039d3c7f24ba98103795c56f6570088227b</Commit>
+  <Commit>faeec2e490f4d203fd55caff6722a6e99c94dd6a</Commit>
 </PluginData>
+
+
