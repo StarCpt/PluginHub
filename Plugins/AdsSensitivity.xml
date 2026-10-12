@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. -->
+    <Id>4E0107FD-F943-42FF-BAE2-66C3A0F4A0D2</Id>
+    <RepoId>Po11arr/AdsSensitivity</RepoId>
+    <FriendlyName>ADS Sensitivity</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>FOV-based ADS sensitivity, per-weapon zoom and smooth zoom</Tooltip>
+    <Description>
+Aim-down-sights tuning for hand weapons.
+
+FOV-based sensitivity: replaces vanilla's flat 0.6x ironsight sensitivity with monitor distance scaling (coefficient 1.33 by default, the CoD / Battlefield default).
+
+Per-weapon zoom: set the magnification of every hand weapon, modded guns included.
+
+Smooth zoom: eased zoom in and out with adjustable time.
+
+Client-side only. Works on any server.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Hidden>false</Hidden>
+
+    <Commit>62997b498918cfc02fb747e32b672f324399de66</Commit>
+
+</PluginData>
