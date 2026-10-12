@@ -11,7 +11,8 @@ It reads the ship's thrusters, mass, tanks, batteries, reactors and engines and 
 
 Open it with /fat in chat or from a cockpit toolbar action.
 
-Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Fat%20Albert</Description>
+Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Fat%20Albert
+Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description>
   <!-- The plugin's own folder, plus exactly the shared files its project links. -->
   <SourceDirectories>
     <Directory>Projects/Fat Albert/Source/</Directory>

@@ -11,7 +11,8 @@ Every scan starts at a working ore detector block and reaches only as far as tha
 
 Use it from an ore detector's toolbar actions.
 
-Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/OreScout</Description>
+Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/OreScout
+Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description>
   <!-- The plugin's own folder, plus exactly the shared files its project links. -->
   <SourceDirectories>
     <Directory>Projects/OreScout/Source/</Directory>

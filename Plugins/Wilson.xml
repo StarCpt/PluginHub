@@ -11,7 +11,8 @@ With Wilson loaded, the plugins tell him when something happens and he decides w
 
 Open it with /wilson in chat.
 
-Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Wilson</Description>
+Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Wilson
+Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description>
   <!-- The plugin's own folder, plus exactly the shared files its project links. -->
   <SourceDirectories>
     <Directory>Projects/Wilson/Source/</Directory>
