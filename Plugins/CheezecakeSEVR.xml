@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>600D4D7F-D4FE-41F4-8A35-CB848B8B3E3F</Id>
+
+    <RepoId>cheezecake-dev/CheezecakeSEVR</RepoId>
+
+    <FriendlyName>Cheezecake's SE VR</FriendlyName>
+
+    <Author>Cheezecake</Author>
+
+    <Tooltip>Early access: play Space Engineers in a VR headset, with your hands, through OpenXR.</Tooltip>
+
+    <Description>EARLY ACCESS. Play Space Engineers 1 in a PC VR headset. The game's own renderer draws each eye, through OpenXR: no VorpX, ReShade or other injector.
+
+- Tools sit in your hands and aim where you point; hold rifles and tools with both hands
+- Hold the stick and throttle to fly; press buttons with a fingertip; grab seats, doors and terminals to use them
+- Climb along hulls and ladders by hand; open your helmet by gripping it
+- Tools wheel, actions wheel, a wrist panel, and your suit status on your wrist
+- Standing or seated play, with height calibration; dynamic resolution
+
+To start: connect the headset first, start the game with Pulsar's Legacy launcher, and hold the left Menu button to recentre. Settings are in Options > VR.
+
+Linux (native, no Proton): start the game with Pulsar's Interim launcher. It needs the distribution's OpenXR loader, WiVRn and, for now, a patched DXVK Native; the README has the steps.
+
+Early access: tested only on a Quest 3 over Meta Link (cable) with an RTX 3060. Other OpenXR headsets and runtimes should work but are untested; Vive wands have their own layout, not yet tried on real wands. Meta advises that NVIDIA drivers newer than 591.86 can make Link freeze.
+
+Controls, known issues and bug reports: https://github.com/cheezecake-dev/CheezecakeSEVR
+
+A separate project, not related to Math0424's earlier SpaceEngineersVR plugin.</Description>
+
+    <!-- Windows on .NET Framework (Legacy) or .NET 10 (Interim), and native Linux on .NET 10 (Interim), where Pulsar compiles
+         with LINUX defined. Proton is not listed: untested. -->
+    <Platforms>Windows,Linux</Platforms>
+    <Runtimes>CLR,CoreCLR</Runtimes>
+
+    <!-- The trailing slash keeps src/SpaceEngineersVR.Launcher out: GitHub sources are matched with a plain StartsWith. -->
+    <SourceDirectories>
+        <Directory>src/SpaceEngineersVR/</Directory>
+    </SourceDirectories>
+
+    <!-- The official Khronos OpenXR loader 1.1.63 (x64), committed under lib/openxr/ with its Apache-2.0 licence.
+         Pulsar takes it from the repository archive at Commit, checks its SHA-256 and copies it next to the compiled
+         plugin, where the plugin loads it from. Linux has no asset: the plugin uses the distribution's libopenxr_loader.so.1,
+         which reads that machine's runtime manifests. -->
+    <Asset Name="openxr_loader" Path="lib/openxr/openxr_loader.dll" Placement="Bin" Platforms="Windows"
+           Sha256="66946ea6e9cc2649e299ec412521c5eafe56c635d05055097fe4db81e11932df" />
+
+    <Hidden>false</Hidden>
+
+    <Commit>54ca89f3c293ff97af300717c7a2d5a878151fd0</Commit>
+
+</PluginData>
