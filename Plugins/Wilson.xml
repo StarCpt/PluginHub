@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>974C2D6B-52D9-4B3A-A387-F2D41C9FEACD</Id>
+  <RepoId>scotlandsyard/SpaceEngineers</RepoId>
+  <FriendlyName>Wilson</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Directs the chat personalities of BaR Maid, Fat Albert, Stockpile Manager, Script to Plugin and OreScout.</Tooltip>
+  <Description>The neighbour over the fence. Wilson directs the chat personalities of BaR Maid, Fat Albert, Sacrificial Stockpile Manager, Script to Plugin and OreScout, and has a few words of his own.
+
+With Wilson loaded, the plugins tell him when something happens and he decides who speaks, now and then with a short exchange between several characters. Chat lines only show on your own screen, so it's fine on any server.
+
+Open it with /wilson in chat.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Wilson</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Wilson/Source/</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+  </SourceDirectories>
+  <Commit>7452a0bd8a8e769e2a6367ed1040c8aa44d30669</Commit>
+</PluginData>
