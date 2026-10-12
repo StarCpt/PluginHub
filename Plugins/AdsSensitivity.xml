@@ -6,7 +6,7 @@
     <RepoId>Po11arr/AdsSensitivity</RepoId>
     <FriendlyName>ADS Sensitivity</FriendlyName>
     <Author>Polar</Author>
-    <Tooltip>FOV-based ADS sensitivity, per-weapon zoom and smooth zoom</Tooltip>
+    <Tooltip>Replaces vanilla's twitchy first-person weapons with CoD / Battlefield ADS sensitivity and variable per-weapon zoom</Tooltip>
     <Description>
 Aim-down-sights tuning for hand weapons.
 
@@ -25,6 +25,6 @@ Client-side only. Works on any server.
 
     <Hidden>false</Hidden>
 
-    <Commit>62997b498918cfc02fb747e32b672f324399de66</Commit>
+    <Commit>5187c0a91f41897f3b6b969948fab30f24cae0f4</Commit>
 
 </PluginData>
