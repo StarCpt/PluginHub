@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>1843839106</Id>
+  <FriendlyName>Korean Localization Pack</FriendlyName>
+  <Author>Arstraea</Author>
+  <Tooltip>Korean fonts and translations used by the Korean Localization Plugin.</Tooltip>
+  <Description>Supplies the Korean font images and translations that the Korean Localization Plugin prepares at startup. It is enabled automatically together with the plugin.</Description>
+  <Hidden>true</Hidden>
+</PluginData>

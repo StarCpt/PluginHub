@@ -9,6 +9,9 @@
   <Description> Works with the Korean Localization Pack on the Steam Workshop
  (1843839106) to add Korean language support to the game.
 
+ Pulsar subscribes to the required pack when you enable this plugin
+ and apply the changes.
+
  * Select Korean language in the game settings!
 
  * Loads Korean fonts from a plugin cache and enables Korean input.
@@ -30,4 +33,7 @@
   <SourceDirectories>
     <Directory>Source/</Directory>
   </SourceDirectories>
+  <DependencyIds>
+    <Id>1843839106</Id>
+  </DependencyIds>
 </PluginData>
