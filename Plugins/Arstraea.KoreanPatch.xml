@@ -2,7 +2,7 @@
 <PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>1e60723a-305f-4ef6-9bbb-4a13f7330f1a</Id>
   <RepoId>Arstraea/Korean-Localization-Plugin</RepoId>
-  <Commit>f125db1cf8452c232d5300b827b62df51d14771e</Commit>
+  <Commit>0c1a68453770dd664219016c0188009a0bb6d306</Commit>
   <FriendlyName>Korean Localization Plugin</FriendlyName>
   <Author>Arstraea</Author>
   <Tooltip>Works with the Workshop localization pack to add Korean language support to the game.</Tooltip>
@@ -11,11 +11,15 @@
 
  * Select Korean language in the game settings!
 
- * Installs Korean fonts and enables Korean text input.
+ * Loads Korean fonts from a plugin cache and enables Korean input.
    Korean input also works regardless of the UI language.
 
  * Automatically adds Korean fonts to useful mods such as
    TextHudAPI, RichHudMaster, and Build Info.
+
+ Legacy font-only mods 2409196107 and 2940288034, also maintained
+ by Arstraea, are skipped client-side when replacement fonts are ready.
+ Subscriptions and saved world mod lists remain unchanged.
 
  For questions, contact Arstraea through any of the following:
   - Korean Localization Pack on the Steam Workshop
