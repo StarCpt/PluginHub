@@ -21,13 +21,13 @@
 	</NuGetReferences>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.35/se1-dependencies.tar.gz"
-           Sha256="65d25ba6d2d2d52783dd7a74cbeda8dfede93032fe46edbfe065eef50004ffc8"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.37/se1-dependencies.tar.gz"
+           Sha256="2be20cc1f3351b9f533daf20507a0042505005c7b03d71688b43879144c5de94"
            Extract="true"
            Placement="Bin" />
 
     <Asset Name="NativeWrappers"
-           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.55/se1-native-wrappers.tar.gz"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.58/se1-native-wrappers.tar.gz"
            Sha256="39635a2c33a28cf0c5fafe9a2ba7d1224caf77994b79de1dfb3ba6a75e30005c"
            Extract="true"
            Placement="Bin" />
@@ -35,6 +35,6 @@
     <Runtimes>CoreCLR</Runtimes>
     <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
-    <Commit>d1f530507b02bc70d57fc6559ea5995e781b7399</Commit>
+    <Commit>8e4b8c24f1d1b24237eea18c8224efa5190ca735</Commit>
 
 </PluginData>
