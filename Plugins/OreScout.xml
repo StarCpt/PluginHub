@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>A683CE5F-104A-496E-BB29-B4C795D70B2B</Id>
-  <RepoId>scotlandsyard/SpaceEngineers</RepoId>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
   <FriendlyName>OreScout</FriendlyName>
   <Author>scotlandsyard</Author>
   <Tooltip>Turns what your ore detector sees into GPS markers you can keep, sort and come back to.</Tooltip>
@@ -11,8 +11,8 @@ Every scan starts at a working ore detector block and reaches only as far as tha
 
 Use it from an ore detector's toolbar actions.
 
-Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/OreScout
-Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description>
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/OreScout
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
   <!-- The plugin's own folder, plus exactly the shared files its project links. -->
   <SourceDirectories>
     <Directory>Projects/OreScout/Source/</Directory>
@@ -20,5 +20,5 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>7452a0bd8a8e769e2a6367ed1040c8aa44d30669</Commit>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
 </PluginData>

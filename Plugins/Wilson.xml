@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <Id>974C2D6B-52D9-4B3A-A387-F2D41C9FEACD</Id>
-  <RepoId>scotlandsyard/SpaceEngineers</RepoId>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
   <FriendlyName>Wilson</FriendlyName>
   <Author>scotlandsyard</Author>
   <Tooltip>Directs the chat personalities of BaR Maid, Fat Albert, Stockpile Manager, Script to Plugin and OreScout.</Tooltip>
@@ -11,8 +11,8 @@ With Wilson loaded, the plugins tell him when something happens and he decides w
 
 Open it with /wilson in chat.
 
-Guide: https://github.com/scotlandsyard/SpaceEngineers/tree/main/Projects/Wilson
-Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description>
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Wilson
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
   <!-- The plugin's own folder, plus exactly the shared files its project links. -->
   <SourceDirectories>
     <Directory>Projects/Wilson/Source/</Directory>
@@ -20,5 +20,5 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineers/issues</Description
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>7452a0bd8a8e769e2a6367ed1040c8aa44d30669</Commit>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
 </PluginData>
