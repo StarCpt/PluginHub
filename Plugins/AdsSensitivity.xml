@@ -4,7 +4,7 @@
     <!-- Stable plugin id. Never change this. -->
     <Id>4E0107FD-F943-42FF-BAE2-66C3A0F4A0D2</Id>
     <RepoId>Po11arr/AdsSensitivity</RepoId>
-    <FriendlyName>ADS Sensitivity</FriendlyName>
+    <FriendlyName>Polar's ADS Improvements</FriendlyName>
     <Author>Polar</Author>
     <Tooltip>Replaces vanilla's twitchy first-person weapons with CoD / Battlefield ADS sensitivity and variable per-weapon zoom</Tooltip>
     <Description>
@@ -25,6 +25,6 @@ Client-side only. Works on any server.
 
     <Hidden>false</Hidden>
 
-    <Commit>2ffe37dab3b13e0e9afa04835a6fc9f0af6d8dd6</Commit>
+    <Commit>686501572bee9f83cd4306fc93b8e33d2b34e8fc</Commit>
 
 </PluginData>
