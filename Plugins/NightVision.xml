@@ -39,6 +39,6 @@
     <Asset Name="AssetFolder" Path="ClientPlugin/Assets" />
 
     <!-- The current plugin version's commit hash -->
-    <Commit>5854f890b289151f1e02734e65eb491b81203d83</Commit>
+    <Commit>ce9c78151b1651ae5fa5a9fc524822665079d6d6</Commit>
 
 </PluginData>
