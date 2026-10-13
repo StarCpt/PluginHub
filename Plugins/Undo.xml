@@ -23,10 +23,11 @@
 
         The history is saved with the world and follows its backups.
 
-        Where it works:
-        - Offline games in creative, or in survival with creative tools enabled
-        - Friends multiplayer if you are the host, with the same game mode rules
-        - Not in multiplayer hosted on a dedicated server, nor when joining a friend's game. A client could only do very little there, and even that would be cheaty.
+        Where it works, always in creative or with creative tools enabled:
+        - Offline games
+        - Friends multiplayer as the host. Joined players who run Undo get it too.
+        - Joining a friend's game, if the host runs Undo
+        - On a dedicated server running the Undo companion, a Magnetar plugin from MagnetarHub. The server keeps the history and checks every step.
 
         Where it is off, it records nothing and all keys stay as in the game.
 
@@ -47,8 +48,9 @@
 
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>daf143a35ddb87432412cc74ab9b7ad1ce2fe566</Commit>
+    <Commit>4880159922dc28816ca18009fdc8460b1e46816b</Commit>
 
 </PluginData>
