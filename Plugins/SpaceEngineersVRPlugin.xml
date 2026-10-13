@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>ColbyJack1134/SpaceEngineersVR</Id>
+  <RepoId>ColbyJack1134/SpaceEngineersVR</RepoId>
+  <FriendlyName>Space Engineers VR</FriendlyName>
+  <Author>ColbyJack</Author>
+  <Tooltip>Play in a SteamVR headset with motion controls.</Tooltip>
+  <Description>Play Space Engineers in a SteamVR headset, with VTOL VR inspired interactive cockpits and in-game joysticks.
+
+- Stereo rendering, 6DOF tracking, motion controls and roomscale
+- Interactive vanilla and DLC cockpits using the existing model controls
+- Grab and operate joysticks, steering wheels, handlebars and throttles
+- Tools and weapons with two-handed support
+- VR building with painting, symmetry, blueprints, planets and 3rd person building
+- 3rd person and spectator views with hand-controlled camera movement
+- Wrist HUD and tablet, radial menus, floating game menus and a VR keyboard
+- Interactive LCDs, including Arthur and TouchScreenAPI
+- Camera, turret and remote-grid views using picture-in-picture
+- Admin, spectator and all other game menus in VR
+- Multiplayer, with an optional flatscreen companion plugin
+
+Start SteamVR before launching. Touch controllers are fully supported. Controls, source and issues: https://github.com/ColbyJack1134/SpaceEngineersVR</Description>
+  <SourceDirectories>
+    <Directory>SpaceEngineersVR/</Directory>
+  </SourceDirectories>
+  <Asset Name="AssetFolder" Path="SpaceEngineersVR/Assets/" />
+  <NuGetReferences>
+    <PackageReference Include="OVRSharp" Version="1.2.0" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </NuGetReferences>
+  <Runtimes>NETFramework;CLR;Mono</Runtimes>
+  <Platforms>Windows</Platforms>
+  <Hidden>false</Hidden>
+  <Commit>ebb3998d57fc43d754117e22479910d17eaa7d42</Commit>
+</PluginData>
