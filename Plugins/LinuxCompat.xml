@@ -21,8 +21,8 @@
 	</NuGetReferences>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.37/se1-dependencies.tar.gz"
-           Sha256="2be20cc1f3351b9f533daf20507a0042505005c7b03d71688b43879144c5de94"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.40/se1-dependencies.tar.gz"
+           Sha256="f56e59a0f56fafb252209c99389e5c4c2463a325f4f1848edfb3eede331714aa"
            Extract="true"
            Placement="Bin" />
 
