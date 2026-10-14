@@ -25,8 +25,9 @@ Enjoy!
   
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
+    <Directory>Shared</Directory>
   </SourceDirectories>
 
-  <Commit>e2f0ef5d837356cac3b1d2e5c1f4749715c44380</Commit>
+  <Commit>18a8ea86716ef5d2de783e40b8ddd81542c132d6</Commit>
 
 </PluginData>
