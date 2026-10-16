@@ -16,7 +16,7 @@
 - Every joystick, throttle and pedal set at once, read straight from the kernel; devices can come and go while the game runs
 - Axes add to the keyboard, mouse and VR hands: move, pitch, yaw, roll and the camera
 - Buttons and hats: fire, target lock, lights, dampeners, handbrake, power, parking, wheel jump, brakes, toolbar
-- Wheels: steering, drive force by throttle, and a brake lever (needs the plugin on the server for drive force)
+- Wheels: steering, drive force by throttle (single player or a lobby you host), and a brake lever
 - Programmable blocks named [AnalogThrottle] get wolfe's AnalogThrottle format, so his scripts work unchanged
 
 Set up binds under Plugin settings. On Windows, use ananace's Analog Grid Control instead.
@@ -32,6 +32,6 @@ Bug reports: https://github.com/cheezecake-dev/CheezecakeLinuxHotas</Description
 
     <Hidden>false</Hidden>
 
-    <Commit>9e308fdc8d831a212e5b9e789824e5df08807ba7</Commit>
+    <Commit>c8367e3d8f681415dcb1592b141f3b7677b267f9</Commit>
 
 </PluginData>
