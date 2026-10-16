@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>E6CC2487-3A00-4544-B51F-49E9D1A96FB2</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Fat Albert</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Can this ship lift off and leave the planet's gravity, with the fuel and power it has?</Tooltip>
+  <Description>Answers one question: can this ship lift off and get out of the planet's gravity well, and does it have the fuel and power to do it?
+
+It reads the ship's thrusters, mass, tanks, batteries, reactors and engines and the planet's gravity and atmosphere, then flies the ship straight up on paper, burning fuel and power the way the game does. Nothing on the ship is changed, so it works on any server.
+
+Open it with /fat in chat or from a cockpit toolbar action.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Fat%20Albert
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Fat Albert/Source/</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+  </SourceDirectories>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+</PluginData>

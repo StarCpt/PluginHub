@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>51968B8B-6D3E-4B1D-9080-C1351A559182</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>BaR Maid</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Runs the BaR companion script for Nanobot Build and Repair in an in-game menu.</Tooltip>
+  <Description>The BaR companion script for the SKO Nanobot Build and Repair System as a client-side plugin, with an in-game menu instead of LCD panels.
+
+- Queues the components your Build and Repair systems are missing into assemblers.
+- Shows weld and grind targets, missing components and priority lists live.
+- Handles any number of independent groups, and finds the systems by itself.
+
+Needs the SKO maintained Nanobot Build and Repair mod (workshop 2111073562). Open it with /barmaid in chat.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/BaR%20Maid
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/BaR Maid/Source/</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/AssemblerModes.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+  </SourceDirectories>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+</PluginData>

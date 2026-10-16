@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>DF3841DD-0357-45BC-868E-9A725CC6C2B0</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Script to Plugin</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Test programmable block scripts in offline worlds, without building a programmable block for each.</Tooltip>
+  <Description>A tool for testing programmable block scripts in offline worlds, without building a programmable block for each one. Every script in its menu works like its own programmable block.
+
+It only works in offline worlds (single player, not hosted). In an online world or on a server it compiles and runs nothing.
+
+- Paste a script, or load one from the game's Browse Scripts (local and workshop).
+- Scripts compile with the game's own script compiler, whitelist and instruction limit.
+- Me, GridTerminalSystem, Runtime, Storage, Echo, Save(), UpdateFrequency and run arguments work as in a programmable block.
+
+Open it with /stp in chat.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Script%20to%20Plugin
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Script to Plugin/Source/</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+  </SourceDirectories>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+</PluginData>

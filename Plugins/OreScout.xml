@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>A683CE5F-104A-496E-BB29-B4C795D70B2B</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>OreScout</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Turns what your ore detector sees into GPS markers you can keep, sort and come back to.</Tooltip>
+  <Description>Server-friendly ore scouting: turns what your ore detector can see into GPS markers you can keep, sort and come back to.
+
+Every scan starts at a working ore detector block and reaches only as far as that detector's own range, so it shows nothing the vanilla ore detector couldn't already reveal. Its markers carry a hidden tag, so OreScout only ever changes markers it made itself; your own GPS points are never touched.
+
+Use it from an ore detector's toolbar actions.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/OreScout
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/OreScout/Source/</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+  </SourceDirectories>
+  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+</PluginData>
