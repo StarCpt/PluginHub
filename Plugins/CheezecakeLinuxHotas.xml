@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>44E8E046-B17D-41AB-80DB-D9686350F95A</Id>
+
+    <RepoId>cheezecake-dev/CheezecakeLinuxHotas</RepoId>
+
+    <FriendlyName>Cheezecake's Linux HOTAS</FriendlyName>
+
+    <Author>Cheezecake</Author>
+
+    <Tooltip>Early release: fly with joysticks, a separate stick and throttle included, on native Linux.</Tooltip>
+
+    <Description>EARLY RELEASE, not yet tried with a physical HOTAS. Fly with joysticks on native Linux (Interim, no Proton), flat or in VR with Cheezecake's SE VR.
+
+- Every joystick, throttle and pedal set at once, read straight from the kernel; devices can come and go while the game runs
+- Axes add to the keyboard, mouse and VR hands: move, pitch, yaw, roll and the camera
+- Buttons and hats: fire, target lock, lights, dampeners, handbrake, power, parking, wheel jump, brakes, toolbar
+- Wheels: steering, drive force by throttle (single player or a lobby you host), and a brake lever
+- Programmable blocks named [AnalogThrottle] get wolfe's AnalogThrottle format, so his scripts work unchanged
+
+Set up binds under Plugin settings. On Windows, use ananace's Analog Grid Control instead.
+
+Bug reports: https://github.com/cheezecake-dev/CheezecakeLinuxHotas</Description>
+
+    <Platforms>Linux</Platforms>
+    <Runtimes>CoreCLR</Runtimes>
+
+    <SourceDirectories>
+        <Directory>src/LinuxHotas/</Directory>
+    </SourceDirectories>
+
+    <Hidden>false</Hidden>
+
+    <Commit>c8367e3d8f681415dcb1592b141f3b7677b267f9</Commit>
+
+</PluginData>
