@@ -23,6 +23,13 @@ Set up binds under Plugin settings. On Windows, use ananace's Analog Grid Contro
 
 Bug reports: https://github.com/cheezecake-dev/CheezecakeLinuxHotas</Description>
 
+    <Support>
+        <Contact severity="question" ping="true">https://discord.com/users/798969414761709568</Contact>
+        <Contact severity="urgent" ping="true">https://discord.com/users/798969414761709568</Contact>
+        <Contact severity="bug">https://github.com/cheezecake-dev/CheezecakeLinuxHotas/issues</Contact>
+        <Note>Hard fixes as GitHub issues please. Ping me for simple questions the guide doesn't answer, and for anything broken for many players.</Note>
+    </Support>
+
     <Platforms>Linux</Platforms>
     <Runtimes>CoreCLR</Runtimes>
 
