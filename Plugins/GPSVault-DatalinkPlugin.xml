@@ -12,5 +12,5 @@
     <NuGetReferences>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </NuGetReferences>
-    <Commit>faa72eac3b39475731b24b69d1df31e02851bc4d</Commit>
+    <Commit>e79a1a177deacbd6b9641a35d3b6fd07eee6a5d0</Commit>
 </PluginData>
