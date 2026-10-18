@@ -31,6 +31,13 @@ A separate project, not related to Math0424's earlier SpaceEngineersVR plugin.</
 
     <!-- Windows on .NET Framework (Legacy) or .NET 10 (Interim), and native Linux on .NET 10 (Interim), where Pulsar compiles
          with LINUX defined. Proton is not listed: untested. -->
+    <Support>
+        <Contact severity="question" ping="true">https://discord.com/users/798969414761709568</Contact>
+        <Contact severity="urgent" ping="true">https://discord.com/users/798969414761709568</Contact>
+        <Contact severity="bug">https://github.com/cheezecake-dev/CheezecakeSEVR/issues</Contact>
+        <Note>Hard fixes as GitHub issues please. Ping me for simple questions the guide doesn't answer, and for anything broken for many players.</Note>
+    </Support>
+
     <Platforms>Windows,Linux</Platforms>
     <Runtimes>CLR,CoreCLR</Runtimes>
 
