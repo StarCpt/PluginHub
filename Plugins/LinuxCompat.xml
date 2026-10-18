@@ -27,14 +27,14 @@
            Placement="Bin" />
 
     <Asset Name="NativeWrappers"
-           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.58/se1-native-wrappers.tar.gz"
-           Sha256="39635a2c33a28cf0c5fafe9a2ba7d1224caf77994b79de1dfb3ba6a75e30005c"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.60/se1-native-wrappers.tar.gz"
+           Sha256="49d75b092a11b5e1f482602a1e338e11a0bd449825c875d0d9779fd958fe354e"
            Extract="true"
            Placement="Bin" />
 
     <Runtimes>CoreCLR</Runtimes>
     <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
-    <Commit>06a9aeac3c6ff6500437872f0d56e49d138e7d11</Commit>
+    <Commit>f85cd16b39de7390866e4439acc602f8569e471c</Commit>
 
 </PluginData>
