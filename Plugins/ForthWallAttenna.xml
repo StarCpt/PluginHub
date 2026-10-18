@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>1d3fe64e-1b52-4875-98e1-24957f89df09</Id>
+  <RepoId>cyberbalsa/Forth-Wall-Attenna</RepoId>
+  <FriendlyName>Forth Wall Attenna</FriendlyName>
+  <Author>cyberbalsa</Author>
+  <Tooltip>Control owned PBs and waypoint missions from Python through your antenna network.</Tooltip>
+  <Description>Connect Python tools to owned Programmable Blocks and Remote Control blocks through a powered Forth Wall Attenna Hub. Discover blocks, upload and run PB scripts, send waypoint missions, and watch a terminal status dashboard. Commands check ownership and the game's antenna graph, including radio, laser, and relay routes.
+
+Local single-player on Proton with Pulsar Legacy only. The gateway uses an authenticated, loopback-only Protobuf WebSocket. Radio relays and waypoint flight have passed live tests; laser and mixed routes still need live validation.
+
+Requires the local ForthWallAttenna block mod and Python client from the repository. Follow the Plugin Hub setup steps before enabling this plugin. Disable any existing local DLL copy to avoid loading it twice.
+
+Setup and usage: https://github.com/cyberbalsa/Forth-Wall-Attenna#plugin-hub</Description>
+  <SourceDirectories>
+    <Directory>src/ForthWall.Core/</Directory>
+    <Directory>src/ForthWall.Transport/</Directory>
+    <Directory>src/ForthWall.Plugin/</Directory>
+  </SourceDirectories>
+  <NuGetReferences>
+    <PackageReference Include="Google.Protobuf" Version="3.36.2" />
+  </NuGetReferences>
+  <Runtimes>CLR</Runtimes>
+  <Platforms>Proton</Platforms>
+  <Commit>68d608d398ef18a6458cdbed4e2ac76ea8fc01cf</Commit>
+</PluginData>
