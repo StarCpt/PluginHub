@@ -1,14 +1,30 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+  <!-- The ID of your plugin, never change this -->
   <Id>57F5514B-B0B8-4332-BFB9-35FB08BB76F4</Id>
+
+  <!-- GitHub repository ID -->
   <RepoId>Taeleus/TetherSE</RepoId>
+
+  <!-- The name of your plugin that will appear in the plugin list -->
   <FriendlyName>TetherSE</FriendlyName>
+
+  <!-- The author name that you want to appear in the plugin list -->
   <Author>Taeleus</Author>
+
+  <!-- Optional tooltip for the plugin in the plugin list -->
   <Tooltip>Link your welder, grinder and drill to an owned or faction-shared inventory.</Tooltip>
+
+  <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
   <Description>Link your hand tools to an owned or faction-shared inventory.&#10;Welders pull components; grinders and drills send materials back.&#10;&#10;RANGE&#10;Work inside the tethered grid&apos;s bounds.&#10;Outside: transfers pause.&#10;More than 100 m outside: the tether disconnects.&#10;Enemy grids overlapping the tethered grid bounds also disconnect it.&#10;&#10;COMMANDS&#10;/tether - target an inventory port with a tool to connect&#10;/tether off - disconnect&#10;/tether bounds - toggle wireframe bounds&#10;/tether bounds off - hide wireframes&#10;&#10;WIREFRAMES&#10;Green: working area.&#10;Orange: 100 m break-range guide. The actual boundary has rounded corners, so the box extends slightly beyond it at the corners.&#10;Bounds hide 30 seconds after disconnection.</Description>
+
+  <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
+
+  <!-- The current plugin version's commit hash -->
   <Commit>bc6424f674d1308143b2a4073a3deb655b084aba</Commit>
   <Runtimes>NETFramework</Runtimes>
 </PluginData>
