@@ -11,9 +11,12 @@
     <Tooltip>Non-Steam direct UDP multiplayer transport (client)</Tooltip>
     <Description>Lets a Space Engineers client join a dedicated server over raw UDP
         without Steam, for headless multi-client test setups (functional and load
-        testing). Activated by the SE_DIRECT_CONNECT environment variable, which
-        Pulsar sets from its --connect option when running with --client-id.
-        Requires the matching DirectTransport (Server) plugin on the server.
+        testing). Activated by the --connect option on the command line.
+        --host-lobby and --join-lobby run friends (lobby) games the same way, one
+        client hosting its world and others joining it. Also provides
+        --client-id (fake Steam identity, own user data folder, concurrent
+        instances) and --client-name (player name).
+        Requires the matching server-side Direct Transport plugin on the server.
     </Description>
 
     <SourceDirectories>
@@ -25,8 +28,10 @@
         <PackageReference Include="LiteNetLib" Version="1.3.1" />
     </NuGetReferences>
 
+    <Runtimes>CoreCLR</Runtimes>
+
     <Hidden>true</Hidden>
 
-    <Commit>542b0151733c0e4f2369c93ad068878e6ab47853</Commit>
+    <Commit>7041f3bea02249b244574e442246fe5f7a8020b0</Commit>
 
 </PluginData>
