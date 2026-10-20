@@ -31,5 +31,5 @@ Start SteamVR before launching. Touch controllers are fully supported. Controls,
   <Runtimes>NETFramework;CLR;Mono</Runtimes>
   <Platforms>Windows</Platforms>
   <Hidden>false</Hidden>
-  <Commit>44d9ff67309d38c16b6ad8afd0c842273fe99997</Commit>
+  <Commit>e6bc2f1fce0cac617004c062c0472d3572b26468</Commit>
 </PluginData>
