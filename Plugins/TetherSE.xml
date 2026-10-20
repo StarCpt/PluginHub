@@ -25,6 +25,6 @@
   </SourceDirectories>
 
   <!-- The current plugin version's commit hash -->
-  <Commit>94ecf4212ce985a8a55a6e98142a5672ba449d4c</Commit>
+  <Commit>4ee11d3971c3e93dd79e76b4cf8b952de6dc8346</Commit>
   <Runtimes>CLR</Runtimes>
 </PluginData>
