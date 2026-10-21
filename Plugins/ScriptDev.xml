@@ -8,10 +8,12 @@
     <Directory>Shared</Directory>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
-  <Tooltip>Automatically updates the code in programmable blocks. Publishes local scripts and mods.</Tooltip>
-  <Description>This plugin automatically updates the code in programmable blocks whenever the corresponding Script.cs file changes.
+  <Tooltip>Updates programmable blocks from your local script files and publishes your scripts and mods to the Workshop.</Tooltip>
+  <Description>Tools for programmable block script and mod developers.
 
-The Publish button in the main menu and the in-game menu lists your local scripts and mods, shows which ones changed since their last upload, and publishes or updates them on the Workshop.
+Live script updates: put the script's name in square brackets into the name of a programmable block, for example "Programmable Block [My Script]". Whenever you save that script's Script.cs, the block gets the new code within a second. Works in offline and locally hosted games.
+
+Publishing: the Publish button next to Load Game in the main menu (next to Options in the in-game menu) lists your local scripts and mods. It shows their Workshop ID and visibility, and which ones changed since their last upload. Select one and publish it through the game's own publish screens, without digging through the Load Game screen. New items are private by default, so you can check them before making them public. Updates keep the item's visibility.
 
 More information:
 https://github.com/viktor-ferenczi/se-script-dev
@@ -31,6 +33,6 @@ https://www.paypal.com/paypalme/vferenczi/
 Thank you!
   </Description>
 
-  <Commit>2dce778445b6ff44223bf194154c31dea40e2918</Commit>
+  <Commit>60b98b47e41f4d28e7e5495ec106077d0d7b2e16</Commit>
 
 </PluginData>
