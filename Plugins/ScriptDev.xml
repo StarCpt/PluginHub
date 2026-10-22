@@ -13,7 +13,7 @@
 
 Live script updates: put the script's name in square brackets into the name of a programmable block, for example "Programmable Block [My Script]". Whenever you save that script's Script.cs, the block gets the new code within a second. Works in offline and locally hosted games.
 
-Publishing: the Publish button next to Load Game in the main menu (next to Options in the in-game menu) lists your local scripts and mods. It shows their Workshop ID and visibility, and which ones changed since their last upload. Select one and publish it through the game's own publish screens, without digging through the Load Game screen. New items are private by default, so you can check them before making them public. Updates keep the item's visibility.
+Publishing: the Publish button next to Load Game in the main menu (next to Load Game in the in-game menu with In Game World Loading, or next to Options otherwise) lists your local scripts and mods. It shows their Workshop ID and visibility, and which ones changed since their last upload. Select one and publish it through the game's own publish screens, without digging through the Load Game screen. New items are private by default, so you can check them before making them public. Updates keep the item's visibility.
 
 More information:
 https://github.com/viktor-ferenczi/se-script-dev
@@ -33,6 +33,6 @@ https://www.paypal.com/paypalme/vferenczi/
 Thank you!
   </Description>
 
-  <Commit>60b98b47e41f4d28e7e5495ec106077d0d7b2e16</Commit>
+  <Commit>f9e8f9505babee9215dd4b28a171524f4ffb5a51</Commit>
 
 </PluginData>
