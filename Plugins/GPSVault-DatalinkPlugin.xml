@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>a151ae7d-cdc7-4866-aedf-7786f3b693d4</Id>
+    <RepoId>Blues-Hailfire/Space-Engineers_GPS_Vault</RepoId>
+    <FriendlyName>GPS Vault - Datalink</FriendlyName>
+    <Author>Blues Hailfire</Author>
+    <Tooltip>Client for GPS Vault, has built in searching tools. Networking: connects only to the GPS Vault server URL you configure. Auto-deactivates comms after an hour AFK, and fuzzes neutral/enemy contact positions.</Tooltip>
+    <Description>Syncs your Space Engineers GPS list and live player position with a Space Engineers GPS Manager (GPS Vault) Discord bot, so your faction's shared vault and live web map stay up to date without manually pasting GPS strings. Detected signals (enemy, neutral, allied, unidentified) and your ore-detector deposits are only sent when you run /vault capture. Neutral/enemy contacts are reported with a randomized position and uncertainty radius instead of their exact location, and automatic sync is paused after an hour of no player input until the player returns.
+
+NETWORKING: This plugin makes HTTP(S) requests over the internet or your LAN, but only to the endpoint URL you enter in a host profile (the GPS Vault bot your faction runs, e.g. https://your-server:4040). It contacts no other server: no telemetry, no update checks, no downloads. Every request carries that profile's sync token (Authorization: Bearer header) and channel ID (X-Channel-Id header). Use an https:// endpoint, since plain http:// sends the token unencrypted. Automatic traffic only runs while sync is turned on for the current world (off by default in every world) and you are not AFK.
+
+Sent: your GPS list plus the names of vault points you deleted in-game (POST /sync/gps, after a GPS edit, joining a world, turning sync on or returning from AFK); your player name, position, velocity, acceleration, local gravity and ship rotation (POST /sync/position, every 5 seconds by default); and, only when you run /vault capture, the signals on your HUD (POST /sync/hostiles) and your ore-detector deposits (POST /sync/ores). Request bodies over 32 KB are gzip-compressed.
+
+Received: the vault's GPS list (GET /sync/gps, every 30 seconds by default) and the channel's shared ore deposits (GET /sync/ores, every 30 seconds), both added to your in-game GPS list.
+
+On demand only: other players' positions (GET /sync/players, every 5 seconds while you have /vault players switched on) and the Discord server/channel name for a profile (GET /sync/whoami, when you press Test Connection in the settings).</Description>
+    <SourceDirectories>
+        <Directory>Pulsar_Plugin</Directory>
+    </SourceDirectories>
+    <NuGetReferences>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </NuGetReferences>
+    <Commit>e79a1a177deacbd6b9641a35d3b6fd07eee6a5d0</Commit>
+</PluginData>
