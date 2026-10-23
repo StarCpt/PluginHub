@@ -24,12 +24,13 @@ Start SteamVR before launching. Touch controllers are fully supported. Controls,
     <Directory>SpaceEngineersVR/</Directory>
   </SourceDirectories>
   <Asset Name="AssetFolder" Path="SpaceEngineersVR/Assets/" />
+  <Asset Name="LinuxOpenVR" Url="https://raw.githubusercontent.com/ValveSoftware/openvr/v1.16.8/bin/linux64/libopenvr_api.so" Sha256="b5027afdc44d3ec3152e405e0af07a079c9ed167b5dce39833549d73dcb7aba5" Placement="Bin" Platforms="Linux" />
   <NuGetReferences>
     <PackageReference Include="OVRSharp" Version="1.2.0" />
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </NuGetReferences>
-  <Runtimes>NETFramework;CLR;Mono</Runtimes>
-  <Platforms>Windows</Platforms>
+  <Runtimes>CLR;CoreCLR;Mono</Runtimes>
+  <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>2652b9ce97b032fade602f5a0e34ef9b9d2ac89c</Commit>
+  <Commit>a3e038f30b13bd43bb50f2d215d359c9d9a9d222</Commit>
 </PluginData>
