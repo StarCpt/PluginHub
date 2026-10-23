@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>5BD64355-A190-45AC-827E-6125BB95642C</Id>
+    <RepoId>viktor-ferenczi/se-fair-server-list</RepoId>
+    <FriendlyName>Fair Server List</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Server list sorted by player count, without pinned "recommended" servers</Tooltip>
+    <Description>Makes the server list in Join Game fair to every server.
+
+        - Keen's "recommended" servers are no longer pinned to the top of the list and lose their star.
+        - The list is sorted by player count by default, busiest first.
+        - Click any column header to sort by it instead, as before. All the vanilla filters work as before.
+
+        Report bugs on GitHub: https://github.com/viktor-ferenczi/se-fair-server-list/issues
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>ac1dcc2bc10d34019cc51c5a93042ec7fa6221d7</Commit>
+
+</PluginData>
