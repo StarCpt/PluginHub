@@ -9,7 +9,9 @@
     <Tooltip>Server list sorted by player count, without pinned "recommended" servers</Tooltip>
     <Description>Makes the server list in Join Game fair to every server.
 
-        - Keen's "recommended" servers are no longer pinned to the top of the list and lose their star.
+        - Keen's "recommended" servers are no longer pinned to the top of the list.
+        - The star marks your favorite servers instead. Right click a server to add it to your favorites or remove it, on any tab.
+        - Favorite servers that move to a new address are recognized by their server and world name.
         - The list is sorted by player count by default, busiest first.
         - Click any column header to sort by it instead, as before. All the vanilla filters work as before.
 
@@ -20,6 +22,6 @@
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>ac1dcc2bc10d34019cc51c5a93042ec7fa6221d7</Commit>
+    <Commit>9d3c23cb0e2fc194608fe2a038748fe80bac4523</Commit>
 
 </PluginData>
