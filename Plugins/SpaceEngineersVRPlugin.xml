@@ -5,31 +5,29 @@
   <FriendlyName>Space Engineers VR</FriendlyName>
   <Author>ColbyJack</Author>
   <Tooltip>Play in a SteamVR headset with motion controls.</Tooltip>
-  <Description>Play Space Engineers in a SteamVR headset, with VTOL VR inspired interactive cockpits and in-game joysticks.
+  <Description>A native-feeling VR experience for Space Engineers via SteamVR.
 
-- Stereo rendering, 6DOF tracking, motion controls and roomscale
-- Interactive vanilla and DLC cockpits using the existing model controls
-- Grab and operate joysticks, steering wheels, handlebars and throttles
-- Tools and weapons with two-handed support
-- VR building with painting, symmetry, blueprints, planets and 3rd person building
-- 3rd person and spectator views with hand-controlled camera movement
-- Wrist HUD and tablet, radial menus, floating game menus and a VR keyboard
+- Interactive vanilla and DLC cockpits: grab the joysticks, throttles, steering wheels and buttons
+- Motion-controlled tools and weapons, with two-handed and left-handed holds
+- VR building with painting, symmetry, blueprints and voxel tools
+- 3rd person, spectator, camera, turret and remote-grid views
+- Wrist HUD and tablet, radial menus, a VR keyboard and all game menus in VR
 - Interactive LCDs, including Arthur and TouchScreenAPI
-- Camera, turret and remote-grid views using picture-in-picture
-- Admin, spectator and all other game menus in VR
-- Multiplayer, with an optional flatscreen companion plugin
+- Multiplayer
+- Pulsar Legacy and Interim, with experimental native Linux support
 
-Start SteamVR before launching. Touch controllers are fully supported. Controls, source and issues: https://github.com/ColbyJack1134/SpaceEngineersVR</Description>
+Start SteamVR before launching. On Linux, install your distribution's libgdiplus package. Full feature list, controls and issues: https://github.com/ColbyJack1134/SpaceEngineersVR</Description>
   <SourceDirectories>
     <Directory>SpaceEngineersVR/</Directory>
   </SourceDirectories>
   <Asset Name="AssetFolder" Path="SpaceEngineersVR/Assets/" />
+  <Asset Name="LinuxOpenVR" Url="https://raw.githubusercontent.com/ValveSoftware/openvr/v1.16.8/bin/linux64/libopenvr_api.so" Sha256="b5027afdc44d3ec3152e405e0af07a079c9ed167b5dce39833549d73dcb7aba5" Placement="Bin" Platforms="Linux" />
   <NuGetReferences>
     <PackageReference Include="OVRSharp" Version="1.2.0" />
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </NuGetReferences>
-  <Runtimes>NETFramework;CLR;Mono</Runtimes>
-  <Platforms>Windows</Platforms>
+  <Runtimes>CLR;CoreCLR;Mono</Runtimes>
+  <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>2652b9ce97b032fade602f5a0e34ef9b9d2ac89c</Commit>
+  <Commit>c865409bd40e1d0fd666b467fbb99c58500f91a4</Commit>
 </PluginData>
