@@ -29,5 +29,5 @@ Start SteamVR before launching. On Linux, install your distribution's libgdiplus
   <Runtimes>CLR;CoreCLR;Mono</Runtimes>
   <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>ddbdf49058287cd90609659135d0d3f44ade8c71</Commit>
+  <Commit>c865409bd40e1d0fd666b467fbb99c58500f91a4</Commit>
 </PluginData>
