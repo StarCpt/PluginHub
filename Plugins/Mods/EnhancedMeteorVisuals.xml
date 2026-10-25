@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <Id>3685862625</Id>
+  <FriendlyName>Enhanced Meteor Visuals</FriendlyName>
+  <Author>IotaSphere</Author>
+  <Tooltip>Brighter meteor particle effects in space, in atmosphere and at impact sites.</Tooltip>
+  <Description>This mod modifies the meteor particle effects for both space, atmosphere, and impact sites.
+Atmospheric meteors now glow brightly and emit light as they travel.
+
+Visual only: particle effects, no scripts.
+</Description>
+</PluginData>
