@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>5F00E9A7-B436-461E-90AA-E3AD577D58A4</Id>
+    <RepoId>viktor-ferenczi/se-space-jump</RepoId>
+    <FriendlyName>Abyss Drives</FriendlyName>
+    <Author>Space; Viktor</Author>
+    <Tooltip>Replaces the jump drive effect with a black smoke teleport</Tooltip>
+    <Description>Jump drives now open an Elite Dangerous style gate to move the ship between two points:
+- Clouds appear at both the entry and exit locations.
+- Crew members will see the outside environment become a dark abyss.
+- Aborted and chained jumps are handled.
+
+The plugin also works in multiplayer (though the smoke is a slight self-nerf for PVP).
+Options are highly configurable and can be adjusted in the plugin settings!</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Asset Name="AssetFolder" Path="Assets"/>
+    <Commit>b74ee30f165d58a2b1d5313a1f45b59e4ac52417</Commit>
+</PluginData>
