@@ -20,5 +20,5 @@ On demand only: other players' positions (GET /sync/players, every 5 seconds whi
     <NuGetReferences>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </NuGetReferences>
-    <Commit>e79a1a177deacbd6b9641a35d3b6fd07eee6a5d0</Commit>
+    <Commit>6c764fe84d7e85559ffcd8e91902a4f4ac589ae4</Commit>
 </PluginData>
