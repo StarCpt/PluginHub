@@ -4,7 +4,7 @@
 
   <Id>7db0d53e-7572-4cbc-911e-25fa26ef182c</Id>
 
-  <FriendlyName>Marigold 0.14.14</FriendlyName>
+  <FriendlyName>Marigold 0.14.16</FriendlyName>
 
   <Author>Taeleus</Author>
 
@@ -18,12 +18,10 @@ Save ship profiles, named baseline versions and display presets. Profiles persis
 
 Connector-docked context is optional and off by default. Rotor, hinge and piston subgrids are excluded. Supports Pulsar Legacy. /marigold is an alias for /mg.</Description>
 
-  <NuGetReferences><PackageReference Include="Lib.Harmony" Version="2.4.2" /></NuGetReferences>
-
   <SourceDirectories><Directory>src/Marigold.Plugin</Directory></SourceDirectories>
 
   <Runtimes>CLR</Runtimes>
 
   <RepoId>Taeleus/Marigold</RepoId>
-  <Commit>d8b1afaf660d5e01acedaccd78a16bd3f6559549</Commit>
+  <Commit>638223b31d1f92609c5d8de05d50db5f3d3157d9</Commit>
 </PluginData>
