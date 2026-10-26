@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ModPlugin">
+  <!-- Place the steam id of your workshop item here. -->
+  <Id>3810245162</Id>
+
+  <!-- The name of your plugin that will appear in the list. -->
+  <FriendlyName>Chat2PB argument router</FriendlyName>
+
+  <!-- The author name that you want to appear in the list. -->
+  <Author>Tel-Arin</Author>
+  
+  <!-- Optional tag that adds a tooltip to the plugin in-game. -->
+  <Tooltip>Allows the use of programable block arguments in the chat box.</Tooltip>
+  
+  <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>Chat2PB routes slash commands (/tag argument) directly to tagged Programmable Blocks [tag] on your grid without using hotbar slots. Intercepts local chat input, hides executed commands from global chat. To set the programmable block just a tag inside square brackets [tag].</Description>
+  
+  <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins only appear when they are enabled or searched for in the search box. -->
+  <Hidden>false</Hidden>
+  
+  <!-- Optional tag that specifies what dependencies this mod has. Dependencies will be automatically enabled when this mod is enabled. -->
+  <DependencyIds>
+    
+  </DependencyIds>
+</PluginData>
