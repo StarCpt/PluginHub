@@ -10,16 +10,14 @@
   <Author>Tel-Arin</Author>
   
   <!-- Optional tag that adds a tooltip to the plugin in-game. -->
-  <Tooltip>Allows the use of programable block arguments in the chat box.</Tooltip>
+  <Tooltip>Allows the use of programmable block arguments in the chat box.</Tooltip>
   
   <!-- Optional tag that adds a plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-  <Description>Chat2PB routes slash commands (/tag argument) directly to tagged Programmable Blocks [tag] on your grid without using hotbar slots. Intercepts local chat input, hides executed commands from global chat. To set the programmable block just a tag inside square brackets [tag].</Description>
+  <Description>Chat2PB routes slash commands (/tag argument) directly to tagged Programmable Blocks [tag] on your grid without using hotbar slots. Intercepts local chat input, hides executed commands from global chat. To set the programmable block, just add a tag inside square brackets [tag].</Description>
   
   <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins only appear when they are enabled or searched for in the search box. -->
   <Hidden>false</Hidden>
   
   <!-- Optional tag that specifies what dependencies this mod has. Dependencies will be automatically enabled when this mod is enabled. -->
-  <DependencyIds>
-    
-  </DependencyIds>
+  <DependencyIds />
 </PluginData>
