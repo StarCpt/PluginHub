@@ -5,7 +5,7 @@
   <!-- GitHub repository ID -->
   <RepoId>Taeleus/Lanyard</RepoId>
   <!-- The name of your plugin that will appear in the plugin list -->
-  <FriendlyName>Lanyard v0.1.2</FriendlyName>
+  <FriendlyName>Lanyard</FriendlyName>
   <!-- The author name that you want to appear in the plugin list -->
   <Author>Taeleus</Author>
   <!-- Optional tooltip for the plugin in the plugin list -->
@@ -36,6 +36,6 @@
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <!-- Reviewed source revision; keep this pin fixed for this release. -->
-  <Commit>04a146f4ba0b4c39e11cc48269023ed1aeeab3bc</Commit>
+  <Commit>1417553108bf2bf1e222aa92618305d8d7fb8507</Commit>
   <Runtimes>CLR</Runtimes>
 </PluginData>
