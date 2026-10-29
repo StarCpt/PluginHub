@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- The ID of your plugin, never change this -->
+  <Id>F6030D66-B809-4F2A-815F-379EFF6C03A0</Id>
+  <!-- GitHub repository ID -->
+  <RepoId>Taeleus/Lanyard</RepoId>
+  <!-- The name of your plugin that will appear in the plugin list -->
+  <FriendlyName>Lanyard v0.1.1</FriendlyName>
+  <!-- The author name that you want to appear in the plugin list -->
+  <Author>Taeleus</Author>
+  <!-- Optional tooltip for the plugin in the plugin list -->
+  <Tooltip>Link your tools to one owned or faction-shared inventory port outside combat.</Tooltip>
+  <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>
+    Lanyard links your tools to one owned or explicitly faction-shared inventory port.
+
+    Welder: uses your build planner and normal conveyor access.
+    Grinder: returns ore, ingots and components to the linked inventory.
+    Drill: returns ore to the linked inventory.
+
+    Equip a tool, aim at an inventory access port, then type /ly to link.
+
+    Open K and select Lanyard, or type /ly menu, for connection controls.
+
+    Commands (also available with /lanyard):
+    /ly - link to the targeted inventory port
+    /ly menu - open the standalone panel
+    /ly off - disconnect
+    /ly bounds - toggle the working-area preview
+    /ly bounds off - hide the preview
+
+    Use an owned or faction-shared port, stay inside the linked grid's bounds, and work outside combat.
+  </Description>
+  <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <!-- Reviewed source revision; keep this pin fixed for this release. -->
+  <Commit>1a7cea00ef7fd97da46bbad8b511b936e585543f</Commit>
+  <Runtimes>CLR</Runtimes>
+</PluginData>
