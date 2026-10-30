@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="GitHubPlugin">
+  <Id>370c3a91-5a44-4d4d-8f2c-923421cefc83</Id>
+  <RepoId>JenfX/WheelFrictionFix</RepoId>
+  <FriendlyName>Wheel Friction Fix</FriendlyName>
+  <Author>JenfX</Author>
+  <Tooltip>Wheels get the same friction on blocks as on voxels; fixes turns sticking on blocks.</Tooltip>
+  <Description>Makes wheels behave on blocks the same way as on voxels. Vanilla gives wheels only 7% friction on armor and 100% on functional blocks such as conveyors; with this plugin the friction on any block equals the wheel friction. Also fixes skid-steer (tank turn) scripts sticking on static grids: wheel contacts are recreated when the wheel friction changes, so the new friction applies immediately. Each suspension gets a "Voxel-like friction on blocks" checkbox (on by default). Multiplayer: required on the host/server only.</Description>
+  <SourceDirectories>
+    <string>WheelFrictionFix</string>
+  </SourceDirectories>
+  <Commit>802015bfb810bdacc5135da47be3573d74f9bf4f</Commit>
+</PluginData>
