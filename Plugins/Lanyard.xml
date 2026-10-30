@@ -12,30 +12,29 @@
   <Tooltip>Link your tools to one owned or faction-shared inventory port outside combat.</Tooltip>
   <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
   <Description>
-    Lanyard links your tools to one owned or explicitly faction-shared inventory port.
+    Lanyard connects your tools to one owned or explicitly faction-shared inventory port.
 
-    Welder: uses your build planner and normal conveyor access.
-    Grinder: returns ore, ingots and components to the linked inventory.
-    Drill: returns ore to the linked inventory.
+    Welder: supplies build-planner components through normal conveyor access.
+    Grinder: returns ore, ingots and components.
+    Drill: returns ore.
 
-    Equip a tool, aim at an inventory access port, then type /ly to link.
+    Equip a tool, aim at an inventory access port and type /ly to connect.
 
-    Open K and select Lanyard, or type /ly menu, for connection controls.
+    Open K > Lanyard or /ly menu for status, planner availability, tool switches, HUD preferences and shortcuts.
 
-    Commands (also available with /lanyard):
-    /ly - link to the targeted inventory port
-    /ly menu - open the standalone panel
-    /ly off - disconnect
-    /ly bounds - toggle the working-area preview
-    /ly bounds off - hide the preview
+    /ly off disconnects. /ly pause and /ly resume keep your connection while stopping or restarting automatic transfers.
 
-    Use an owned or faction-shared port, stay inside the linked grid's bounds, and work outside combat.
+    /ly bounds previews the targeted grid. /ly bounds linked shows your linked working area. /ly bounds off hides it. Commands also accept /lanyard.
+
+    Stay inside the linked grid's bounds. Combat or enemy overlap starts a two-minute pause. Quiet joins do not. The timer pauses while you are away.
+
+    Connection and cooldown survive rejoining when the same player, container and port identities are preserved.
   </Description>
   <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <!-- Reviewed source revision; keep this pin fixed for this release. -->
-  <Commit>6316ba6c42b1db130a9469fe3e12d21dacc6d3bf</Commit>
+  <Commit>79cdd374d03f58f07ab74c489b9c03f3430128bf</Commit>
   <Runtimes>CLR</Runtimes>
 </PluginData>
