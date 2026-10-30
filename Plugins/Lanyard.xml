@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
   <!-- The ID of your plugin, never change this -->
-  <Id>F6030D66-B809-4F2A-815F-379EFF6C03A0</Id>
+  <Id>57F5514B-B0B8-4332-BFB9-35FB08BB76F4</Id>
   <!-- GitHub repository ID -->
   <RepoId>Taeleus/Lanyard</RepoId>
   <!-- The name of your plugin that will appear in the plugin list -->
