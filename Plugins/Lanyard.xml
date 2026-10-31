@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- The ID of your plugin, never change this -->
+  <Id>57F5514B-B0B8-4332-BFB9-35FB08BB76F4</Id>
+  <!-- GitHub repository ID -->
+  <RepoId>Taeleus/Lanyard</RepoId>
+  <!-- The name of your plugin that will appear in the plugin list -->
+  <FriendlyName>Lanyard</FriendlyName>
+  <!-- The author name that you want to appear in the plugin list -->
+  <Author>Taeleus</Author>
+  <!-- Optional tooltip for the plugin in the plugin list -->
+  <Tooltip>Link your tools to one owned or faction-shared inventory port outside combat.</Tooltip>
+  <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+  <Description>
+    Lanyard connects your tools to one owned or explicitly faction-shared inventory port.
+
+    Welder: supplies build-planner components through normal conveyor access.
+    Grinder: returns ore, ingots and components.
+    Drill: returns ore.
+
+    Equip a tool, aim at an inventory access port and type /ly to connect.
+
+    Open K > Lanyard or /ly menu for status, planner availability, tool switches, HUD preferences and shortcuts.
+
+    /ly off disconnects. /ly pause and /ly resume keep your connection while stopping or restarting automatic transfers.
+
+    /ly bounds previews the targeted grid. /ly bounds linked shows your linked working area. /ly bounds off hides it. Commands also accept /lanyard.
+
+    Stay inside the linked grid's bounds. Combat or enemy overlap starts a two-minute pause. Quiet joins do not. The timer pauses while you are away.
+
+    Connection and cooldown survive rejoining when the same player, container and port identities are preserved.
+  </Description>
+  <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <!-- Reviewed source revision; keep this pin fixed for this release. -->
+  <Commit>367ac5730200ed1d86b291084e2ae6c9f1874fc7</Commit>
+  <Runtimes>CLR</Runtimes>
+</PluginData>
