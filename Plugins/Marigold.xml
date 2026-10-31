@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>7db0d53e-7572-4cbc-911e-25fa26ef182c</Id>
+  <FriendlyName>Marigold</FriendlyName>
+  <Author>Taeleus</Author>
+  <Tooltip>See your ship's layout and spot damaged or missing blocks.</Tooltip>
+  <Description>See your ship's layout and find damaged or missing blocks. Sit in a cockpit and type /mg ui. Capture a baseline or import a local, cached Workshop or cloud XML blueprint.
+
+Yellow marks damage, orange non-functional blocks and red missing blocks. Optional system health bars and custom bars for a block or terminal group track repairs and missing members. Customize colors, pulses, views and layout. Focus on a system while keeping the rest of the ship faintly visible. Outline modes reduce drawing cost.
+
+Save ship profiles, named baseline versions and display presets. Profiles persist across sessions; automatic matching recognizes sufficiently similar layouts. Recovery tools let you inspect, adjust and accept alignment when the original cockpit is gone. Baselines never update automatically.
+
+Connector-docked context is optional and off by default. Rotor, hinge and piston subgrids are excluded. Supports Pulsar Legacy. /marigold is an alias for /mg.</Description>
+  <SourceDirectories>
+    <Directory>src/Marigold.Plugin</Directory>
+  </SourceDirectories>
+  <Runtimes>CLR</Runtimes>
+  <RepoId>Taeleus/Marigold</RepoId>
+  <Commit>738f344d28a3a57ba8f853d1d845e940ef46c5ee</Commit>
+</PluginData>
