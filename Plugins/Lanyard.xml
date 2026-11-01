@@ -12,7 +12,7 @@
   <Tooltip>Link your tools to one owned or faction-shared inventory port outside combat.</Tooltip>
   <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
   <Description>
-    Lanyard connects your tools to one owned or explicitly faction-shared inventory port.
+    Formerly TetherSE. Lanyard connects your tools to one owned or explicitly faction-shared inventory port.
 
     Welder: supplies build-planner components through normal conveyor access.
     Grinder: returns ore, ingots and components.
@@ -35,6 +35,6 @@
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
   <!-- Reviewed source revision; keep this pin fixed for this release. -->
-  <Commit>367ac5730200ed1d86b291084e2ae6c9f1874fc7</Commit>
+  <Commit>cdff6e06154f26d2e8a7a3c4537df43e9ea8745b</Commit>
   <Runtimes>CLR</Runtimes>
 </PluginData>
