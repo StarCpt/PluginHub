@@ -15,5 +15,5 @@ Hotkeys, connector search radius, and advanced docking behavior can be configure
     <SourceDirectories>
     <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>2a0abb2e39d18c24bdbd6716c3bcdd1763726641</Commit>
+    <Commit>638d32af716841ef755cede3e580e6f9651d5ef6</Commit>
 </PluginData>
