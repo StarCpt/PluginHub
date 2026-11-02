@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>66AA3D09-1732-445D-A2B6-A377B31AE76C</Id>
+    <RepoId>CometWorks/impostors</RepoId>
+    <FriendlyName>Impostors</FriendlyName>
+    <Author>Viktor</Author>
+    <Tooltip>Shows far grids and asteroids beyond the sync distance as impostors</Tooltip>
+    <Description>
+        Shows grids and asteroids beyond the sync distance as impostors on servers running the
+        Impostors server plugin, even when the world doesn't have the Impostors mod. In offline games
+        and when hosting a lobby, builds them for you with the Impostors mod, loaded by the plugin
+        if the world doesn't list it, and sends them to the players who joined.
+    </Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+        <Directory>ImpostorsMod/Mod/Data/Scripts/Impostors</Directory>
+    </SourceDirectories>
+    <Asset Name="ImpostorsMod" Path="ImpostorsMod/Mod" />
+    <Commit>e7a5658eea0fada3d45a35ff18ffda5080a94bc1</Commit>
+</PluginData>
