@@ -10,5 +10,5 @@ Toggle with Ctrl+F11. Configure the frame-rate cap in the plugin's settings cog 
 	<SourceDirectories>
 		<Directory>Plugin</Directory>
 	</SourceDirectories>
-	<Commit>34d51d0cab0199e975950f61359a97c3b58261b5</Commit>
+	<Commit>34fbd41dca71313fb90bef79d1fd885be29ca52b</Commit>
 </PluginData>
