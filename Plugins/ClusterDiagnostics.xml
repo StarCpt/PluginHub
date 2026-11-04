@@ -7,6 +7,6 @@
   <Tooltip>Rank-aware cluster diagnostics in the F11 menu.</Tooltip>
   <Description>Current node diagnostics for players; node roster, World Authority and registry diagnostics for admins and owners. Requires a cluster release with client diagnostics support.</Description>
   <SourceDirectories><Directory>ClientDiagnosticsPlugin</Directory><Directory>Shared/Cluster/Diagnostics/Protocol</Directory></SourceDirectories>
-  <Commit>fbfc36b636c5f101a65b006d4f699cf338a26187</Commit>
+  <Commit>cb93d481b60c605872314ea6a3832262cfb3a0dc</Commit>
   <Runtimes>CLR,CoreCLR</Runtimes>
 </PluginData>
