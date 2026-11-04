@@ -13,13 +13,15 @@
 Alt+MMB: Replace on the aimed subgrid
 Ctrl+Alt+MMB: Replace on all subgrids
 Ctrl+Shift+Alt+MMB: Replace on all connected ships
+Shift+Alt+MMB: Replace on the touching blocks of the same paint (flood fill)
 
 Demo video: https://youtu.be/8r47laAgTI8
 
 Please note, that the MMB conflicts with the "dump inventory"
 shortcut, which is frequently used in survival mode. Because
 of this the plugin is disabled by default in survival mode.
-Enable it in the configuration dialog only as long as needed.
+Enable it in the configuration dialog only as long as needed,
+or change the modifier key from Alt to another key there.
 
 To access the plugin's configuration press `Ctrl-Alt-/` while
 in-game and not in the GUI. Select **Paint Replacer** from
@@ -40,6 +42,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>8581f8d2fab4d5ba384a5081b7c84b52b0266950</Commit>
+  <Commit>4aac1f08cf2c4c00b42c7d2b7da1c4dbd8e3509f</Commit>
 
 </PluginData>
