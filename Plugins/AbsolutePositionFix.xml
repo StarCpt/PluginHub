@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- The ID of the plugin, never change this -->
+  <Id>ab9d0284-fa5a-490d-8198-dc94f775e877</Id>
+  <RepoId>blazeblue32/AbsolutePositionFix</RepoId>
+  <FriendlyName>Absolute Position Fix</FriendlyName>
+  <Author>BlazeBlue32</Author>
+  <Tooltip>Fixes position errors far from the world origin (absolute positions rounded to a 32-bit float). Supports voxel planets up to 915 ls from origin.</Tooltip>
+  <Description>Fixes numerous issues with large systems over 67000 Km like stations spawning in the air or in the ground, the searchlight light appearing offset from the source, AI pathing issues, and more. Supports voxel planets up to 915 ls from origin.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+    <Directory>Shared</Directory>
+  </SourceDirectories>
+  <Hidden>false</Hidden>
+  <Commit>4f43312a8348af4ef317c4b68b3882d58f12e414</Commit>
+</PluginData>
