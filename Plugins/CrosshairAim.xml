@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Never change this ID after the first publish -->
+    <Id>4BD0433A-CA33-48DF-AEA3-131B8B7E0FE7</Id>
+
+    <RepoId>aegonthe5th-crTheeatTe/CrosshairAim</RepoId>
+
+    <FriendlyName>CrosshairAim</FriendlyName>
+
+    <Author>TH3ShadowDragon</Author>
+
+    <Tooltip>Bullets and the use key go where the crosshair points while Over The Shoulder+ or the cover mod drives the camera.</Tooltip>
+
+    <Description>Companion plugin for Over The Shoulder+ and "Take cover or die".
+
+While either camera mod is active this plugin makes shots and the use/interact key follow the on-screen crosshair instead of a fixed point in front of the character's head.
+
+Also provides:
+- Aim zoom support from Over The Shoulder+
+- Sprint while the cover mod runs you to a wall
+- A/D walk along cover (W/S and Space blocked in cover)
+- Jump blocked while in cover
+- Hides the game's crosshair when the cover mod shows its red one
+
+Does nothing when those camera mods are off. Single player only.
+
+Source and issues: https://github.com/aegonthe5th-crTheeatTe/CrosshairAim</Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- After first push, put the full commit hash here and update it on every release -->
+    <Commit>153743515dfb95fda2f636e4d5f684eeb66f6296</Commit>
+
+</PluginData>
