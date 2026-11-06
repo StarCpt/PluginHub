@@ -3,7 +3,7 @@
   <!-- The ID of the plugin, never change this -->
   <Id>203fd2ad-02ed-4edd-936f-64769974aadc</Id>
   <RepoId>blazeblue32/VoxelMaterialLimit</RepoId>
-  <FriendlyName>Voxel Material Limit</FriendlyName>
+  <FriendlyName>Voxel Material Limit Fix</FriendlyName>
   <Author>BlazeBlue32</Author>
   <Tooltip>Lets worlds with more than 128 voxel materials (many planet or material mods) draw them correctly instead of as plain stone.</Tooltip>
   <Description>Space Engineers can only draw the first 128 voxel materials; with many planet or voxel material mods installed, everything past that (planet surfaces, ores, ice) turns into plain stone. This plugin lifts the limit to 254 materials by adjusting how the renderer's shader source is read, so no game files are changed. Every player who sees the planets needs it. On Linux it works with the LinuxCompat plugin, using a local copy of the shader folder made from your own install. The game log shows lines starting with [VoxelMaterialLimit].</Description>
