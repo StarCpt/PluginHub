@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>95F61973-8531-4C4A-BA6A-C138511DC65B</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>maxpowa/SE_BlueprintCollections</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Workshop Collection Filter</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>maxpowa</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Filter the blueprints screen to the contents of a Steam Workshop collection, with on-demand downloads.</Tooltip>
+
+    <Description>Adds a "Workshop collection" dropdown to the Space Engineers blueprints screen.
+
+Selecting a collection shows only the blueprints that belong to it. The list contains every collection owned by the player, every collection the player is subscribed to, and every collection the player has favorited.
+
+Blueprints in the collection that the player is not subscribed to are listed too and are downloaded on demand when they are opened or copied. Their primary Steam Workshop image is shown until they are downloaded.
+
+Preview images are resized to fit the game's 242x128 preview slot with their original aspect ratio and cached; the cache limit is configurable in the plugin settings (default 10 MB). The plugin never subscribes, unsubscribes or publishes anything.
+
+Selecting "All Subscribed Items" turns the filter off. The selection is remembered between game sessions, and the screen's Refresh button reloads the collections.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>BlueprintCollections</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>6b506ebd0d77239eae7db85e04e30dcfa0583018</Commit>
+
+</PluginData>
