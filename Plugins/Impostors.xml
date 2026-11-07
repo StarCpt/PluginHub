@@ -17,5 +17,5 @@
         <Directory>ImpostorsMod/Mod/Data/Scripts/Impostors</Directory>
     </SourceDirectories>
     <Asset Name="ImpostorsMod" Path="ImpostorsMod/Mod" />
-    <Commit>cec2dbdd507b86aa84edc541297c8d827ff1d0e9</Commit>
+    <Commit>875f1d53bd5e68c04c62311bf568b53421b7d03d</Commit>
 </PluginData>
