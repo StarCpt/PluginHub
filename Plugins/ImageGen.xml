@@ -9,7 +9,7 @@
     <Tooltip>Write /ig &lt;prompt&gt; on an LCD to show a generated image there</Tooltip>
     <Description>Write /ig followed by a prompt as the text of an LCD or any other screen, or look at a screen and send it in chat. An image model draws the picture onto that screen in color characters.
 
-        Works offline and when hosting a friends game. Players who join need no plugin.
+        Works offline and when hosting a friends game. Players who join need no plugin. On a server without the server plugin it generates the images you ask for, and the other players see them too.
 
         Needs the MOSS-Image model running in a stable-diffusion.cpp sd-server, on this PC or another one with a 16 GB GPU. Setup: https://github.com/viktor-ferenczi/se-image-gen/blob/main/Docs/image-server.md
 
@@ -21,6 +21,6 @@
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>c72cd1b76c16566de83693b7862679f198cd4a0f</Commit>
+    <Commit>af20070bfc8b3eb55a2a05d8bf31d3969aa7cdcf</Commit>
 
 </PluginData>
