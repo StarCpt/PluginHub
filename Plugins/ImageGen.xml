@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>DD45EEE2-E0BC-420E-9787-35E4EE7E75A1</Id>
+    <RepoId>viktor-ferenczi/se-image-gen</RepoId>
+    <FriendlyName>LCD Image Generation</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Write /ig &lt;prompt&gt; on an LCD to show a generated image there</Tooltip>
+    <Description>Write /ig followed by a prompt as the text of an LCD or any other screen, or look at a screen and send it in chat. An image model draws the picture onto that screen in color characters.
+
+        Works offline and when hosting a friends game. Players who join need no plugin.
+
+        Needs the MOSS-Image model running in a stable-diffusion.cpp sd-server, on this PC or another one with a 16 GB GPU. Setup: https://github.com/viktor-ferenczi/se-image-gen/blob/main/Docs/image-server.md
+
+        Report bugs on GitHub: https://github.com/viktor-ferenczi/se-image-gen/issues
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+
+    <Commit>230c03cc8764436556e7a731b721856c406b7d65</Commit>
+
+</PluginData>
