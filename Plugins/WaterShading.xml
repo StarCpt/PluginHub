@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <!-- The ID of the plugin, never change this -->
+  <Id>b90210a0-0138-415c-8af6-5ce1cede7350</Id>
+  <RepoId>blazeblue32/WaterShading</RepoId>
+  <FriendlyName>Water Shading</FriendlyName>
+  <Author>BlazeBlue32</Author>
+  <Tooltip>Makes the Water Mod's sea take sun shadows and the planet's atmospheric haze into account.</Tooltip>
+  <Description>Companion to the Water Mod (Steam Workshop 2200451495). The mod draws the sea as particles, which the game neither shadows nor covers with the planet's atmosphere: mountain and ship shadows never fall on the water, and the sea looks pasted over the haze. This plugin tags the sea's particles by material, makes the particle shader read the sun shadow map for each of their pixels, and adds the planet's atmospheric haze to them as the game does for terrain. The first ten to fifteen seconds in a world may stutter for the first launch or two while the graphics layer builds the changed shaders; it settles on later launches.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+    <Directory>Shared</Directory>
+  </SourceDirectories>
+  <Hidden>false</Hidden>
+  <Commit>acaeba01890ffc8095018b5076945fefe0aca786</Commit>
+</PluginData>
