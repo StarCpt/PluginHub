@@ -3,7 +3,7 @@
 
     <Id>DD45EEE2-E0BC-420E-9787-35E4EE7E75A1</Id>
     <RepoId>viktor-ferenczi/se-image-gen</RepoId>
-    <FriendlyName>LCD Image Generation</FriendlyName>
+    <FriendlyName>Image Generation</FriendlyName>
     <Author>Viktor</Author>
 
     <Tooltip>Write /ig &lt;prompt&gt; on an LCD to show a generated image there</Tooltip>
@@ -21,6 +21,6 @@
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>230c03cc8764436556e7a731b721856c406b7d65</Commit>
+    <Commit>c72cd1b76c16566de83693b7862679f198cd4a0f</Commit>
 
 </PluginData>
