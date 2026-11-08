@@ -5,5 +5,5 @@
   <FriendlyName>Server-Side Script Checking</FriendlyName>
   <Author>zznty</Author>
   <Tooltip>Moves Programmable block script checking process to be handled by the server (in multiplayer).</Tooltip>
-  <Commit>05454201155bf5c32f7766bd824fb8451db1b8d4</Commit>
+  <Commit>bbd994c70e9c67b8de586d4f2f89c0b290e7d35b</Commit>
 </PluginData>
