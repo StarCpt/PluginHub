@@ -14,13 +14,15 @@
 - Wrist HUD and tablet, radial menus, a VR keyboard and all game menus in VR
 - Interactive LCDs, including Arthur and TouchScreenAPI
 - Multiplayer
+- NVIDIA DLAA and DLSS upscaling on RTX GPUs (Windows)
 - Pulsar Legacy and Interim, with experimental native Linux support
 
-Start SteamVR before launching. On Linux, install your distribution's libgdiplus package. Full feature list, controls and issues: https://github.com/ColbyJack1134/SpaceEngineersVR</Description>
+Start SteamVR before launching. DLSS is off by default; Windows installs download NVIDIA's nvngx_dlss.dll runtime (59 MB); when enabled, DLSS loads it with the NVIDIA driver's NGX library, and it stays off while the NVIDIA DLSS plugin is loaded. On Linux, install your distribution's libgdiplus package. Full feature list, controls and issues: https://github.com/ColbyJack1134/SpaceEngineersVR</Description>
   <SourceDirectories>
     <Directory>SpaceEngineersVR/</Directory>
   </SourceDirectories>
   <Asset Name="AssetFolder" Path="SpaceEngineersVR/Assets/" />
+  <Asset Name="NvngxDlss" Url="https://raw.githubusercontent.com/NVIDIA/DLSS/v310.7.0/lib/Windows_x86_64/rel/nvngx_dlss.dll" Sha256="be6e434a94ca32499515eb62ca0e6c274526055d568d0426e4c652dcdfb6ee6e" Placement="Bin" Platforms="Windows" />
   <Asset Name="LinuxOpenVR" Url="https://raw.githubusercontent.com/ValveSoftware/openvr/v1.16.8/bin/linux64/libopenvr_api.so" Sha256="b5027afdc44d3ec3152e405e0af07a079c9ed167b5dce39833549d73dcb7aba5" Placement="Bin" Platforms="Linux" />
   <NuGetReferences>
     <PackageReference Include="OVRSharp" Version="1.2.0" />
@@ -29,5 +31,5 @@ Start SteamVR before launching. On Linux, install your distribution's libgdiplus
   <Runtimes>CLR;CoreCLR;Mono</Runtimes>
   <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>410a745f029a54f1135ad9b40648f678ca81d62d</Commit>
+  <Commit>6e6b2bbe6ae74a8ad4b142df81ae9b8f9f2d97e3</Commit>
 </PluginData>
