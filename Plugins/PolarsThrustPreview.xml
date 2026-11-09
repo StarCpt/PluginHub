@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. -->
+    <Id>2AC94D8F-1763-4C72-B9A4-39E471F8177C</Id>
+    <RepoId>Po11arr/PolarsThrustPreview</RepoId>
+    <FriendlyName>Polar's Thrust Preview</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Mass, TWR per direction, lift range and hover time at real, heavy and full load. Cockpit key and live while building</Tooltip>
+    <Description>
+Will this ship lift when it is full? See it before you fly, and before you place the next block.
+
+- Weight now, heavy (full of ore) and max (densest cargo), in kg.
+- Thrust to weight ratio per direction at each load, for the air where you are, and whether each direction is space capable.
+- Lift range on a 0g to 1.5g scale per load.
+- Hover time with a heavy load at 1 g, hydrogen and batteries.
+
+Cockpit: press ] to cycle full, collapsed, off.
+Building: hold a block aimed at a grid; its mass, thrust and symmetry copies are counted before you place it.
+
+Settings: panel key, show while building, inventory size, thrust multiplier, panel size and position.
+
+Client-side only, no Harmony patches. Rotor, piston and hinge subgrids count; connector-docked ships do not.
+
+Docs and bug reports: https://github.com/Po11arr/PolarsThrustPreview
+    </Description>
+
+    <SourceDirectories>
+        <Directory>PolarsThrustPreview</Directory>
+    </SourceDirectories>
+
+    <Hidden>false</Hidden>
+
+    <!-- Set to the hash of the tested commit before submitting to PluginHub -->
+    <Commit>99fca4f689f26d9d52fe0980ed47234295959489</Commit>
+
+</PluginData>
