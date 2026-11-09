@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- Stable plugin id. Never change this. -->
+    <Id>4672C1EB-783C-49D5-942F-C20F386A8665</Id>
+    <RepoId>Po11arr/PolarsHoldCrouch</RepoId>
+    <FriendlyName>Polar's Hold Crouch</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Hold the Crouch key to crouch, release it to stand up. Hybrid and vanilla toggle modes in the settings.</Tooltip>
+    <Description>Crouch while the Crouch key is held, stand up when it is released.
+A quick tap toggles instead (Hybrid mode, the default).
+
+Usage:
+- Hold Crouch (C by default) to crouch, release it to stand up
+- Uses the game's Crouch binding, keyboard or controller
+- Pressing Crouch while crouched still stands you up
+- No headroom, falling or jetpack on when you release: you stand up as soon as you can
+
+Settings (Settings button in the Pulsar plugin list, also in game):
+- Crouch mode: Hybrid (default), Hold or Toggle (vanilla)
+- Hybrid: a tap under 0.25 s toggles, a longer press works like Hold
+- Applies immediately, saved in Storage/PolarsHoldCrouch.cfg
+
+No effect in cockpits, seats, on ladders, in spectator, in menus or while chat is open.
+
+Client-side only, no server install. No Harmony patches.
+Tested in single player and on a dedicated server.
+
+Known issues: none reported.
+
+Bugs and suggestions:
+https://github.com/Po11arr/PolarsHoldCrouch/issues
+</Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>0f4fe706243710d8e8515dd13580d9e70c87264b</Commit>
+
+</PluginData>
