@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>426FC8AE-C04A-4F6C-806A-5384049A3211</Id>
+
+    <RepoId>todo-github-user/project-name</RepoId>
+
+    <FriendlyName>Doom for Space Engineers</FriendlyName>
+
+    <Author>SentorX</Author>
+
+    <Tooltip>Play Doom in an in-game window. Ctrl+Shift+D opens and closes it.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Play Doom inside Space Engineers. Press Ctrl+Shift+D to open or close the Doom screen.
+
+The free Freedoom game data comes with the plugin, so it works straight away. To play the original Doom, copy your own DOOM.WAD or DOOM2.WAD into the Storage\DoomForSe folder under the game's user data folder (%AppData%\SpaceEngineers); it is used instead of Freedoom.
+
+        Doom keeps running while its screen is open, so the game world does too. Sound effects and music play through the game's audio (mono). Mouse look and fire are supported.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>1d5ffd41219bce572ccec1f85175b6d93aefc73d</Commit>
+    
+    <!-- Freedoom Phase 1 v0.13.0 (BSD-3-Clause), the game data used when the player has no Doom WAD of their own. -->
+    <Asset Name="Freedoom" Path="ClientPlugin/Assets/Freedoom/freedoom1.wad" />
+
+    <!-- TimGM6mb (GPL-2.0), the General MIDI sound font that plays Doom's music. -->
+    <Asset Name="SoundFont" Path="ClientPlugin/Assets/Audio/TimGM6mb.sf2" />
+
+    <!-- Images, read by Plugin.LoadAssets -->
+    <Asset Name="DoomBg16x10_1080" Path="ClientPlugin/Assets/DoomBg16x10_1080.png" />
+    <Asset Name="DoomBg16x10_1440" Path="ClientPlugin/Assets/DoomBg16x10_1440.png" />
+    <Asset Name="DoomBg16x10_2160" Path="ClientPlugin/Assets/DoomBg16x10_2160.png" />
+    <Asset Name="DoomBg16x9_1080" Path="ClientPlugin/Assets/DoomBg16x9_1080.png" />
+    <Asset Name="DoomBg16x9_1440" Path="ClientPlugin/Assets/DoomBg16x9_1440.png" />
+    <Asset Name="DoomBg16x9_2160" Path="ClientPlugin/Assets/DoomBg16x9_2160.png" />
+    <Asset Name="DoomBg21x9_1080" Path="ClientPlugin/Assets/DoomBg21x9_1080.png" />
+    <Asset Name="DoomBg21x9_1440" Path="ClientPlugin/Assets/DoomBg21x9_1440.png" />
+    <Asset Name="DoomBg21x9_2160" Path="ClientPlugin/Assets/DoomBg21x9_2160.png" />
+    <Asset Name="DoomBg4x3_1080" Path="ClientPlugin/Assets/DoomBg4x3_1080.png" />
+    <Asset Name="DoomBg4x3_1440" Path="ClientPlugin/Assets/DoomBg4x3_1440.png" />
+    <Asset Name="DoomBg4x3_2160" Path="ClientPlugin/Assets/DoomBg4x3_2160.png" />
+    <Asset Name="DoomButton" Path="ClientPlugin/Assets/DoomButton.png" />
+    <Asset Name="DoomButtonHover" Path="ClientPlugin/Assets/DoomButtonHover.png" />
+    <Asset Name="DoomCornerBL" Path="ClientPlugin/Assets/DoomCornerBL.png" />
+    <Asset Name="DoomCornerBR" Path="ClientPlugin/Assets/DoomCornerBR.png" />
+    <Asset Name="DoomCornerTL" Path="ClientPlugin/Assets/DoomCornerTL.png" />
+    <Asset Name="DoomCornerTR" Path="ClientPlugin/Assets/DoomCornerTR.png" />
+
+</PluginData>
