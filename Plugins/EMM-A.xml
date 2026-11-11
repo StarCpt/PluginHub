@@ -4,10 +4,10 @@
   <RepoId>lucakrowinkel123-dot/EMM-A</RepoId>
   <FriendlyName>EMM-A</FriendlyName>
   <Author>EMM-A</Author>
-  <Tooltip>Plans asteroid mining routes for the EMM-A 0.9.40 miner fleet.</Tooltip>
-  <Description>Client-side Pulsar Legacy planner for the EMM-A Carrier and Miner programmable-block scripts.</Description>
+  <Tooltip>Plans asteroid mining routes for the EMM-A 0.9.40 Single Miner scripts.</Tooltip>
+  <Description>Client-side Pulsar Legacy planner for one carrier and one miner. Get the five matching programmable-block scripts at https://github.com/lucakrowinkel123-dot/EMM-A/tree/v0.9.40-single-miner/scripts/0.9.40-single-miner</Description>
   <SourceDirectories>
     <Directory>plugin/src</Directory>
   </SourceDirectories>
-  <Commit>2268cc1c253f57401cae068703cdd8c13f237e3f</Commit>
+  <Commit>864343de39bc9268eb0778c6318603b4deb8ff4f</Commit>
 </PluginData>
