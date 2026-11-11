@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>0B24D8B1-5F56-4148-AB74-3715F5903A31</Id>
+    <RepoId>Po11arr/PolarsGridMover</RepoId>
+    <FriendlyName>Polar's Grid Mover</FriendlyName>
+    <Author>Polar</Author>
+    <Tooltip>Nudge grids one block at a time or carry them like copy and paste, without copying, and merge them into the grid they touch</Tooltip>
+    <Description>Move a grid without copying it: nudge it one block at a time, or carry it in the vanilla paste preview. Same grid and block ids.
+
+Ctrl+Numpad8 / 2: forward / back
+Ctrl+Numpad4 / 6: left / right
+Ctrl+Numpad9 / 3: up / down
+Ctrl+Numpad5: lock onto the aimed grid, or unlock
+Ctrl+Numpad1: carry the grid, or put it back
+Ctrl+Numpad7: auto-merge on / off
+
+Carrying works exactly like Ctrl+C and Ctrl+V: rotate with the block rotation keys, Ctrl+wheel for distance, left click places, Esc puts it back. The original is hidden until placed, then moved there. Clears the clipboard.
+
+Nudge directions follow the camera and stay fixed for 3 seconds. Subgrids come along. Nudges into another grid are refused.
+
+Auto-merge: a moved grid lines up with a square grid of the same size and merges where block faces connect.
+
+Needs NumLock, single player, creative mode or creative tools. No settings.
+
+Known issues: terrain is not checked when nudging. No undo.
+
+Source: https://github.com/Po11arr/PolarsGridMover</Description>
+    <SourceDirectories>
+        <Directory>PolarsGridMover</Directory>
+    </SourceDirectories>
+    <Commit>8c0a4c1aff3fe3b43f42dc014ad5fb18e6d65bfb</Commit>
+</PluginData>
