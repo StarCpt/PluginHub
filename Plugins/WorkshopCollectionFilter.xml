@@ -32,6 +32,6 @@ Selecting "All Subscribed Items" turns the filter off. The selection is remember
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>6b506ebd0d77239eae7db85e04e30dcfa0583018</Commit>
+    <Commit>49197bb31efc8ccc43ea262f5f47dbf6459c5157</Commit>
 
 </PluginData>
