@@ -15,8 +15,8 @@ Will this ship lift when it is full? See it before you fly, and before you place
 - Lift range on a 0g to 1.5g scale per load.
 - Hover time with a heavy load at 1 g, hydrogen and batteries.
 
-Cockpit: press ] to cycle full, collapsed, off.
-Building: hold a block aimed at a grid; its mass, thrust and symmetry copies are counted before you place it.
+Cockpit: press ' (apostrophe) to cycle full, collapsed, off.
+Building: hold a block aimed at your own or your faction's grid; its mass, thrust and symmetry copies are counted before you place it.
 
 Settings: panel key, show while building, inventory size, thrust multiplier, panel size and position.
 
@@ -32,6 +32,6 @@ Docs and bug reports: https://github.com/Po11arr/PolarsThrustPreview
     <Hidden>false</Hidden>
 
     <!-- Set to the hash of the tested commit before submitting to PluginHub -->
-    <Commit>99fca4f689f26d9d52fe0980ed47234295959489</Commit>
+    <Commit>502471892b4c2fe65dc6c6dbc2d2692b8f91db55</Commit>
 
 </PluginData>
