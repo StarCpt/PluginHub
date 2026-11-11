@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>426FC8AE-C04A-4F6C-806A-5384049A3211</Id>
+
+    <RepoId>buttheadbob/DoomForSe</RepoId>
+
+    <FriendlyName>Doom for Space Engineers</FriendlyName>
+
+    <Author>SentorX</Author>
+
+    <Tooltip>Play Doom in an in-game window. Ctrl+Shift+D opens and closes it.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Play Doom inside Space Engineers. Press Ctrl+Shift+D to open or close the Doom screen.
+
+The free Freedoom game data comes with the plugin, so it works straight away. To play the original Doom, copy your own DOOM.WAD or DOOM2.WAD into the Storage\DoomForSe folder under the game's user data folder (%AppData%\SpaceEngineers); it is used instead of Freedoom.
+
+Doom keeps running while its screen is open, so the game world does too. Sound effects and music play through the game's audio (mono). Mouse look and fire are supported.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>d9e525d8dcc8ff123fe3048a36ccab1fe89363e1</Commit>
+    
+    <!-- All of the plugin's files, copied with their names kept and read by Plugin.LoadAssets:
+         Freedoom/freedoom1.wad (Freedoom Phase 1 v0.13.0, BSD-3-Clause), Audio/TimGM6mb.sf2 (GPL-2.0) and the screen's images. -->
+    <Asset Name="Assets" Path="ClientPlugin/Assets" />
+
+</PluginData>
