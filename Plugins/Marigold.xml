@@ -16,5 +16,5 @@ Connector-docked context is optional and off by default. Rotor, hinge and piston
   </SourceDirectories>
   <Runtimes>CLR</Runtimes>
   <RepoId>Taeleus/Marigold</RepoId>
-  <Commit>2af48f3b666f205558368303ff87a30c6940b9c8</Commit>
+  <Commit>5652cd90263db9d2daea7ab1e230d533a0ed45e4</Commit>
 </PluginData>
