@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>zznty/ServerSideScriptChecking</Id>
+   
+  <FriendlyName>Server-Side Script Checking</FriendlyName>
+  <Author>zznty</Author>
+  <Tooltip>Moves Programmable block script checking process to be handled by the server (in multiplayer).</Tooltip>
+  <Commit>bbd994c70e9c67b8de586d4f2f89c0b290e7d35b</Commit>
+</PluginData>
