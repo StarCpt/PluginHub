@@ -12,6 +12,7 @@
 - Block filter
 - Show default block names
 - Block context menus
+- Ship organizer: systematic block names, groups and cockpit toolbar, with revert
 - Other QoL improvements
 
 Please see the full documentation on GitHub:
@@ -31,6 +32,6 @@ Enjoy!
     <Directory>ClientPlugin</Directory>
   </SourceDirectories>
 
-  <Commit>0b3a56be19f21821dc95f1011931f302374f95e9</Commit>
+  <Commit>f59b1c4189413e928d861c872ced243d2382492d</Commit>
 
 </PluginData>
