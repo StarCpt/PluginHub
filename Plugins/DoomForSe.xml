@@ -23,10 +23,14 @@ Doom keeps running while its screen is open, so the game world does too. Sound e
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>d9e525d8dcc8ff123fe3048a36ccab1fe89363e1</Commit>
+    <Commit>e31b28532a57521040d69e50994c9256b7457f61</Commit>
     
-    <!-- All of the plugin's files, copied with their names kept and read by Plugin.LoadAssets:
-         Freedoom/freedoom1.wad (Freedoom Phase 1 v0.13.0, BSD-3-Clause), Audio/TimGM6mb.sf2 (GPL-2.0) and the screen's images. -->
+    <!-- The plugin's files, copied with their names kept and read by Plugin.LoadAssets:
+         Audio/TimGM6mb.sf2 (GPL-2.0), the screen's images and the licence texts. -->
     <Asset Name="Assets" Path="ClientPlugin/Assets" />
+
+    <!-- Freedoom Phase 1 v0.13.0 (BSD-3-Clause), stored in the repository as a 7z and unpacked by Pulsar at install:
+         the plugin reads it as Freedoom/freedoom1.wad. -->
+    <Asset Name="Freedoom" Path="ClientPlugin/GameData/freedoom1.7z" Extract="true" Sha256="e874d52701148b9dc62f1ae8144d7c4707322ea0f2d502f09f2e2d69afe7e95e" />
 
 </PluginData>
