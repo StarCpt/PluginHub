@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>7e2dcfc2-62ac-5d55-aa17-c5157c72b5d5</Id>
+  <RepoId>lucakrowinkel123-dot/EMM-A</RepoId>
+  <FriendlyName>EMM-A</FriendlyName>
+  <Author>EMM-A</Author>
+  <Tooltip>Plans asteroid mining routes for the EMM-A 0.9.40B scripts.</Tooltip>
+  <Description>https://github.com/lucakrowinkel123-dot/EMM-A/tree/v0.9.40B/scripts/0.9.40B</Description>
+  <SourceDirectories>
+    <Directory>plugin/src</Directory>
+  </SourceDirectories>
+  <Commit>2f2f494aa58f2d9cb4e7574b33845d2243b81348</Commit>
+</PluginData>

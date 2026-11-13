@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PluginData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>b3040d0c-c7bc-5f20-b51b-dc4497cbf79c</Id>
+  <RepoId>lucakrowinkel123-dot/HangarManager</RepoId>
+  <FriendlyName>HangarManager</FriendlyName>
+  <Author>EVY</Author>
+  <Tooltip>Toolbar and timer commands for physical Hangar blocks.</Tooltip>
+  <Description>Adds hangar controls, automatic numbered timer commands, and exact live hangar-zone pose output for EMM-A.</Description>
+  <SourceDirectories>
+    <Directory>HangarManager</Directory>
+  </SourceDirectories>
+  <Commit>b4e2aeefeb8008a0c7d883d395b616d0b9569969</Commit>
+</PluginData>
