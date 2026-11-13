@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>790f7af5-eeb4-4c5f-a62e-c7da5fa24abe</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>dtmaster79/se-multigrid-projector</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Multigrid Projector (TG)</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>TinoGaming</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Fork of Viktor's Multigrid Projector with a fix for the Havok memory leak. Do not enable together with "Multigrid Projector".</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Fork of Viktor Ferenczi's Multigrid Projector (MIT license): loads blueprints with multiple subgrids into projectors and builds them. Same features and network protocol as the original.
+
+Adds a fix for the game's Havok memory leak in block placement tests (SE-1381): armor slopes, corners and similar blocks no longer leak Havok shapes, so the game no longer runs out of Havok memory next to a damaged ship with a repair projection.
+
+Server plugins for Torch and the vanilla Dedicated Server are on the releases page:
+https://github.com/dtmaster79/se-multigrid-projector/releases
+
+IMPORTANT: never enable this together with "Multigrid Projector" by Viktor. Both patch the same game code, pick one of them.
+    </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+        <Directory>Shared</Directory>
+        <Directory>MultigridProjectorApi</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>b40e6ff6b958a330e4318d6183c1d759f422970d</Commit>
+
+</PluginData>
