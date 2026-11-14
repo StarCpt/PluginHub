@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>22C5F3D1-AE85-4FB1-96FB-E53E9ABBF035</Id>
+    <RepoId>viktor-ferenczi/se-better-store</RepoId>
+
+    <FriendlyName>Better Store</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>A Store screen that trades with your whole ship: buy what fits, sell all, round amounts</Tooltip>
+    <Description>
+        Replaces the screen of the Store block with one that is quicker to trade on.
+
+        - Pick your docked ship instead of a cargo container. The plugin puts what you buy into the containers with room for it, and takes what you sell from the containers that hold it.
+        - Round amounts with one click: 100 kg, 1 t, 10 t, 100 t, half, or all that fits. Type "2.5t" if you want something else.
+        - Buy what fits: the most your cargo space, your money and the Store's stock allow.
+        - Sell all of an item, or all the cargo the Store wants, with one button.
+        - Gas offers fill your ship's tanks.
+        - Works with Stores that sell bulk goods in 1,000 kg lots next to single units, like Octahedron's.
+
+        Store owners still manage their Store on the game's own screen, behind the Administration button.
+
+        Report bugs on GitHub: https://github.com/viktor-ferenczi/se-better-store/issues
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>c246a1861b143d0cc3a814f8aec2ff713767943c</Commit>
+
+</PluginData>
