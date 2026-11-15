@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>47A4C4B6-BE43-4B1D-A3C6-85069FA67F89</Id>
+  <RepoId>ryancrimsonrd-ux/ProtogenDockingSolutions</RepoId>
+  <FriendlyName>Protogen Systems Docking Solutions</FriendlyName>
+  <Author>ryancrimsonrd-ux</Author>
+  <Tooltip>Dock camera, Docking Assist screens and docking guidance for any connector, with an API for other plugins and mods.</Tooltip>
+  <Description>
+    Protogen Systems Docking Solutions helps you dock: a full-screen dock camera on your connector's face with guidance (crosshair, target brackets, approach corridor, range, closing speed, offset, alignment and the next step), and the "DOCK - Docking Assist" LCD script (any LCD, cockpit or seat screen) with a drawn approach view, tunnel, scope and gauges.
+
+    Works with any connector block, vanilla or modded: one with [Dock] in its name is picked first, one with [NoDock] is never used. Chat: /dock on | off | next | target | offset | map | theme. Toolbar actions on every cockpit.
+
+    Other plugins and mods can read the docking figures, the dock camera's spot and the Docking Assist sprites through the mod message API (Api/DockingSolutionsApi.cs). Protogen Systems - Virtual Displays uses it to show docking on its virtual screens. Client-side only: nothing is sent to the server.
+  </Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+    <Directory>Shared</Directory>
+  </SourceDirectories>
+  <Commit>45b02ffc82ab3dd572e626a55a8ca51f7babd350</Commit>
+  <Runtimes>CLR,CoreCLR</Runtimes>
+</PluginData>
