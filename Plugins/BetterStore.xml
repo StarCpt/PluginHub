@@ -26,6 +26,6 @@
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <Commit>c246a1861b143d0cc3a814f8aec2ff713767943c</Commit>
+    <Commit>eefcd21b4454f7c728f6168ee2440dd0830504ae</Commit>
 
 </PluginData>
