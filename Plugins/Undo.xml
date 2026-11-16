@@ -51,6 +51,6 @@
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>0eab1ec5b5ce3877917ebb195fc561d7b7b6aa8c</Commit>
+    <Commit>e3d257540cb1130f75996342daf4bd2ec83d4eb7</Commit>
 
 </PluginData>
