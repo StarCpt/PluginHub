@@ -22,6 +22,6 @@
 
     <Runtimes>CoreCLR</Runtimes>
     <Hidden>true</Hidden>
-    <Commit>689fbd69086ac55df8ebd843a5b23e60961c88a9</Commit>
+    <Commit>a7ee058e5fda854791e44897f3f24a4ff0a32123</Commit>
 
 </PluginData>
