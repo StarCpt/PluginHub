@@ -16,5 +16,5 @@ Open Arrange HUD to drag and resize your display and bars. Save a layout for thi
   </SourceDirectories>
   <Runtimes>CLR;CoreCLR</Runtimes>
   <RepoId>Taeleus/Marigold</RepoId>
-  <Commit>9de768f28fb64fbde7dba8d169f25708ff0616ef</Commit>
+  <Commit>b813fcc33a5571d4ca2d072bc414d7a141779c36</Commit>
 </PluginData>
