@@ -5,11 +5,14 @@
   <FriendlyName>Wilson</FriendlyName>
   <Author>scotlandsyard</Author>
   <Tooltip>Directs the chat personalities of BaR Maid, Fat Albert, Stockpile Manager, Script to Plugin and OreScout.</Tooltip>
-  <Description>The neighbour over the fence. Wilson directs the chat personalities of BaR Maid, Fat Albert, Sacrificial Stockpile Manager, Script to Plugin and OreScout, and has a few words of his own.
+  <Description>The neighbour over the fence. Wilson directs the chat personalities of our other plugins (BaR Maid, Fat Albert, Sacrificial Stockpile Manager, OreScout and the rest), and has a few words of his own.
 
 With Wilson loaded, the plugins tell him when something happens and he decides who speaks, now and then with a short exchange between several characters. Chat lines only show on your own screen, so it's fine on any server.
 
-Open it with /wilson in chat.
+Quick start:
+1. Load Wilson with any of our other plugins and he directs their chat. About ten seconds after the world loads, he calls the roll.
+2. Type /wilson in chat to rename characters or set their chat on the Crew page.
+3. /wilson off|quiet|normal|chatty sets how much he directs.
 
 Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Wilson
 Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
@@ -17,8 +20,10 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
   <SourceDirectories>
     <Directory>Projects/Wilson/Source/</Directory>
     <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
 </PluginData>

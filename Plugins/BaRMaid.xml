@@ -11,7 +11,10 @@
 - Shows weld and grind targets, missing components and priority lists live.
 - Handles any number of independent groups, and finds the systems by itself.
 
-Needs the SKO maintained Nanobot Build and Repair mod (workshop 2111073562). Open it with /barmaid in chat.
+Quick start:
+1. Needs the SKO maintained Nanobot Build and Repair mod (workshop 2111073562).
+2. Type /barmaid in chat. In Setup: groups, assign an assembler to a group and set it to Main or Co-op. Assemblers start unused and Manual.
+3. Switch Auto-queue on. It's off until you do.
 
 Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/BaR%20Maid
 Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
@@ -19,9 +22,11 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
   <SourceDirectories>
     <Directory>Projects/BaR Maid/Source/</Directory>
     <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
     <Directory>Shared/AssemblerModes.cs</Directory>
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
 </PluginData>

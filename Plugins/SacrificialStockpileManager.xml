@@ -11,9 +11,13 @@
 - Sorts items into the storage blocks you choose.
 - Keeps blocks between a minimum and a maximum of an item: lockers, reactors, generators, turrets, refineries.
 - Keeps grid-wide quotas by queuing the shortfall in assemblers.
+- Fills a crate with the materials to build a list of blocks.
 - Shows status pages on LCD screens.
 
-Open it with /ssm in chat or from a block's toolbar action.
+Quick start:
+1. Type /ssm in chat and pick your grid.
+2. In Overview, turn Automation on (off on every new grid, nothing moves until then).
+3. For autocraft: set an assembler to Main in Production, set quotas in Items &amp; quotas, turn Autocraft on.
 
 Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Sacrificial%20Stockpile%20Manager
 Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
@@ -21,9 +25,11 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
   <SourceDirectories>
     <Directory>Projects/Sacrificial Stockpile Manager/Source/</Directory>
     <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
     <Directory>Shared/AssemblerModes.cs</Directory>
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>d8b9bf74426fa8271e43bb49758275e99ea02c74</Commit>
+  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
 </PluginData>
