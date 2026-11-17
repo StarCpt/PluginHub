@@ -10,12 +10,12 @@
 
     Works with any connector block, vanilla or modded: one with [Dock] in its name is picked first, one with [NoDock] is never used. Chat: /dock on | off | next | target | offset | map | theme. Toolbar actions on every cockpit.
 
-    Other plugins and mods can read the docking figures, the dock camera's spot and the Docking Assist sprites through the mod message API (Api/DockingSolutionsApi.cs). Protogen Systems - Virtual Displays uses it to show docking on its virtual screens. Client-side only: nothing is sent to the server.
+    Other plugins and mods can read the docking figures, the dock camera's spot and the Docking Assist sprites through the mod message API (Api/DockingSolutionsApi.cs). Client-side only: nothing is sent to the server.
   </Description>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
     <Directory>Shared</Directory>
   </SourceDirectories>
-  <Commit>4b2082971ebacbf6159edce013eeb86e55ed0350</Commit>
+  <Commit>9778cceb3e7e2b1a0da117e75e6f4145838076ea</Commit>
   <Runtimes>CLR,CoreCLR</Runtimes>
 </PluginData>
