@@ -6,17 +6,17 @@
   <Author>ryancrimsonrd-ux</Author>
   <Tooltip>3D system map and route planner for SDX2's Flip and Burn, with an optional PB autopilot hand-off.</Tooltip>
   <Description>
-    A 3D map of the Sigma Draconis Expanse 2 (SDX2) system built round Flip and Burn's N list. Pick a destination there and the map beside it plots the route: burn, coast and brake legs, the flip point, the ETA from Flip and Burn's own acceleration, Nexus sector borders crossed, and detours round planets and moons. Shift+M opens a full-screen map; Alt+M pins a small one while you fly.
+    A 3D map of the Sigma Draconis Expanse 2 (SDX2) system built round Flip and Burn's N list. Pick a destination there and the map beside it plots the route: burn, coast and brake legs, the flip point, the ETA from Flip and Burn's own acceleration, Nexus sector borders crossed, and detours round planets and moons. Shift+M cycles the map window, a full-screen map and off; Alt+M pins a small map while you fly. M alone stays the game's symmetry key, and every key can be rebound in the settings.
 
     Optional: hands the route to the Protogen Systems autopilot PB script on your own ship through its Custom Data. The script needs script access on SDX2.
 
-    Client side only. It reads your own ship, your GPS list and Flip and Burn's list, and pauses in admin mode, spectator and when AFK. Needs the SDX2 Flip and Burn mod; it does nothing elsewhere.
+    Client side only. It reads your own ship, your GPS list and Flip and Burn's list, and pauses in admin mode, spectator and when AFK. Needs the SDX2 Flip and Burn mod: in worlds without it the plugin stays off (only its settings window opens).
   </Description>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
     <Directory>Core</Directory>
   </SourceDirectories>
-  <Commit>66c3fa1ed8aefc136e0eebdad4899c23db790983</Commit>
+  <Commit>98c6d838d966bbd6a78e9f5c3c7aa9926f6f59b4</Commit>
   <Runtimes>CLR,CoreCLR</Runtimes>
   <Platforms>Windows</Platforms>
 </PluginData>
