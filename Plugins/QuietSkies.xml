@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>F22B379C-08FE-4068-87CB-D87A7C25DAEB</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Quiet Skies</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Filters signal markers on your HUD (encounters, cargo drops, Jump Signatures): show, hide, nearby only, or delete.</Tooltip>
+  <Description>Filters the game's signal markers: Unidentified Signal, Unknown Signal, Strong Unknown Signal and Jump Signature. For each kind, choose Show, Hide (off the HUD, still in the G list) or Nearby only (on the HUD only within a distance you set). Delete all and Keep newest permanently delete those markers from your GPS list, using the G menu's own Delete request. Nothing else is ever touched: not your own GPS, Body Location, contracts or mod markers. Only sends the G menu's own requests, at most five a second.
+
+Quick start:
+1. Type /skies in chat.
+2. Every kind (Unidentified, Unknown, Strong Unknown, Jump Signature) starts on Show. Pick Hide or Nearby only, and set the distance.
+3. Or use chat, e.g. /skies all hide or /skies strong nearby 20.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Quiet%20Skies
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Quiet Skies/Source/</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
+</PluginData>

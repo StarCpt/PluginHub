@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>22412BCF-ADCD-40A4-BADD-5E2EE9626D8A</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Hush</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Lists the blocks that make sound and mutes them, per block, per type on a grid, or per type everywhere.</Tooltip>
+  <Description>Lists the blocks that make sound and lets you mute them: one block, every block of a type on one grid, or a whole block type everywhere. Weapons are listed by their shot sound, and modded blocks work too.
+
+Muting only changes what your own PC plays. Nothing is sent to the server, nothing is stored on the grid, and other players still hear everything.
+
+Quick start:
+1. Type /hush in chat.
+2. Pick one of your grids, select a block and press Mute / Unmute, or use Mute Type on Grid.
+3. Types everywhere mutes a block type on every grid, in every world.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Hush
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Hush/Source/</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
+</PluginData>
