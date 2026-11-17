@@ -16,6 +16,6 @@
     <Directory>ClientPlugin</Directory>
     <Directory>Shared</Directory>
   </SourceDirectories>
-  <Commit>9778cceb3e7e2b1a0da117e75e6f4145838076ea</Commit>
+  <Commit>c92d2a6560dd0b4088c9b62c709626c848540d9f</Commit>
   <Runtimes>CLR,CoreCLR</Runtimes>
 </PluginData>
