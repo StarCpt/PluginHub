@@ -16,7 +16,7 @@
     <Directory>ClientPlugin</Directory>
     <Directory>Core</Directory>
   </SourceDirectories>
-  <Commit>6d1d3fece7c9d712edfc6c266dc2a7a3933ae8a5</Commit>
+  <Commit>f54decf491dc7fb891bc0ba19d33a2e9f04216cd</Commit>
   <Runtimes>CLR,CoreCLR</Runtimes>
   <Platforms>Windows</Platforms>
 </PluginData>
