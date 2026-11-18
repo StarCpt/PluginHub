@@ -4,17 +4,18 @@
   <FriendlyName>Marigold</FriendlyName>
   <Author>Taeleus</Author>
   <Tooltip>See your ship's layout and spot damaged or missing blocks.</Tooltip>
-  <Description>See your ship's layout and find damaged or missing blocks. Sit in a cockpit and type /mg ui. Capture a baseline or import a local, cached Workshop or cloud XML blueprint.
+  <Description>Marigold adds a ship and station display to your HUD. To track missing blocks, first save a baseline of what your ship should look like.
 
-Yellow marks damage, orange non-functional blocks and red missing blocks. Optional system health bars and custom bars for a block or terminal group track repairs and missing members. Customize colors, pulses, views and layout. Focus on a system while keeping the rest of the ship faintly visible. Outline modes reduce drawing cost.
+Sit in your main cockpit and type /mg capture in chat. Or type /mg ui, open Baselines, and click Capture this ship twice to confirm. Capture saves the blocks that are present now. If parts are already missing, choose Import blueprint under Baselines to use the complete design.
 
-Save ship profiles, named baseline versions and display presets. Profiles persist across sessions; automatic matching recognizes sufficiently similar layouts. Recovery tools let you inspect, adjust and accept alignment when the original cockpit is gone. Baselines never update automatically.
+Choose HD Wireframe or Textured Ship, with CPU and GPU rendering options for Textured Ship. Filter by system or damage state, and add health bars for ship systems, individual blocks or terminal groups.
 
-Connector-docked context is optional and off by default. Rotor, hinge and piston subgrids are excluded. Supports Pulsar Legacy. /marigold is an alias for /mg.</Description>
+Open Arrange HUD to drag and resize your display and bars. Save a layout for this ship, set a default or share it with another player. Supports Pulsar Legacy and Interim.</Description>
   <SourceDirectories>
     <Directory>src/Marigold.Plugin</Directory>
   </SourceDirectories>
-  <Runtimes>CLR</Runtimes>
+  <Runtimes>CLR;CoreCLR</Runtimes>
+  <Platforms>Windows;Proton</Platforms>
   <RepoId>Taeleus/Marigold</RepoId>
-  <Commit>5652cd90263db9d2daea7ab1e230d533a0ed45e4</Commit>
+  <Commit>2791f992ebd30d92f329cf8d988422f55f696c1d</Commit>
 </PluginData>
