@@ -31,5 +31,5 @@ Start SteamVR before launching. DLSS is off by default; Windows installs downloa
   <Runtimes>CLR;CoreCLR;Mono</Runtimes>
   <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>cd408f43dc5d844cba9934bcf670e6bdf3859dc9</Commit>
+  <Commit>d6b6eddda02776f7458084876880ec1c25c6cc73</Commit>
 </PluginData>
