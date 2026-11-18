@@ -23,6 +23,7 @@ Start SteamVR before launching. DLSS is off by default; Windows installs downloa
   </SourceDirectories>
   <Asset Name="AssetFolder" Path="SpaceEngineersVR/Assets/" />
   <Asset Name="NvngxDlss" Url="https://github.com/ColbyJack1134/SpaceEngineersVR/releases/download/nvngx-dlss-310.7.0/nvngx-dlss-310.7.0.zip" Sha256="cd95a7246002aaf8a0bfb0af6ed0f41a0d8c671fe2667596ab30f348a6935255" Extract="true" Placement="Bin" Platforms="Windows" />
+  <Asset Name="WindowsOpenVR" Url="https://raw.githubusercontent.com/ValveSoftware/openvr/v1.16.8/bin/win64/openvr_api.dll" Sha256="c3314d8822729fb7550d070f75c3efdd2d099965e53416b2901996fc6cee744f" Placement="Bin" Platforms="Windows;Proton" />
   <Asset Name="LinuxOpenVR" Url="https://raw.githubusercontent.com/ValveSoftware/openvr/v1.16.8/bin/linux64/libopenvr_api.so" Sha256="b5027afdc44d3ec3152e405e0af07a079c9ed167b5dce39833549d73dcb7aba5" Placement="Bin" Platforms="Linux" />
   <NuGetReferences>
     <PackageReference Include="OVRSharp" Version="1.2.0" />
@@ -31,5 +32,5 @@ Start SteamVR before launching. DLSS is off by default; Windows installs downloa
   <Runtimes>CLR;CoreCLR;Mono</Runtimes>
   <Platforms>Windows;Proton;Linux</Platforms>
   <Hidden>false</Hidden>
-  <Commit>58d63d1eeff346ce77b3e0ab885740755c291246</Commit>
+  <Commit>148efd6984e65bfd8ef097ea4fd04193231b15d4</Commit>
 </PluginData>
