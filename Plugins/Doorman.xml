@@ -27,5 +27,5 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
     <Directory>Shared/PluginSwitcher.cs</Directory>
     <Directory>Shared/Toolbox.cs</Directory>
   </SourceDirectories>
-  <Commit>1e9d5b1aabc6ac6678029048d6a2709f954b67c4</Commit>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
 </PluginData>
