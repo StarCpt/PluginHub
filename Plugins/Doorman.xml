@@ -7,7 +7,7 @@
   <Tooltip>Closes doors left open on your grids after a delay; skips airlocks and waits for anyone in the doorway.</Tooltip>
   <Description>Closes doors left open. Once a door is fully open, Doorman waits a delay (3 seconds by default) and closes it, the same as switching it to closed in the terminal.
 
-It only touches doors you have access to, on your own grids (or your faction's, if you choose), on any loaded grid (sync range), and sends nothing while you're dead or respawning. Auto-close is on by default. It skips airlocks, hangar doors unless you switch them on, and waits while someone stands in the doorway.
+It only touches doors you have access to, on your own grids (or your faction's, if you choose), and only doors in reach: within 15 m of you, or linked to you by antenna, the rule the server uses for a click. It sends nothing for doors out of reach or while you're dead or respawning. Auto-close is on by default. It skips airlocks, hangar doors unless you switch them on, and waits while someone stands in the doorway.
 
 It runs on your PC, so it only works while you're in the game and the grid is loaded. Nothing is written to your grids.
 
@@ -27,5 +27,5 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
     <Directory>Shared/PluginSwitcher.cs</Directory>
     <Directory>Shared/Toolbox.cs</Directory>
   </SourceDirectories>
-  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
+  <Commit>1e9d5b1aabc6ac6678029048d6a2709f954b67c4</Commit>
 </PluginData>
