@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>61309BD1-BB12-44D0-9B63-2504C295D152</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Tally</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Adds up the components, ingots and ore a projection, blueprint or grid takes to build.</Tooltip>
+  <Description>Adds up what something takes to build: the components, the ingots the assembler needs for them and the ore the refinery needs for those ingots. It works from a projection, a blueprint in your local F10 library or one of your own grids, and uses the definitions the game has loaded, mods included.
+
+It can count only what is still needed, take off what you carry or what is in the grid's cargo, and write the list to a datapad. It can also queue the components in an assembler or a group of them, showing what it would add first, with an undo, or send the list to a Sacrificial Stockpile Manager crate.
+
+Quick start:
+1. Type /tally in chat.
+2. Pick a source (Projector, Blueprint (F10) or My grid) to get the components, ingots and ore.
+3. Blueprints must be in your Local list. Carry a datapad to use Write datapad.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Tally
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Tally/Source/</Directory>
+    <Directory>Shared/AssemblerModes.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
+</PluginData>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>1EFC9B93-D97B-4A00-84DF-3710D4391A7A</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Radar Tech</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>A range finder through a camera block on your ship: distance, closing speed and time to contact.</Tooltip>
+  <Description>A range finder that measures through a real camera block on your ship (or the camera you look through), with the camera's own raycast: its charge, range and view cone apply. It shows the distance to the asteroid, planet, ship, station or character ahead just under the crosshair, with closing speed and time to contact, plus yellow and red warnings.
+
+The camera must be powered, yours or shared with you, and within reach. No camera, no reading; with in-game scripts off, no reading. Never past the world's view distance.
+
+Quick start:
+1. Build a camera on your ship facing forward. The readout starts off: press Ctrl+Alt+R (or type /radar on) in the cockpit.
+2. Point the ship at something. The distance shows just under the crosshair.
+3. Type /radar for the window: range, warning times, hotkey and Ping.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Radar%20Tech
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Radar Tech/Source/</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
+</PluginData>

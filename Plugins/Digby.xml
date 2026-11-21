@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>5205FFFC-8FCE-4A20-BA30-5BF484D0B3E1</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Digby</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Plans a tunnel to a deposit: angles, route, markers, and a rig line for your grid.</Tooltip>
+  <Description>Plans a tunnel to a deposit: from where you stand or any GPS to a spot a given depth under the surface somewhere else on the same planet, or straight to a point in space. It reads the planet and the terrain height from the game, gives the angles and the route, and marks the start, the turn and the target.
+
+Quick start:
+1. Type /digby in chat.
+2. Pick From, Target and Depth, then press Calculate.
+3. Markers are local by default (only you see them). Tick As server GPS for normal GPS entries.
+4. Carry an empty datapad to use Write datapad. Digby can't make one.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Digby
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Digby/Source/</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
+</PluginData>
