@@ -25,5 +25,5 @@ Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Desc
     <Directory>Shared/Personality.cs</Directory>
     <Directory>Shared/PluginStorage.cs</Directory>
   </SourceDirectories>
-  <Commit>e31f251c951251fed606934e3cac5cdf92285164</Commit>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
 </PluginData>
