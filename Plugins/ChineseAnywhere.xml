@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>09540800-AB40-476F-B4BC-A708CF797D96</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>lolifamily/ChineseAnywhere</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Chinese Anywhere</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>lolifamily</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Display and type Chinese and Japanese in any UI language.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Display and type Chinese and Japanese in any UI language, without translating anything.
+
+Missing characters come from the game's own Chinese and Japanese fonts: all common Simplified Chinese and kana, about 3/4 of common kanji and 2/3 of common Traditional Chinese; the rest show as boxes.
+
+Also fixes the game's IME support:
+- the candidate window shows at the caret
+- Enter confirms the word, not also the dialog
+- Enter, Tab, undo and redo work in multi-line boxes like the Programmable Block editor
+- undo takes back a whole word from the IME
+- Up and Down keep the caret's column after typing
+- mods receive the typed text
+- IME work now runs on the game thread: no crashes while composing, no garbled text at low FPS
+- text box focus changes no longer wait for the render thread: no hitch, no freeze with -render_sync
+- no system-wide keyboard hook, which delayed every keystroke in other programs
+
+In every UI language, undo and redo leave the caret where the text changed.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Optional tag that restricts the plugin to specific platforms (case insensitive: Windows, Linux, Proton). List multiple, comma separated. If omitted, the plugin loads on all platforms.-->
+    <Platforms>Windows,Proton</Platforms>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>baf963c0e86232aa457e08093a793797f63b93dc</Commit>
+</PluginData>
