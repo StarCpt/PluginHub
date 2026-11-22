@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>4c2b4115-2b5b-4acd-9512-9eed15714675</Id>
+  <RepoId>evanhawnsenn/AutoEat</RepoId>
+  <FriendlyName>AutoEat</FriendlyName>
+  <Author>Denis Martins</Author>
+  <Tooltip>Automatic food consumption from the personal inventory.</Tooltip>
+  <Description>English: Automatic food consumption for Space Engineers. Configure eating and no-food warning thresholds, food priority, and a quick toggle. Portuguese: Consumo automático de alimentos do inventário pessoal, com limites configuráveis, prioridade de comida e atalho rápido.</Description>
+  <SourceDirectories>
+    <Directory>.</Directory>
+  </SourceDirectories>
+  <Hidden>false</Hidden>
+  <Commit>7d2a4fd815b80f685a29a3e2f770ca2acb3b3d18</Commit>
+</PluginData>
