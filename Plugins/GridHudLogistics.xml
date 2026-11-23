@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>F9C2F1CC-A711-4B83-B378-CDB98BC82017</Id>
+  <RepoId>bunio80/DaneHud</RepoId>
+  <FriendlyName>Grid HUD &amp; Logistics</FriendlyName>
+  <Author>Bunio</Author>
+  <Tooltip>Your grid's data in windows on the HUD, plus inventory logistics: sorting, refineries, autocrafting.</Tooltip>
+  <Description>Live data of the grid you sit in, drawn on the HUD: power, cargo, ores, ingots, refineries, autocrafting, block details. Automatic LCDs 2 style elements, no LCD panels needed. Per-grid profiles and named window templates.
+
+Logistics (runs while you sit in the grid):
+- Sorting into Ores / Ingots / Components / Tools / Ammo / Bottles containers, special containers.
+- Refineries: your ore order, every ore split equally.
+- Ice and uranium balancing.
+- Autocrafting by limits, split across all assemblers.
+- Optional small PB script keeps refineries balanced 24/7.
+
+Quick start: sit in a cockpit and type /data in chat. Polish and English.
+
+Guide and bugs: https://github.com/bunio80/DaneHud</Description>
+  <SourceDirectories>
+    <Directory>src</Directory>
+  </SourceDirectories>
+  <Commit>77b5a30e55598471df881ba39e51c34c8c221c2a</Commit>
+</PluginData>
