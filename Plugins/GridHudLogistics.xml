@@ -5,14 +5,14 @@
   <FriendlyName>Grid HUD &amp; Logistics</FriendlyName>
   <Author>Bunio</Author>
   <Tooltip>Your grid's data in windows on the HUD, plus inventory logistics: sorting, refineries, autocrafting.</Tooltip>
-  <Description>Live data of the grid you sit in, drawn on the HUD: power, cargo, ores, ingots, refineries, autocrafting, block details. Automatic LCDs 2 style elements, no LCD panels needed. Per-grid profiles and named window templates.
+  <Description>Live data of the grid you sit in, drawn on the HUD: power, cargo, ores, ingots, refineries, autocrafting, block details, refinery calculator. Automatic LCDs 2 style elements, no LCD panels needed. Per-grid profiles and named window templates.
 
 Logistics (runs while you sit in the grid):
 - Sorting into Ores / Ingots / Components / Tools / Ammo / Bottles containers, special containers.
 - Refineries: your ore order, every ore split equally.
-- Ice and uranium balancing.
+- Ice, uranium, bottles and ammo for weapons, also on docked ships.
 - Autocrafting by limits, split across all assemblers.
-- Optional small PB script keeps refineries balanced 24/7.
+- Optional small PB script keeps refineries and reactors balanced 24/7.
 
 Quick start: sit in a cockpit and type /data in chat. Polish and English.
 
@@ -20,5 +20,5 @@ Guide and bugs: https://github.com/bunio80/DaneHud</Description>
   <SourceDirectories>
     <Directory>src</Directory>
   </SourceDirectories>
-  <Commit>1aa64afe989bee961e5a64ebc3042debea00606c</Commit>
+  <Commit>3f0cffd2ee51312d17d73090d1ad45a109daa75b</Commit>
 </PluginData>
