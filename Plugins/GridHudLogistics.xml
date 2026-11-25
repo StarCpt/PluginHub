@@ -5,7 +5,11 @@
   <FriendlyName>Grid HUD &amp; Logistics</FriendlyName>
   <Author>Bunio</Author>
   <Tooltip>Your grid's data in windows on the HUD, plus inventory logistics: sorting, refineries, autocrafting.</Tooltip>
-  <Description>Live data of the grid you sit in, drawn on the HUD: power, cargo, ores, ingots, refineries, autocrafting, block details, refinery calculator. Automatic LCDs 2 style elements, no LCD panels needed. Per-grid profiles and named window templates.
+  <Description>Live data of the grid you sit in, drawn on the HUD: power, cargo, ores, ingots, refineries, autocrafting, block details. Automatic LCDs 2 style elements, no LCD panels needed. Per-grid profiles and named window templates.
+
+Calculators:
+- Production: what autocrafting is missing, broken down into ingots, missing ingots, ore to refine and refinery time.
+- Refineries: ingots and time from any amount of ore, with speed and yield modules.
 
 Logistics (runs while you sit in the grid):
 - Sorting into Ores / Ingots / Components / Tools / Ammo / Bottles containers, special containers.
@@ -20,5 +24,5 @@ Guide and bugs: https://github.com/bunio80/DaneHud</Description>
   <SourceDirectories>
     <Directory>src</Directory>
   </SourceDirectories>
-  <Commit>3f0cffd2ee51312d17d73090d1ad45a109daa75b</Commit>
+  <Commit>3e5a1c0952aa8149c22a5d3941a26215d1dd4ef6</Commit>
 </PluginData>
