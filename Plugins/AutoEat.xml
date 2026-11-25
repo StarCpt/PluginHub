@@ -10,5 +10,6 @@
     <Directory>.</Directory>
   </SourceDirectories>
   <Hidden>false</Hidden>
-  <Commit>7d2a4fd815b80f685a29a3e2f770ca2acb3b3d18</Commit>
+  <Commit>534986ef72da716a5625b831070db2e0db302231</Commit>
 </PluginData>
+
