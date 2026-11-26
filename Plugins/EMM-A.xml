@@ -4,10 +4,10 @@
   <RepoId>lucakrowinkel123-dot/EMM-A</RepoId>
   <FriendlyName>EMM-A</FriendlyName>
   <Author>EMM-A</Author>
-  <Tooltip>EMM-A 0.9.47B requires a working SDX2 targeted lidar on the carrier.</Tooltip>
+  <Tooltip>EMM-A 0.9.48B uses the detailed scan range of the carrier's active SDX2 ore scanner.</Tooltip>
   <Description>https://github.com/lucakrowinkel123-dot/EMM-A/tree/v0.9.46B/scripts/0.9.46B</Description>
   <SourceDirectories>
     <Directory>plugin/src</Directory>
   </SourceDirectories>
-  <Commit>8328b388646d314cac6905731557227480a7a575</Commit>
+  <Commit>e61bfd3983ba40e9673b1906e59fb09c1d97e07b</Commit>
 </PluginData>
