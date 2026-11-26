@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>1D731155-7F7D-4D2C-874D-DD3ED3F8A4CB</Id>
+  <RepoId>scotlandsyard/SpaceEngineersPlugins</RepoId>
+  <FriendlyName>Doorman</FriendlyName>
+  <Author>scotlandsyard</Author>
+  <Tooltip>Closes doors left open on your grids after a delay; skips airlocks and waits for anyone in the doorway.</Tooltip>
+  <Description>Closes doors left open. Once a door is fully open, Doorman waits a delay (3 seconds by default) and closes it, the same as switching it to closed in the terminal.
+
+It only touches doors you have access to, on your own grids (or your faction's, if you choose), and only doors in reach: within 15 m of you, or linked to you by antenna, the rule the server uses for a click. It sends nothing for doors out of reach or while you're dead or respawning. Auto-close is on by default. It skips airlocks, hangar doors unless you switch them on, and waits while someone stands in the doorway.
+
+It runs on your PC, so it only works while you're in the game and the grid is loaded. Nothing is written to your grids.
+
+Quick start:
+1. Type /doorman in chat, or put Doorman: door settings from a cockpit onto a toolbar.
+2. Auto-close is on: open doors close after 3 seconds.
+3. Pick a grid to change its delay, or a door to set it to Never or Always.
+
+Guide: https://github.com/scotlandsyard/SpaceEngineersPlugins/tree/main/Projects/Doorman
+Report bugs: https://github.com/scotlandsyard/SpaceEngineersPlugins/issues</Description>
+  <!-- The plugin's own folder, plus exactly the shared files its project links. -->
+  <SourceDirectories>
+    <Directory>Projects/Doorman/Source/</Directory>
+    <Directory>Shared/ListSearch.cs</Directory>
+    <Directory>Shared/Personality.cs</Directory>
+    <Directory>Shared/PluginStorage.cs</Directory>
+    <Directory>Shared/PluginSwitcher.cs</Directory>
+    <Directory>Shared/Toolbox.cs</Directory>
+  </SourceDirectories>
+  <Commit>5c03cb22b33eb0cb2fd8489eb90a46d9dcdff631</Commit>
+</PluginData>
