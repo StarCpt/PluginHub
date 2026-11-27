@@ -4,10 +4,10 @@
   <RepoId>lucakrowinkel123-dot/EMM-A</RepoId>
   <FriendlyName>EMM-A</FriendlyName>
   <Author>EMM-A</Author>
-  <Tooltip>Plans asteroid mining routes for the EMM-A 0.9.40B scripts.</Tooltip>
-  <Description>https://github.com/lucakrowinkel123-dot/EMM-A/tree/v0.9.40B/scripts/0.9.40B</Description>
+  <Tooltip>EMM-A 0.9.49B limits ore sampling to the detailed range of the carrier's active SDX2 ore scanner.</Tooltip>
+  <Description>https://github.com/lucakrowinkel123-dot/EMM-A/tree/v0.9.46B/scripts/0.9.46B</Description>
   <SourceDirectories>
     <Directory>plugin/src</Directory>
   </SourceDirectories>
-  <Commit>2f2f494aa58f2d9cb4e7574b33845d2243b81348</Commit>
+  <Commit>c2603bd258c61a9c6df3c1c12c01338e1b6cec73</Commit>
 </PluginData>
